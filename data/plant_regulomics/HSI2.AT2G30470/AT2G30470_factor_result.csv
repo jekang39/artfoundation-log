@@ -1,0 +1,492 @@
+Term	Gene	Chr	Start	End	Factor	Desc	Title	Class
+GSM856054	AT2G30470	Chr2	12980366	12984528	HTR5	Col-0; 10 day-old seedlings	HTR5 Myc ChIP-seq	EF	ChIP-seq
+GSM1348068	AT2G30470	Chr2	12980431	12984359	DEK3	AtDEK3 overexpressor (OE) plants	AtDEK3 OE3-1	TF	ChIP-seq
+GSM1669417	AT2G30470	Chr2	12980464	12984609	H3K4me1	Double mutant at3g03940/at518190; 21 day-old rosette leaves in normal watered state	rosettes_dm_watered_H3K4me1_rep2	EF	ChIP-seq
+GSM1669419	AT2G30470	Chr2	12980511	12984542	H3K4me1	Double mutant at3g03940/at518190; 21 day-old rosette leaves in drought stress state	rosettes_dm_peg_H3K4me1_rep2	EF	ChIP-seq
+GSM1669402	AT2G30470	Chr2	12980519	12984342	H3K4me1	Col-0; 21 day-old rosette leaves in drought stress state	rosettes_wildtype_peg_H3K4me1_rep1	EF	ChIP-seq
+GSM1669389	AT2G30470	Chr2	12980541	12984525	H3K4me1	Col-0; 21 day-old rosette leaves in normal watered state	rosettes_wildtype_watered_H3K4me1_rep2	EF	ChIP-seq
+GSM1232779	AT2G30470	Chr2	12980559	12984798	H2A	Col-0; Leaves of 3 week-old plants	WT_H2A_ChIP	EF	ChIP-seq
+GSM1193616	AT2G30470	Chr2	12980639	12985247	H3K4me2	WT	Col H3K4m2 ChIP (replicate 2)	EF	ChIP-seq
+GSM1669388	AT2G30470	Chr2	12980650	12984413	H3K4me1	Col-0; 21 day-old rosette leaves in normal watered state	rosettes_wildtype_watered_H3K4me1_rep1	EF	ChIP-seq
+GSM1669403	AT2G30470	Chr2	12980711	12984320	H3K4me1	Col-0; 21 day-old rosette leaves in drought stress state	rosettes_wildtype_peg_H3K4me1_rep2	EF	ChIP-seq
+GSM2544797	AT2G30470	Chr2	12981115	12985436	H3K36me3	WT; 10 day-old seedlings	WT_H3K36me3_#1	EF	ChIP-seq
+GSM2429862	AT2G30470	Chr2	12981631	12985437	H3K36me3	Col-0	Col-0-H3K36me3	EF	ChIP-seq
+GSM1232781	AT2G30470	Chr2	12981700	12984349	H2AX	Col-0; Leaves of 3 week-old plants	WT_H2AX_ChIP	EF	ChIP-seq
+GSM1936273	AT2G30470	Chr2	12981754	12985520	H3K36me3	WT; leaves	H3K36me3_ws_wt_Rep1	EF	ChIP-seq
+GSM1936274	AT2G30470	Chr2	12981764	12985530	H3K36me3	WT; leaves	H3K36me3_ws_wt_Rep2	EF	ChIP-seq
+GSM1193618	AT2G30470	Chr2	12981835	12985252	H3K4me2	drm2-2	drm2 H3K4m2 ChIP (replicate 2)	EF	ChIP-seq
+GSM1193619	AT2G30470	Chr2	12981838	12985243	H3K4me2	nrpe1-11	nrpe1 H3K4m2 ChIP (replicate 2)	EF	ChIP-seq
+GSM1936267	AT2G30470	Chr2	12981840	12985554	H3K36me3	gcn5; leaves 	H3K36me3_ws_gcn5_Rep1	EF	ChIP-seq
+GSM1936268	AT2G30470	Chr2	12981884	12985465	H3K36me3	gcn5; leaves 	H3K36me3_ws_gcn5_Rep2	EF	ChIP-seq
+GSM958796	AT2G30470	Chr2	12981928	12985294	NRPE1	Floral tissue of drd1-6 mutant (eco. Columbia) with NRPE1-FLAG transgene	NRPE1 ChIP drd1 mutant	EF	ChIP-seq
+GSM2027817	AT2G30470	Chr2	12981935	12985409	H3K36me3	Col-0 leaves	A_thaliana_H3K36me3_chip	EF	ChIP-seq
+GSM958797	AT2G30470	Chr2	12981991	12985365	NRPE1	Floral tissue of dms3-4 mutant (eco. Columbia) with NRPE1-FLAG transgene	NRPE1 ChIP dms3 mutant	EF	ChIP-seq
+GSM1193620	AT2G30470	Chr2	12982016	12985239	H3K4me2	nrpd1-4	nrpd1 H3K4m2 ChIP (replicate 2)	EF	ChIP-seq
+GSM856055	AT2G30470	Chr2	12982041	12984516	HTR13	Col-0; 10 day-old seedlings	HTR13 Myc ChIP-seq	EF	ChIP-seq
+GSM2544796	AT2G30470	Chr2	12982042	12985498	H3K4me3	WT; 10 day-old seedlings	WT_H3K4me3_#2	EF	ChIP-seq
+GSM1669416	AT2G30470	Chr2	12982048	12984443	H3K4me1	Double mutant at3g03940/at518190; 21 day-old rosette leaves in normal watered state	rosettes_dm_watered_H3K4me1_rep1	EF	ChIP-seq
+GSM1906916	AT2G30470	Chr2	12982051	12984527	H3K4me2	WT; 4 week-old rosette leaves	H3K4me2_ChIP-Seq_WT	EF	ChIP-seq
+GSM958798	AT2G30470	Chr2	12982060	12985434	NRPE1	Floral tissue of rdm1-1 mutant (eco. Columbia) with NRPE1-FLAG transgene	NRPE1 ChIP rdm1 mutant	EF	ChIP-seq
+GSM1193617	AT2G30470	Chr2	12982122	12984598	H3K4me2	jmj14 ldl1 ldl2	jmj14 ldl1 ldl2 H3K4m2 ChIP (replicate 2)	EF	ChIP-seq
+GSM1669390	AT2G30470	Chr2	12982135	12984417	H3K4me1	Col-0; 21 day-old rosette leaves in normal watered state	rosettes_wildtype_watered_H3K4me1_rep3	EF	ChIP-seq
+GSM1669405	AT2G30470	Chr2	12982163	12984418	H3K4me1	Col-0; 21 day-old rosette leaves in drought stress state	rosettes_wildtype_peg_H3K4me1_rep4	EF	ChIP-seq
+GSM1669418	AT2G30470	Chr2	12982173	12984366	H3K4me1	Double mutant at3g03940/at518190; 21 day-old rosette leaves in drought stress state	rosettes_dm_peg_H3K4me1_rep1	EF	ChIP-seq
+GSM2544807	AT2G30470	Chr2	12982191	12985453	H3K36me3	H3.3 Knockdown; 10 day-old seedlings	H3.3KD_H3K36me3_#1	EF	ChIP-seq
+GSM1463814	AT2G30470	Chr2	12982285	12985486	JACKDAW	JKD-YFP	At_JKD_YFP_2	TF	ChIP-seq
+GSM2544808	AT2G30470	Chr2	12982367	12985458	H3K36me3	H3.3 Knockdown; 10 day-old seedlings	H3.3KD_H3K36me3_#2	EF	ChIP-seq
+GSM2367150	AT2G30470	Chr2	12982411	12987144	H2AK121ub	WT	Col-0 H2AK121ub 7DAG rep5	EF	ChIP-seq
+GSM2544806	AT2G30470	Chr2	12982429	12985520	H3K4me3	H3.3 Knockdown; 10 day-old seedlings	H33KD_H3K4me3_#2	EF	ChIP-seq
+GSM2544798	AT2G30470	Chr2	12982481	12985489	H3K36me3	WT; 10 day-old seedlings	WT_H3K36me3_#2	EF	ChIP-seq
+GSM2544804	AT2G30470	Chr2	12982522	12984160	H1	H3.3 Knockdown; 10 day-old seedlings	H3.3KD_H1_#2	EF	ChIP-seq
+GSM2429861	AT2G30470	Chr2	12982546	12985475	H3K36me3	Homozygous sdg8 T-DNA insertion	sdg8-H3K36me3	EF	ChIP-seq
+GSM2544805	AT2G30470	Chr2	12982578	12985518	H3K4me3	H3.3 Knockdown; 10 day-old seedlings	H3.3KD_H3K4me3_#1	EF	ChIP-seq
+GSM2263692	AT2G30470	Chr2	12982580	12985271	H3K36me3	Col-0; SAM and early stages leaves; 25C treated	H3K36me3-ChIP 25C biological replicate D	EF	ChIP-seq
+GSM2263690	AT2G30470	Chr2	12982684	12984495	H3K36me3	Col-0; SAM and early stages leaves; 25C treated	H3K36me3-ChIP 25C biological replicate B	EF	ChIP-seq
+GSM1669404	AT2G30470	Chr2	12982773	12984362	H3K4me1	Col-0; 21 day-old rosette leaves in drought stress state	rosettes_wildtype_peg_H3K4me1_rep3	EF	ChIP-seq
+GSM2263685	AT2G30470	Chr2	12982787	12985261	H3K36me3	Col-0; SAM and early stages leaves; 16C treated	H3K36me3-ChIP 16C biological replicate D	EF	ChIP-seq
+GSM1906919	AT2G30470	Chr2	12982812	12984484	H3K4me2	atx; 4 week-old rosette leaves	H3K4me2_ChIP-Seq_atx	EF	ChIP-seq
+GSM1669407	AT2G30470	Chr2	12982892	12985184	H3K4me3	Col-0; 21 day-old rosette leaves in drought stress state	rosettes_wildtype_peg_H3K4me3_rep2	EF	ChIP-seq
+GSM1669406	AT2G30470	Chr2	12982903	12984273	H3K4me3	Col-0; 21 day-old rosette leaves in drought stress state	rosettes_wildtype_peg_H3K4me3_rep1	EF	ChIP-seq
+GSM1669394	AT2G30470	Chr2	12982905	12984286	H3T3ph 	Col-0; 21 day-old rosette leaves in normal watered state	rosettes_wildtype_watered_H3T3ph_rep1	EF	ChIP-seq
+GSM1669408	AT2G30470	Chr2	12982906	12985323	H3K4me3	Col-0; 21 day-old rosette leaves in drought stress state	rosettes_wildtype_peg_H3K4me3_rep3	EF	ChIP-seq
+GSM1669395	AT2G30470	Chr2	12982935	12984257	H3T3ph 	Col-0; 21 day-old rosette leaves in normal watered state	rosettes_wildtype_watered_H3T3ph_rep2	EF	ChIP-seq
+GSM2051301	AT2G30470	Chr2	12982970	12985584	H3K14ac	ein2-5; 3 day-old seedling after ethylene treatment	ein2_H3K14Ac_ethylene_ChIPseq_rep2	EF	ChIP-seq
+GSM1669410	AT2G30470	Chr2	12982974	12984289	H3T3ph 	Col-0; 21 day-old rosette leaves in drought stress state	rosettes_wildtype_peg_H3T3ph_rep2	EF	ChIP-seq
+GSM2051295	AT2G30470	Chr2	12982987	12985458	H3K14ac	ein2-5; 3 day-old seedling after air treatment	ein2_H3K14Ac_air_ChIPseq_rep1	EF	ChIP-seq
+GSM1669392	AT2G30470	Chr2	12982996	12985301	H3K4me3	Col-0; 21 day-old rosette leaves in normal watered state	rosettes_wildtype_watered_H3K4me3_rep2	EF	ChIP-seq
+GSM2051291	AT2G30470	Chr2	12982996	12985440	H3K14ac	Col-0; 3 day-old whole seedling after ethylene treatment	COL_H3K14Ac_ethylene_ChIPseq	EF	ChIP-seq
+GSM1669409	AT2G30470	Chr2	12983007	12984267	H3T3ph 	Col-0; 21 day-old rosette leaves in drought stress state	rosettes_wildtype_peg_H3T3ph_rep1	EF	ChIP-seq
+GSM1669421	AT2G30470	Chr2	12983020	12985487	H3K4me3	Double mutant at3g03940/at518190; 21 day-old rosette leaves in normal watered state	rosettes_dm_watered_H3K4me3_rep2	EF	ChIP-seq
+GSM2051287	AT2G30470	Chr2	12983025	12985494	H3K23ac	Col-0;3 day-old whole seedling after air treatment	COL_H3K23Ac_air_ChIPseq_rep2	EF	ChIP-seq
+GSM1669424	AT2G30470	Chr2	12983035	12984232	H3T3ph 	Double mutant at3g03940/at518190; 21 day-old rosette leaves in normal watered state	rosettes_dm_watered_H3T3ph_rep1	EF	ChIP-seq
+GSM2263689	AT2G30470	Chr2	12983037	12984934	H3K36me3	Col-0; SAM and early stages leaves; 25C treated	H3K36me3-ChIP 25C biological replicate A	EF	ChIP-seq
+GSM1669420	AT2G30470	Chr2	12983040	12985370	H3K4me3	Double mutant at3g03940/at518190; 21 day-old rosette leaves in normal watered state	rosettes_dm_watered_H3K4me3_rep1	EF	ChIP-seq
+GSM1669393	AT2G30470	Chr2	12983052	12985340	H3K4me3	Col-0; 21 day-old rosette leaves in normal watered state	rosettes_wildtype_watered_H3K4me3_rep3	EF	ChIP-seq
+GSM2367149	AT2G30470	Chr2	12983061	12987248	H2AK121ub	lhp1 mutants	lhp1 H2AK121ub 7DAG rep1	EF	ChIP-seq
+GSM1326796	AT2G30470	Chr2	12983078	12984134	H3K27me1	Col-0 leaves	At_H3K27me1_rep2	EF	ChIP-seq
+GSM1669391	AT2G30470	Chr2	12983078	12985301	H3K4me3	Col-0; 21 day-old rosette leaves in normal watered state	rosettes_wildtype_watered_H3K4me3_rep1	EF	ChIP-seq
+GSM2544795	AT2G30470	Chr2	12983086	12985472	H3K4me3	WT; 10 day-old seedlings	WT_H3K4me3_#1	EF	ChIP-seq
+GSM1669423	AT2G30470	Chr2	12983091	12985366	H3K4me3	Double mutant at3g03940/at518190; 21 day-old rosette leaves in drought stress state	rosettes_dm_peg_H3K4me3_rep2	EF	ChIP-seq
+GSM2051285	AT2G30470	Chr2	12983123	12985460	H3K14ac	Col-0;3 day-old whole seedling after air treatment	COL_H3K14Ac_air_ChIPseq	EF	ChIP-seq
+GSM2367152	AT2G30470	Chr2	12983127	12989071	H2AK121ub	WT	Col-0 H2AK121ub 7DAG rep6	EF	ChIP-seq
+GSM1669422	AT2G30470	Chr2	12983135	12985409	H3K4me3	Double mutant at3g03940/at518190; 21 day-old rosette leaves in drought stress state	rosettes_dm_peg_H3K4me3_rep1	EF	ChIP-seq
+GSM2366606	AT2G30470	Chr2	12983147	12985534	H3K9Ac	WT; 14 day-old seedlings	H3K9Ac in WT	EF	ChIP-seq
+GSM2051296	AT2G30470	Chr2	12983186	12985435	H3K14ac	ein2-5; 3 day-old seedling after air treatment	ein2_H3K14Ac_air_ChIPseq_rep2	EF	ChIP-seq
+GSM2051286	AT2G30470	Chr2	12983262	12985494	H3K23ac	Col-0;3 day-old whole seedling after air treatment	COL_H3K23Ac_air_ChIPseq_rep1	EF	ChIP-seq
+GSM2051293	AT2G30470	Chr2	12983295	12985500	H3K23ac	Col-0; 3 day-old whole seedling after ethylene treatment	COL_H3K23Ac_ethylene_ChIPseq_rep2	EF	ChIP-seq
+GSM2183126	AT2G30470	Chr2	12983320	12985365	H3K9/14ac	Water treated for 3h	ChIP_water_3h_rep2	EF	ChIP-seq
+GSM2367151	AT2G30470	Chr2	12983362	12989150	H2AK121ub	lhp1 mutants	lhp1 H2AK121ub 7DAG rep2	EF	ChIP-seq
+GSM1925384	AT2G30470	Chr2	12983374	12983575	LBD18: LOBAS2 family	protein:LBD18; gene id:AT2G45420; protein family:LOBAS2; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-LOBAS2_tnt-LBD18_colamp_a	TF	DAP-seq
+GSM1925386	AT2G30470	Chr2	12983375	12983576	LBD19: LOBAS2 family	protein:LBD19; gene id:AT2G45410; protein family:LOBAS2; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-LOBAS2_tnt-LBD19_colamp_a	TF	DAP-seq
+GSM1925380	AT2G30470	Chr2	12983376	12983577	ASL18: LOBAS2 family	protein:ASL18; gene id:AT2G42430; protein family:LOBAS2; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-LOBAS2_tnt-ASL18_colamp_a	TF	DAP-seq
+GSM1925755	AT2G30470	Chr2	12983382	12983583	bHLH122_col100_a: bHLH family	protein:bHLH122; gene id:AT1G51140; protein family:bHLH; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-bHLH_tnt-bHLH122_col100_a	TF	DAP-seq
+GSM2302424	AT2G30470	Chr2	12983477	12985310	H3K4me3	pWOL:GFP; FACS treated GFP positive root protoplasts	GFP_H3K4me3_2	EF	ChIP-seq
+GSM2302418	AT2G30470	Chr2	12983496	12985539	H3K4me3	pWOL:GFP; FACS treated GFP positive root protoplasts	GFP_H3K4me3_1	EF	ChIP-seq
+GSM1655639	AT2G30470	Chr2	12983509	12985680	H3K4me3	mature fully-expanded rosette leaf tissue; 29d	H3K4me3_29d_ChIP	EF	ChIP-seq
+GSM1655641	AT2G30470	Chr2	12983526	12985579	H3K4me3	mature fully-expanded rosette leaf tissue; 35d	H3K4me3_35d_ChIP	EF	ChIP-seq
+GSM1655645	AT2G30470	Chr2	12983531	12985627	H3K4me3	mature fully-expanded rosette leaf tissue; 57d	H3K4me3_57d_ChIP	EF	ChIP-seq
+GSM2388454	AT2G30470	Chr2	12983538	12985611	H3K9ac	had9 mutants	hdac_K9_rep2	EF	ChIP-seq
+GSM1193625	AT2G30470	Chr2	12983549	12985600	H3K4me3	nrpd1-4	nrpd1 H3K4m3 ChIP (replicate 2)	EF	ChIP-seq
+GSM2027814	AT2G30470	Chr2	12983558	12985562	H3K4me3	Col-0 leaves	A_thaliana_H3K4me3_chip	EF	ChIP-seq
+GSM1193621	AT2G30470	Chr2	12983560	12985606	H3K4me3	WT	Col H3K4m3 ChIP (replicate 2)	EF	ChIP-seq
+GSM2367140	AT2G30470	Chr2	12983565	12989078	H2AK121ub	WT	Col-0 H2AK121ub 7DAG rep2	EF	ChIP-seq
+GSM1655643	AT2G30470	Chr2	12983568	12985605	H3K4me3	mature fully-expanded rosette leaf tissue; 42d	H3K4me3_42d_ChIP	EF	ChIP-seq
+GSM2051289	AT2G30470	Chr2	12983568	12985538	H3K9ac	Col-0; 3 day-old whole seedling after ethylene treatment	COL_H3K9Ac_ethylene_ChIPseq_rep1	EF	ChIP-seq
+GSM1906917	AT2G30470	Chr2	12983581	12985398	H3K4me3	WT; 4 week-old rosette leaves	H3K4me3_ChIP-Seq_WT	EF	ChIP-seq
+GSM2183143	AT2G30470	Chr2	12983581	12985381	H3K9/14ac	5 uM TSA treated for 16h	ChIP_TSA_16h_rep1	EF	ChIP-seq
+GSM1193624	AT2G30470	Chr2	12983587	12985524	H3K4me3	nrpd1-11	nrpe1 H3K4m3 ChIP (replicate 2)	EF	ChIP-seq
+GSM2183139	AT2G30470	Chr2	12983589	12985373	H3K9/14ac	250 uM GSH treated for 16h	ChIP_GSH_16h_rep1	EF	ChIP-seq
+GSM2388448	AT2G30470	Chr2	12983591	12985589	H3K9ac	hda9 mutants	hdac_K9_rep1	EF	ChIP-seq
+GSM1193623	AT2G30470	Chr2	12983595	12985599	H3K4me3	drm2-2	drm2 H3K4m3 ChIP (replicate 2)	EF	ChIP-seq
+GSM2367138	AT2G30470	Chr2	12983595	12987165	H2AK121ub	WT	Col-0 H2AK121ub 7DAG rep1	EF	ChIP-seq
+GSM2101794	AT2G30470	Chr2	12983611	12985540	H3K4me3	C24; 10 day-old seedlings	TWT_H3K4me3	EF	ChIP-seq
+GSM1225091	AT2G30470	Chr2	12983612	12985480	H3K4me3	Col-0; yong leaves	At_H3K4me3_rep2	EF	ChIP-seq
+GSM1463810	AT2G30470	Chr2	12983613	12985363	BLUEJAY	BLJ-YFP	At_BLJ_YFP_2	TF	ChIP-seq
+GSM2027818	AT2G30470	Chr2	12983615	12985618	H3K56ac	Col-0 leaves	A_thaliana_H3K56ac_chip	EF	ChIP-seq
+GSM2429858	AT2G30470	Chr2	12983616	12985519	H3K36me3	Transgenic H3 insertion (H3.3)	WT-H3K36me3	EF	ChIP-seq
+GSM2051284	AT2G30470	Chr2	12983620	12985566	H3K9ac	Col-0;3 day-old whole seedling after air treatment	COL_H3K9Ac_air_ChIPseq_rep2	EF	ChIP-seq
+GSM2388452	AT2G30470	Chr2	12983626	12985490	H3K9ac	WT	Col_K9_rep2	EF	ChIP-seq
+GSM2051283	AT2G30470	Chr2	12983628	12985566	H3K9ac	Col-0;3 day-old whole seedling after air treatment	COL_H3K9Ac_air_ChIPseq_rep1	EF	ChIP-seq
+GSM2183140	AT2G30470	Chr2	12983633	12985485	H3K9/14ac	250 uM GSH treated for 16h	ChIP_GSH_16h_rep2	EF	ChIP-seq
+GSM2051290	AT2G30470	Chr2	12983639	12985575	H3K9ac	Col-0; 3 day-old whole seedling after ethylene treatment	COL_H3K9Ac_ethylene_ChIPseq_rep2	EF	ChIP-seq
+GSM2101799	AT2G30470	Chr2	12983639	12985551	H3K4me3	fen1; 10 day-old seedlings	fen1_H3K4me3	EF	ChIP-seq
+GSM2183125	AT2G30470	Chr2	12983640	12985470	H3K9/14ac	Water treated for 3h	ChIP_water_3h_rep1	EF	ChIP-seq
+GSM2090073	AT2G30470	Chr2	12983643	12985561	H3K4me3	C24; 10 day-old seedlings	WT_H3K4me3	EF	ChIP-seq
+GSM1322880	AT2G30470	Chr2	12983644	12985359	H3K4me3	Arabidopsis lyrata accession MN47; yong leaves	Al_H3K4me3_rep2; Arabidopsis lyrata; ChIP-Seq	EF	ChIP-seq
+GSM1936279	AT2G30470	Chr2	12983650	12985623	H3K36ac	sdg8; leaves	H3K36ac_Col_sdg8_Rep1	EF	ChIP-seq
+GSM2090078	AT2G30470	Chr2	12983654	12985612	H3K4me3	pold2; 10 day-old seedlings	pold2_H3K4me3	EF	ChIP-seq
+GSM2183134	AT2G30470	Chr2	12983661	12985403	H3K9/14ac	5 uM TSA treated for 3h	ChIP_TSA_3h_rep2	EF	ChIP-seq
+GSM2388442	AT2G30470	Chr2	12983664	12985329	H3K14ac	hda9 mutants	hdac_K14	EF	ChIP-seq
+GSM1936280	AT2G30470	Chr2	12983666	12985652	H3K36ac	sdg8; leaves	H3K36ac_Col_sdg8_Rep2	EF	ChIP-seq
+GSM2388456	AT2G30470	Chr2	12983679	12985555	H3K9ac	pwr mutants	pwr2_K9_rep2	EF	ChIP-seq
+GSM1906920	AT2G30470	Chr2	12983680	12985573	H3K4me3	atx; 4 week-old rosette leaves	H3K4me3_ChIP-Seq_atx	EF	ChIP-seq
+GSM1193622	AT2G30470	Chr2	12983684	12985548	H3K4me3	jmj14 ldl1 ldl2	jmj14 ldl1 ldl2 H3K4m3 ChIP (replicate 2)	EF	ChIP-seq
+GSM2388450	AT2G30470	Chr2	12983685	12985647	H3K9ac	pwr mutants rep1	pwr2_K9_rep1	EF	ChIP-seq
+GSM2183133	AT2G30470	Chr2	12983693	12985466	H3K9/14ac	5 uM TSA treated for 3h	ChIP_TSA_3h_rep1	EF	ChIP-seq
+GSM1925476	AT2G30470	Chr2	12983696	12983897	MYB83: MYB family	protein:MYB83; gene id:AT3G08500; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB83_colamp_a	TF	DAP-seq
+GSM1925226	AT2G30470	Chr2	12983697	12983898	AT4G26030: C2H2 family	protein:AT4G26030; gene id:AT4G26030; protein family:C2H2; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-C2H2_tnt-AT4G26030_col_a	TF	DAP-seq
+GSM1925420	AT2G30470	Chr2	12983697	12983898	MYB107: MYB family	protein:MYB107; gene id:AT3G02940; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB107_colamp_a	TF	DAP-seq
+GSM1925421	AT2G30470	Chr2	12983697	12983898	MYB107: MYB family	protein:MYB107; gene id:AT3G02940; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB107_col_a	TF	DAP-seq
+GSM1925482	AT2G30470	Chr2	12983697	12983898	MYB93: MYB family	protein:MYB93; gene id:AT1G34670; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB93_colamp_a	TF	DAP-seq
+GSM1925459	AT2G30470	Chr2	12983698	12983899	MYB58: MYB family	protein:MYB58; gene id:AT1G16490; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB58_colamp_a	TF	DAP-seq
+GSM1925468	AT2G30470	Chr2	12983698	12983899	MYB67: MYB family	protein:MYB67; gene id:AT3G12720; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB67_col_a	TF	DAP-seq
+GSM1925483	AT2G30470	Chr2	12983698	12983899	MYB93: MYB family	protein:MYB93; gene id:AT1G34670; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB93_col_a	TF	DAP-seq
+GSM1925454	AT2G30470	Chr2	12983699	12983900	MYB55: MYB family	protein:MYB55; gene id:AT4G01680; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB55_colamp_a	TF	DAP-seq
+GSM1925461	AT2G30470	Chr2	12983699	12983900	MYB61: MYB family	protein:MYB61; gene id:AT1G09540; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB61_colamp_a	TF	DAP-seq
+GSM2388444	AT2G30470	Chr2	12983715	12985461	H314ac	pwr mutants	pwr2_K14	EF	ChIP-seq
+GSM1225090	AT2G30470	Chr2	12983716	12985375	H3K4me3	Col-0; yong leaves	At_H3K4me3_rep1	EF	ChIP-seq
+GSM1936285	AT2G30470	Chr2	12983730	12985637	H3K36ac	WT; leaves	H3K36ac_Col_wt_Rep1	EF	ChIP-seq
+GSM1193615	AT2G30470	Chr2	12983734	12985431	H3K4me3	jmj14 ldl1 ldl2	jmj14 ldl1 ldl2 H3K4m3 ChIP (replicate 1)	EF	ChIP-seq
+GSM2051303	AT2G30470	Chr2	12983735	12985576	H3K23ac	ein2-5; 3 day-old seedling after ethylene treatment	ein2_H3K23Ac_ethylene_ChIPseq_rep2	EF	ChIP-seq
+GSM1936286	AT2G30470	Chr2	12983736	12985595	H3K36ac	WT; leaves	H3K36ac_Col_wt_Rep2	EF	ChIP-seq
+GSM1193614	AT2G30470	Chr2	12983748	12985486	H3K4me3	ldl1 ldl2	ldl1 ldl2 H3K4m3 ChIP (replicate 1)	EF	ChIP-seq
+GSM2051300	AT2G30470	Chr2	12983751	12985580	H3K14ac	ein2-5; 3 day-old seedling after ethylene treatment	ein2_H3K14Ac_ethylene_ChIPseq_rep1	EF	ChIP-seq
+GSM1655649	AT2G30470	Chr2	12983754	12985535	H3K9ac 	mature fully-expanded rosette leaf tissue; 34d	H3K9ac_34d_ChIP	EF	ChIP-seq
+GSM1464772	AT2G30470	Chr2	12983773	12985333	H3K4me3	jmj14-1	ChIP-2-130516	EF	ChIP-seq
+GSM2183131	AT2G30470	Chr2	12983780	12985424	H3K9/14ac	250 uM GSNO/500 uM cPTIO treated for 3h	CHIP_GSNO_cPTIO_3h_rep1	EF	ChIP-seq
+GSM2051297	AT2G30470	Chr2	12983784	12985495	H3K23ac	ein2-5; 3 day-old seedling after air treatment	ein2_H3K23Ac_air_ChIPseq_rep1	EF	ChIP-seq
+GSM2051298	AT2G30470	Chr2	12983784	12985504	H3K23ac	ein2-5; 3 day-old seedling after air treatment	ein2_H3K23Ac_air_ChIPseq_rep2	EF	ChIP-seq
+GSM2183141	AT2G30470	Chr2	12983784	12985501	H3K9/14ac	250 uM GSNO/500 uM cPTIO treated for 16h	CHIP_GSNO_cPTIO_16h_rep1	EF	ChIP-seq
+GSM2388440	AT2G30470	Chr2	12983786	12985320	H3K14ac	WT	Col_K14	EF	ChIP-seq
+GSM2429859	AT2G30470	Chr2	12983788	12985477	H3K36me3	Heterozygous transgenic H3 insertion (K36M missense mutation )	K36M-H3K36me3	EF	ChIP-seq
+GSM2051302	AT2G30470	Chr2	12983790	12985559	H3K23ac	ein2-5; 3 day-old seedling after ethylene treatment	ein2_H3K23Ac_ethylene_ChIPseq_rep1	EF	ChIP-seq
+GSM2183137	AT2G30470	Chr2	12983790	12985439	H3K9/14ac	250 uM GSNO treated for 16h	ChIP_GSNO_16h_rep1	EF	ChIP-seq
+GSM2183130	AT2G30470	Chr2	12983795	12985420	H3K9/14ac	250 uM GSH treated for 3h	ChIP_GSH_3h_rep2	EF	ChIP-seq
+GSM2388446	AT2G30470	Chr2	12983795	12985547	H3K9ac	WT	Col_K9_rep1	EF	ChIP-seq
+GSM2183127	AT2G30470	Chr2	12983806	12985429	H3K9/14ac	250 uM GSNO treated for 3h	ChIP_GSNO_3h_rep1	EF	ChIP-seq
+GSM2367148	AT2G30470	Chr2	12983806	12986888	H2AK121ub	WT	Col-0 H2AK121ub 7DAG rep4	EF	ChIP-seq
+GSM2302417	AT2G30470	Chr2	12983813	12984841	H3K27me3	pWOL:GFP; FACS treated GFP positive root protoplasts	GFP_H3K27me3_1	EF	ChIP-seq
+GSM2367146	AT2G30470	Chr2	12983817	12986039	H2AK121ub	WT	Col-0 H2AK121ub 7DAG rep3	EF	ChIP-seq
+GSM2183129	AT2G30470	Chr2	12983819	12985397	H3K9/14ac	250 uM GSH treated for 3h	ChIP_GSH_3h_rep1	EF	ChIP-seq
+GSM1322879	AT2G30470	Chr2	12983825	12985313	H3K4me3	Arabidopsis lyrata accession MN47; yong leaves	Al_H3K4me3_rep1; Arabidopsis lyrata; ChIP-Seq	EF	ChIP-seq
+GSM2051292	AT2G30470	Chr2	12983826	12985488	H3K23ac	Col-0; 3 day-old whole seedling after ethylene treatment	COL_H3K23Ac_ethylene_ChIPseq_rep1	EF	ChIP-seq
+GSM1193613	AT2G30470	Chr2	12983839	12985314	H3K4me3	jmj14	jmj14 H3K4m3 ChIP (replicate 1)	EF	ChIP-seq
+GSM1936290	AT2G30470	Chr2	12983847	12985497	H3K36ac	Columbia leaves	H3K36ac_1	EF	ChIP-seq
+GSM1242397	AT2G30470	Chr2	12983849	12985373	H3K23ac	drm12/cmt23; Leaves of 3 week-old plants	drm12cmt23_H3K23ac_ChIP	EF	ChIP-seq
+GSM1667166	AT2G30470	Chr2	12983850	12985375	H3K23ac	Col-0; 3 week-old leaves	WT_H3K23ac_ChIP_rep	EF	ChIP-seq
+GSM2342263	AT2G30470	Chr2	12983856	12985649	H3K27ac	pwr mutant in early senescence (ES) leaves	pwr-H3K27ac ChIP	EF	ChIP-seq
+GSM2183132	AT2G30470	Chr2	12983868	12985382	H3K9/14ac	250 uM GSNO/500 uM cPTIO treated for 3h	CHIP_GSNO_cPTIO_3h_rep2	EF	ChIP-seq
+GSM1242394	AT2G30470	Chr2	12983872	12985481	H3K23ac	Col-0; Leaves of 3 week-old plants	WT_H3K23ac_ChIP	EF	ChIP-seq
+GSM2342264	AT2G30470	Chr2	12983872	12985522	H3K27ac	hda9 mutant in mature and early senescence leaves.	hda9-H3K27ac ChIP	EF	ChIP-seq
+GSM2498436	AT2G30470	Chr2	12983875	12985134	H3AK27me3	clf/swn mutants	clfswn H3AK27me3 7DAG rep1	EF	ChIP-seq
+GSM2367145	AT2G30470	Chr2	12983881	12985599	H2AK121ub	clf/swn mutants	clfswn H2AK121ub 7DAG rep1	EF	ChIP-seq
+GSM2183142	AT2G30470	Chr2	12983886	12985329	H3K9/14ac	250 uM GSNO/500 uM cPTIO treated for 16h	CHIP_GSNO_cPTIO_16h_rep2	EF	ChIP-seq
+GSM1906922	AT2G30470	Chr2	12983891	12985336	H3K4me3	sdg2; 4 week-old rosette leaves	H3K4me3_ChIP-Seq_sdg2	EF	ChIP-seq
+GSM1936291	AT2G30470	Chr2	12983903	12985328	H3K36ac	Columbia leaves	H3K36ac_2	EF	ChIP-seq
+GSM2302423	AT2G30470	Chr2	12983909	12985238	H3K27me3	pWOL:GFP; FACS treated GFP positive root protoplasts	GFP_H3K27me3_2	EF	ChIP-seq
+GSM2367147	AT2G30470	Chr2	12983912	12985706	H2AK121ub	clf/swn mutants	clfswn H2AK121ub 7DAG rep2	EF	ChIP-seq
+GSM1193612	AT2G30470	Chr2	12983914	12985463	H3K4me3	WT	Col H3K4m3 ChIP (replicate 1)	EF	ChIP-seq
+GSM1655651	AT2G30470	Chr2	12983914	12985496	H3K9ac 	mature fully-expanded rosette leaf tissue; 42d	H3K9ac_42d_ChIP	EF	ChIP-seq
+GSM2183138	AT2G30470	Chr2	12983915	12985307	H3K9/14ac	250 uM GSNO treated for 16h	ChIP_GSNO_16h_rep2	EF	ChIP-seq
+GSM1667169	AT2G30470	Chr2	12983924	12985413	H3K23ac	drm12cmt23; 3 week-old leaves	drm12cmt23_H3K23ac_ChIP_rep	EF	ChIP-seq
+GSM1464771	AT2G30470	Chr2	12983935	12985200	H3K4me3	col	ChIP-1-130516	EF	ChIP-seq
+GSM1667172	AT2G30470	Chr2	12983946	12985414	H3K23ac	suvh456; 3 week-old leaves	suvh456_H3K23ac_ChIP_rep	EF	ChIP-seq
+GSM1242400	AT2G30470	Chr2	12983950	12985419	H3K23ac	suvh456; Leaves of 3 week-old plants	suvh456_H3K23ac_ChIP	EF	ChIP-seq
+GSM1464773	AT2G30470	Chr2	12983954	12985343	H3K4me3	JMJ14-FYR-HA	ChIP-3-130516	EF	ChIP-seq
+GSM1925476	AT2G30470	Chr2	12983955	12984156	MYB83: MYB family	protein:MYB83; gene id:AT3G08500; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB83_colamp_a	TF	DAP-seq
+GSM2302422	AT2G30470	Chr2	12983955	12985159	H3K4me3	FACS treated wild type root protoplasts	WT_H3K4me3_2	EF	ChIP-seq
+GSM1925422	AT2G30470	Chr2	12983960	12984161	MYB113: MYB family	protein:MYB113; gene id:AT1G66370; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB113_col_a	TF	DAP-seq
+GSM1464774	AT2G30470	Chr2	12983969	12985242	H3K4me3	JMJ14-HA	ChIP-6-130516	EF	ChIP-seq
+GSM554339	AT2G30470	Chr2	12983998	12985281	H3K9ac	Columbia rosette leaf	H3K9ac_ChIPseq	EF	ChIP-seq
+GSM2498438	AT2G30470	Chr2	12984004	12985182	H3AK27me3	clf/swn mutants	clfswn H3AK27me3 7DAG rep2	EF	ChIP-seq
+GSM2302416	AT2G30470	Chr2	12984016	12985134	H3K4me3	FACS treated wild type root protoplasts	WT_H3K4me3_1	EF	ChIP-seq
+GSM2287865	AT2G30470	Chr2	12984020	12986140	WRKY40	WRKY40-HA; 1 uM flg22 for 2 h	W40HA_2h_1 (ChIP-Seq)	TF	ChIP-seq
+GSM1655647	AT2G30470	Chr2	12984043	12985509	H3K9ac 	mature fully-expanded rosette leaf tissue; 30d	H3K9ac_30d_ChIP	EF	ChIP-seq
+GSM2287863	AT2G30470	Chr2	12984081	12986122	WRKY18	WRKY18-HA; 1 uM flg22 for 2 h	W18HA_2h_1 (ChIP-Seq)	TF	ChIP-seq
+GSM2429860	AT2G30470	Chr2	12984107	12985471	H3K36me3	Homozygous transgenic H3 insertion (K36M missense mutation in AT4G40040)	K36M-hom-H3K36me3	EF	ChIP-seq
+GSM2287861	AT2G30470	Chr2	12984159	12985753	WRKY33	WRKY33-HA; 1 uM flg22 for 2 h	W33HA_2h_1 (ChIP-Seq)	TF	ChIP-seq
+GSM2287873	AT2G30470	Chr2	12984173	12987740	WRKY40	WRKY40-HA; 1 uM flg22 for 2 h	W40HA_2h_2 (ChIP-Seq)	TF	ChIP-seq
+GSM1925403	AT2G30470	Chr2	12984279	12984480	AGL63: MADS family	protein:AGL63; gene id:AT1G31140; protein family:MADS; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MADS_tnt-AGL63_col_a	TF	DAP-seq
+GSM1925406	AT2G30470	Chr2	12984279	12984480	SVPb: MADS family	protein:SVP; gene id:AT2G22540; protein family:MADS; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:v3b; subset:motif	DAPSeq-MADS_tnt-SVP_col_v3b	TF	DAP-seq
+GSM2130906	AT2G30470	Chr2	12984279	12988702	FBH3	EtOH mock treatment for 4 hours	AT1G51140_FBH3_EtOH_ChIP_rep1	TF	ChIP-seq
+GSM1669406	AT2G30470	Chr2	12984300	12985187	H3K4me3	Col-0; 21 day-old rosette leaves in drought stress state	rosettes_wildtype_peg_H3K4me3_rep1	EF	ChIP-seq
+GSM1925724	AT2G30470	Chr2	12984327	12984528	WRKY50: WRKY family	protein:WRKY50; gene id:AT5G26170; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY50_col_a	TF	DAP-seq
+GSM1264688	AT2G30470	Chr2	12984356	12988406	BBM	2;4-D induced somatic embryos; pBBM::NLS-GFP	35S::BBM-GFP	TF	ChIP-seq
+GSM1925723	AT2G30470	Chr2	12984360	12984561	WRKY50: WRKY family	protein:WRKY50; gene id:AT5G26170; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY50_colamp_a	TF	DAP-seq
+GSM1925734	AT2G30470	Chr2	12984361	12984562	WRKY75: WRKY family	protein:WRKY75; gene id:AT5G13080; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY75_col_a	TF	DAP-seq
+GSM958270	AT2G30470	Chr2	12984384	12985697	PIF3	pif3-3 ; 2 day-old whole seedlings under dark	P3M-ChIP-2	TF	ChIP-seq
+GSM1264686	AT2G30470	Chr2	12984404	12986186	BBM	2;4-D induced somatic embryos; pBBM::BBM-YFP	pBBM::BBM-YFP	TF	ChIP-seq
+GSM958274	AT2G30470	Chr2	12984409	12985762	Myc	WT; 2 day-old whole seedlings under dark	WT-ChIP-2	TF	ChIP-seq
+GSM2130860	AT2G30470	Chr2	12984418	12985906	NFYB2	EtOH mock treatment for 4 hours	AT5G47640_NFYB2_EtOH_ChIP_rep1	TF	ChIP-seq
+GSM1925703	AT2G30470	Chr2	12984437	12984638	WRKY28: WRKY family	protein:WRKY28; gene id:AT4G18170; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY28_col_a	TF	DAP-seq
+GSM958276	AT2G30470	Chr2	12984437	12985677	Myc	WT; 2 day-old whole seedlings under dark	WT-ChIP-4	TF	ChIP-seq
+GSM1925690	AT2G30470	Chr2	12984438	12984639	WRKY18: WRKY family	protein:WRKY18; gene id:AT4G31800; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY18_col_a	TF	DAP-seq
+GSM1925689	AT2G30470	Chr2	12984439	12984640	WRKY18: WRKY family	protein:WRKY18; gene id:AT4G31800; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY18_colamp_a	TF	DAP-seq
+GSM1665429	AT2G30470	Chr2	12984450	12985914	PIF4	PIF4-3xFlag-6xHis seedlings treated with low blue light for 16 hours	ChIPSeq-PIF4_FLAG_Rep3	EF	ChIP-seq
+GSM1059961	AT2G30470	Chr2	12984459	12985733	Myc	Control wt	WT-ChIP-2	TF	ChIP-seq
+GSM958272	AT2G30470	Chr2	12984463	12985831	PIF3	pif3-3 ; 2 day-old whole seedlings under dark	P3M-ChIP-4	TF	ChIP-seq
+GSM2130935	AT2G30470	Chr2	12984481	12986027	MYB44	10 uM abscisic acid for 4 hours	AT5G67300_MYB44_ABA_ChIP_rep1	TF	ChIP-seq
+GSM1059966	AT2G30470	Chr2	12984527	12985641	Myc	WT	WT-ChIP-1A	TF	ChIP-seq
+GSM2287869	AT2G30470	Chr2	12984528	12987693	WRKY33	WRKY33-HA; 1 uM flg22 for 2 h	W33HA_2h_2 (ChIP-Seq)	TF	ChIP-seq
+GSM2130883	AT2G30470	Chr2	12984545	12986025	ANAC032	10 uM abscisic acid for 4 hours	AT1G77450_ANAC032_ABA_ChIP_rep2	TF	ChIP-seq
+GSM2287871	AT2G30470	Chr2	12984573	12987766	WRKY18	WRKY18-HA; 1 uM flg22 for 2 h	W18HA_2h_2 (ChIP-Seq)	TF	ChIP-seq
+GSM2130952	AT2G30470	Chr2	12984578	12986062	HB6	EtOH mock treatment for 4 hours	AT2G22430_HB6_EtOH_ChIP_rep3	TF	ChIP-seq
+GSM1925711	AT2G30470	Chr2	12984602	12984803	WRKY33: WRKY family	protein:WRKY33; gene id:AT2G38470; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY33_col_a	TF	DAP-seq
+GSM1925696	AT2G30470	Chr2	12984603	12984804	WRKY25: WRKY family	protein:WRKY25; gene id:AT2G30250; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY25_colamp_a	TF	DAP-seq
+GSM1925703	AT2G30470	Chr2	12984603	12984804	WRKY28: WRKY family	protein:WRKY28; gene id:AT4G18170; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY28_col_a	TF	DAP-seq
+GSM1925686	AT2G30470	Chr2	12984608	12984809	WRKY15: WRKY family	protein:WRKY15; gene id:AT2G23320; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:b; subset:motif	DAPSeq-WRKY_tnt-WRKY15_col_b	TF	DAP-seq
+GSM1925683	AT2G30470	Chr2	12984612	12984813	WRKY14: WRKY family	protein:WRKY14; gene id:AT1G30650; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY14_colamp_a	TF	DAP-seq
+GSM1925689	AT2G30470	Chr2	12984612	12984813	WRKY18: WRKY family	protein:WRKY18; gene id:AT4G31800; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY18_colamp_a	TF	DAP-seq
+GSM1925704	AT2G30470	Chr2	12984612	12984813	WRKY29: WRKY family	protein:WRKY29; gene id:AT4G23550; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY29_colamp_a	TF	DAP-seq
+GSM1925727	AT2G30470	Chr2	12984612	12984813	WRKY6: WRKY family	protein:WRKY6; gene id:AT1G62300; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY6_colamp_a	TF	DAP-seq
+GSM1925730	AT2G30470	Chr2	12984612	12984813	WRKY65: WRKY family	protein:WRKY65; gene id:AT1G29280; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY65_col_a	TF	DAP-seq
+GSM1925734	AT2G30470	Chr2	12984612	12984813	WRKY75: WRKY family	protein:WRKY75; gene id:AT5G13080; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY75_col_a	TF	DAP-seq
+GSM1925690	AT2G30470	Chr2	12984613	12984814	WRKY18: WRKY family	protein:WRKY18; gene id:AT4G31800; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY18_col_a	TF	DAP-seq
+GSM1925697	AT2G30470	Chr2	12984613	12984814	WRKY25: WRKY family	protein:WRKY25; gene id:AT2G30250; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY25_col_a	TF	DAP-seq
+GSM1925709	AT2G30470	Chr2	12984613	12984814	WRKY31: WRKY family	protein:WRKY31; gene id:AT4G22070; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY31_colamp_a	TF	DAP-seq
+GSM1925718	AT2G30470	Chr2	12984613	12984814	WRKY45: WRKY family	protein:WRKY45; gene id:AT3G01970; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY45_col_a	TF	DAP-seq
+GSM1925725	AT2G30470	Chr2	12984613	12984814	WRKY55: WRKY family	protein:WRKY55; gene id:AT2G40740; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY55_col_a	TF	DAP-seq
+GSM1925732	AT2G30470	Chr2	12984613	12984814	WRKY71: WRKY family	protein:WRKY71; gene id:AT1G29860; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY71_col_a	TF	DAP-seq
+GSM1925694	AT2G30470	Chr2	12984614	12984815	WRKY24: WRKY family	protein:WRKY24; gene id:AT5G41570; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY24_colamp_a	TF	DAP-seq
+GSM1925695	AT2G30470	Chr2	12984614	12984815	WRKY24: WRKY family	protein:WRKY24; gene id:AT5G41570; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY24_col_a	TF	DAP-seq
+GSM2130936	AT2G30470	Chr2	12984634	12986081	MYB44	EtOH mock treatment for 4 hours	AT5G67300_MYB44_EtOH_ChIP_rep1	TF	ChIP-seq
+GSM2287870	AT2G30470	Chr2	12984688	12986268	WRKY18	WRKY18-HA; 1 uM flg22 for 0 h	W18HA_0h_2 (ChIP-Seq)	TF	ChIP-seq
+GSM2130919	AT2G30470	Chr2	12984706	12986146	DREB2A	10 uM abscisic acid for 4 hours	AT5G05410_DREB2A_ABA_ChIP_rep2	TF	ChIP-seq
+GSM1925542	AT2G30470	Chr2	12984737	12984938	ANAC017: NAC family	protein:ANAC017; gene id:AT1G34190; protein family:NAC; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:v31; subset:motif	DAPSeq-NAC_tnt-ANAC017_colamp_v31	TF	DAP-seq
+GSM1925091	AT2G30470	Chr2	12984820	12985021	ERF115: AP2EREBP family	protein:ERF115; gene id:AT5G07310; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-ERF115_colamp_a	TF	DAP-seq
+GSM1925090	AT2G30470	Chr2	12984822	12985023	ERF11: AP2EREBP family	protein:ERF11; gene id:AT1G28370; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:b; subset:motif	DAPSeq-AP2EREBP_tnt-ERF11_col_b	TF	DAP-seq
+GSM1925044	AT2G30470	Chr2	12984823	12985024	At4g16750: AP2EREBP family	protein:At4g16750; gene id:AT4G16750; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-At4g16750_col_a	TF	DAP-seq
+GSM1925111	AT2G30470	Chr2	12984823	12985024	ERF8: AP2EREBP family	protein:ERF8; gene id:AT1G53170; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-ERF8_col_a	TF	DAP-seq
+GSM2287868	AT2G30470	Chr2	12984834	12987371	WRKY33	WRKY33-HA; 1 uM flg22 for 0 h	W33HA_0h_2 (ChIP-Seq)	TF	ChIP-seq
+GSM1925146	AT2G30470	Chr2	12984836	12985037	BPC1: BBRBPC family	protein:BPC1; gene id:AT2G01930; protein family:BBRBPC; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-BBRBPC_tnt-BPC1_colamp_a	TF	DAP-seq
+GSM1925102	AT2G30470	Chr2	12984849	12985050	ERF4: AP2EREBP family	protein:ERF4; gene id:AT3G15210; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-ERF4_col_a	TF	DAP-seq
+GSM1925019	AT2G30470	Chr2	12984853	12985054	AT1G28160: AP2EREBP family	protein:AT1G28160; gene id:AT1G28160; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-AT1G28160_colamp_a	TF	DAP-seq
+GSM1925010	AT2G30470	Chr2	12984907	12985108	VRN1: ABI3VP1 family	protein:VRN1; gene id:AT3G18990; protein family:ABI3VP1; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-ABI3VP1_tnt-VRN1_col_a	TF	DAP-seq
+GSM1925620	AT2G30470	Chr2	12984929	12985130	REM19: REM family	protein:REM19; gene id:AT1G49480; protein family:REM; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-REM_tnt-REM19_colamp_a	TF	DAP-seq
+GSM1925146	AT2G30470	Chr2	12984989	12985190	BPC1: BBRBPC family	protein:BPC1; gene id:AT2G01930; protein family:BBRBPC; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-BBRBPC_tnt-BPC1_colamp_a	TF	DAP-seq
+GSM2130922	AT2G30470	Chr2	12985030	12986512	DREB2A	EtOH mock treatment for 4 hours	AT5G05410_DREB2A_EtOH_ChIP_rep3	TF	ChIP-seq
+GSM1925006	AT2G30470	Chr2	12985033	12985234	FUS3: ABI3VP1 family	protein:FUS3; gene id:AT3G26790; protein family:ABI3VP1; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-ABI3VP1_tnt-FUS3_col_a	TF	DAP-seq
+GSM1499339	AT2G30470	Chr2	12985068	12986522	NRPE1	Col; floral tissue	Endogenous_NRPE1_ChIPseq-Col	EF	ChIP-seq
+GSM1296939	AT2G30470	Chr2	12985071	12987235	H3K27me3	14 day-old brm/clf mutant seedlings	H3K27me3_ChIPSeq in brm clf_rep2	EF	ChIP-seq
+GSM2028112	AT2G30470	Chr2	12985075	12987193	H3K27me3	clf mutant seeds	H3K27me3 in CLF	EF	ChIP-seq
+GSM2028110	AT2G30470	Chr2	12985096	12987473	H3K27me3	lhp1 mutant seeds	H3K27me3 in LHP1	EF	ChIP-seq
+GSM1499342	AT2G30470	Chr2	12985160	12986391	NRPE1	drm3-1; floral tissue	Endogenous_NRPE1_ChIPseq-drm3	EF	ChIP-seq
+GSM1530043	AT2G30470	Chr2	12985165	12986594	H3K27me3	WT_C24	H3K27me3_ChIP-seq_WT_C24_Rep1	EF	ChIP-seq
+GSM1296935	AT2G30470	Chr2	12985183	12987198	H3K27me3	14 day-old brm mutant seedlings	H3K27me3_ChIPSeq in brm_rep2	EF	ChIP-seq
+GSM1925408	AT2G30470	Chr2	12985187	12985388	ATY13: MYB family	protein:ATY13; gene id:AT1G74650; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYB_tnt-ATY13_col_a	TF	DAP-seq
+GSM1925488	AT2G30470	Chr2	12985188	12985389	MYB99: MYB family	protein:MYB99; gene id:AT5G62320; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB99_colamp_a	TF	DAP-seq
+GSM1925459	AT2G30470	Chr2	12985189	12985390	MYB58: MYB family	protein:MYB58; gene id:AT1G16490; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB58_colamp_a	TF	DAP-seq
+GSM1925460	AT2G30470	Chr2	12985189	12985390	MYB58: MYB family	protein:MYB58; gene id:AT1G16490; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB58_col_a	TF	DAP-seq
+GSM1925468	AT2G30470	Chr2	12985189	12985390	MYB67: MYB family	protein:MYB67; gene id:AT3G12720; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB67_col_a	TF	DAP-seq
+GSM1296938	AT2G30470	Chr2	12985220	12987140	H3K27me3	14 day-old brm/clf mutant seedlings	H3K27me3_ChIPSeq in brm clf_rep1	EF	ChIP-seq
+GSM1499341	AT2G30470	Chr2	12985227	12986499	NRPE1	drm2-2; floral tissue	Endogenous_NRPE1_ChIPseq-drm2	EF	ChIP-seq
+GSM1925778	AT2G30470	Chr2	12985229	12985430	TGA1: bZIP family	protein:TGA1; gene id:AT5G65210; protein family:bZIP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-bZIP_tnt-TGA1_colamp_a	TF	DAP-seq
+GSM1925779	AT2G30470	Chr2	12985229	12985430	TGA10: bZIP family	protein:TGA10; gene id:AT5G06839; protein family:bZIP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-bZIP_tnt-TGA10_colamp_a	TF	DAP-seq
+GSM1925783	AT2G30470	Chr2	12985229	12985430	TGA4: bZIP family	protein:TGA4; gene id:AT5G10030; protein family:bZIP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-bZIP_tnt-TGA4_colamp_a	TF	DAP-seq
+GSM1925789	AT2G30470	Chr2	12985229	12985430	TGA9: bZIP family	protein:TGA9; gene id:AT1G08320; protein family:bZIP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-bZIP_tnt-TGA9_col_a	TF	DAP-seq
+GSM1925805	AT2G30470	Chr2	12985229	12985430	bZIP50: bZIP family	protein:bZIP50; gene id:AT1G77920; protein family:bZIP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:v31; subset:motif	DAPSeq-bZIP_tnt-bZIP50_col_v31	TF	DAP-seq
+GSM1925786	AT2G30470	Chr2	12985230	12985431	TGA6: bZIP family	protein:TGA6; gene id:AT3G12250; protein family:bZIP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-bZIP_tnt-TGA6_colamp_a	TF	DAP-seq
+GSM1925787	AT2G30470	Chr2	12985230	12985431	TGA6: bZIP family	protein:TGA6; gene id:AT3G12250; protein family:bZIP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-bZIP_tnt-TGA6_col_a	TF	DAP-seq
+GSM1925788	AT2G30470	Chr2	12985230	12985431	TGA9: bZIP family	protein:TGA9; gene id:AT1G08320; protein family:bZIP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-bZIP_tnt-TGA9_colamp_a	TF	DAP-seq
+GSM1146788	AT2G30470	Chr2	12985233	12987020	H3K27me3	brm; 14 day-old seedlings	H3K27me3_ChIPSeq in brm rep2	EF	ChIP-seq
+GSM1925226	AT2G30470	Chr2	12985235	12985436	AT4G26030: C2H2 family	protein:AT4G26030; gene id:AT4G26030; protein family:C2H2; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-C2H2_tnt-AT4G26030_col_a	TF	DAP-seq
+GSM1925412	AT2G30470	Chr2	12985247	12985448	MS188: MYB family	protein:MS188; gene id:AT5G56110; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYB_tnt-MS188_col_a	TF	DAP-seq
+GSM2028109	AT2G30470	Chr2	12985262	12987178	H3K27me3	Wt seeds	H3K27me3 in WT; 1	EF	ChIP-seq
+GSM1925411	AT2G30470	Chr2	12985270	12985471	MS188: MYB family	protein:MS188; gene id:AT5G56110; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-MYB_tnt-MS188_colamp_a	TF	DAP-seq
+GSM1925470	AT2G30470	Chr2	12985276	12985477	MYB73: MYB family	protein:MYB73; gene id:AT4G37260; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB73_col_a	TF	DAP-seq
+GSM1925473	AT2G30470	Chr2	12985289	12985490	MYB77: MYB family	protein:MYB77; gene id:AT3G50060; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB77_col_a	TF	DAP-seq
+GSM1925469	AT2G30470	Chr2	12985290	12985491	MYB70: MYB family	protein:MYB70; gene id:AT2G23290; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB70_col_a	TF	DAP-seq
+GSM1296937	AT2G30470	Chr2	12985306	12986632	H3K27me3	14 day-old clf mutant seedlings	H3K27me3_ChIPSeq in clf_rep2	EF	ChIP-seq
+GSM1592581	AT2G30470	Chr2	12985308	12987080	H3K27me3	REF6p::REF6-HA ref6-1; seedlings at 12 DAG	H3K27me3_REF6-HA	EF	ChIP-seq
+GSM1625915	AT2G30470	Chr2	12985324	12987247	H3K27me3	F1-Leaf Columbia x Columbia	at-endosperm-H3K27m3_1_replicate_2_leaf	EF	ChIP-seq
+GSM1296934	AT2G30470	Chr2	12985352	12987092	H3K27me3	14 day-old brm mutant seedlings	H3K27me3_ChIPSeq in brm_rep1	EF	ChIP-seq
+GSM1925198	AT2G30470	Chr2	12985372	12985573	dof24: C2C2dof family	protein:DOF2.4; gene id:AT2G37590; protein family:C2C2dof; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-C2C2dof_tnt-dof24_colamp_a	TF	DAP-seq
+GSM1925006	AT2G30470	Chr2	12985420	12985621	FUS3: ABI3VP1 family	protein:FUS3; gene id:AT3G26790; protein family:ABI3VP1; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-ABI3VP1_tnt-FUS3_col_a	TF	DAP-seq
+GSM1925186	AT2G30470	Chr2	12985448	12985649	At5g62940: C2C2dof family	protein:At5g62940; gene id:AT5G62940; protein family:C2C2dof; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-C2C2dof_tnt-At5g62940_col_a	TF	DAP-seq
+GSM1925176	AT2G30470	Chr2	12985450	12985651	AT5G66940: C2C2dof family	protein:AT5G66940; gene id:AT5G66940; protein family:C2C2dof; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-C2C2dof_tnt-AT5G66940_colamp_a	TF	DAP-seq
+GSM1925005	AT2G30470	Chr2	12985452	12985653	AT5G60130: ABI3VP1 family	protein:AT5G60130; gene id:AT5G60130; protein family:ABI3VP1; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-ABI3VP1_tnt-AT5G60130_col_a	TF	DAP-seq
+GSM1925686	AT2G30470	Chr2	12985456	12985657	WRKY15: WRKY family	protein:WRKY15; gene id:AT2G23320; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:b; subset:motif	DAPSeq-WRKY_tnt-WRKY15_col_b	TF	DAP-seq
+GSM1925689	AT2G30470	Chr2	12985460	12985661	WRKY18: WRKY family	protein:WRKY18; gene id:AT4G31800; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY18_colamp_a	TF	DAP-seq
+GSM1925734	AT2G30470	Chr2	12985460	12985661	WRKY75: WRKY family	protein:WRKY75; gene id:AT5G13080; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY75_col_a	TF	DAP-seq
+GSM1925693	AT2G30470	Chr2	12985461	12985662	WRKY22: WRKY family	protein:WRKY22; gene id:AT4G01250; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY22_colamp_a	TF	DAP-seq
+GSM1925700	AT2G30470	Chr2	12985461	12985662	WRKY27: WRKY family	protein:WRKY27; gene id:AT5G52830; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY27_colamp_a	TF	DAP-seq
+GSM1925718	AT2G30470	Chr2	12985461	12985662	WRKY45: WRKY family	protein:WRKY45; gene id:AT3G01970; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY45_col_a	TF	DAP-seq
+GSM1925733	AT2G30470	Chr2	12985461	12985662	WRKY75: WRKY family	protein:WRKY75; gene id:AT5G13080; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY75_colamp_a	TF	DAP-seq
+GSM1925703	AT2G30470	Chr2	12985462	12985663	WRKY28: WRKY family	protein:WRKY28; gene id:AT4G18170; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY28_col_a	TF	DAP-seq
+GSM1925724	AT2G30470	Chr2	12985462	12985663	WRKY50: WRKY family	protein:WRKY50; gene id:AT5G26170; protein family:WRKY; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-WRKY_tnt-WRKY50_col_a	TF	DAP-seq
+GSM1925498	AT2G30470	Chr2	12985536	12985737	AT5G56840: MYBrelated family	protein:AT5G56840; gene id:AT5G56840; protein family:MYBrelated; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-MYBrelated_tnt-AT5G56840_colamp_a	TF	DAP-seq
+GSM1925519	AT2G30470	Chr2	12985574	12985775	At5g47390: MYBrelated family	protein:At5g47390; gene id:AT5G47390; protein family:MYBrelated; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:b; subset:motif	DAPSeq-MYBrelated_tnt-At5g47390_col_b	TF	DAP-seq
+GSM1146787	AT2G30470	Chr2	12985587	12987164	H3K27me3	brm; 14 day-old seedlings	H3K27me3_ChIPSeq in brm rep1	EF	ChIP-seq
+GSM2388448	AT2G30470	Chr2	12985613	12988829	H3K9ac	hda9 mutants	hdac_K9_rep1	EF	ChIP-seq
+GSM1618742	AT2G30470	Chr2	12985668	12987289	WRKY33	14 hour mock treated	WK33-HA mock 14h rep2	TF	ChIP-seq
+GSM2388456	AT2G30470	Chr2	12985693	12987890	H3K9ac	pwr mutants	pwr2_K9_rep2	EF	ChIP-seq
+GSM2388454	AT2G30470	Chr2	12985697	12989031	H3K9ac	had9 mutants	hdac_K9_rep2	EF	ChIP-seq
+GSM1925299	AT2G30470	Chr2	12985763	12985964	AT4G37180: G2like family	protein:AT4G37180; gene id:AT4G37180; protein family:G2like; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-G2like_tnt-AT4G37180_colamp_a	TF	DAP-seq
+GSM1925301	AT2G30470	Chr2	12985764	12985965	AT5G45580: G2like family	protein:AT5G45580; gene id:AT5G45580; protein family:G2like; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-G2like_tnt-AT5G45580_colamp_a	TF	DAP-seq
+GSM1925310	AT2G30470	Chr2	12985764	12985965	At3g04030: G2like family	protein:At3g04030; gene id:AT3G04030; protein family:G2like; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-G2like_tnt-At3g04030_col_a	TF	DAP-seq
+GSM1925314	AT2G30470	Chr2	12985765	12985966	At3g24120: G2like family	protein:At3g24120; gene id:AT3G24120; protein family:G2like; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-G2like_tnt-At3g24120_colamp_a	TF	DAP-seq
+GSM1925315	AT2G30470	Chr2	12985771	12985972	At3g24120: G2like family	protein:At3g24120; gene id:AT3G24120; protein family:G2like; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-G2like_tnt-At3g24120_col_a	TF	DAP-seq
+GSM1925306	AT2G30470	Chr2	12985772	12985973	At2g01060: G2like family	protein:At2g01060; gene id:AT2G01060; protein family:G2like; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-G2like_tnt-At2g01060_colamp_a	TF	DAP-seq
+GSM1925302	AT2G30470	Chr2	12985773	12985974	AT5G45580: G2like family	protein:AT5G45580; gene id:AT5G45580; protein family:G2like; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-G2like_tnt-AT5G45580_col_a	TF	DAP-seq
+GSM1925403	AT2G30470	Chr2	12985777	12985978	AGL63: MADS family	protein:AGL63; gene id:AT1G31140; protein family:MADS; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MADS_tnt-AGL63_col_a	TF	DAP-seq
+GSM1146785	AT2G30470	Chr2	12985782	12987029	H3K27me3	WT; 14 day-old seedlings	H3K27me3_ChIPSeq in wt rep1	EF	ChIP-seq
+GSM1925300	AT2G30470	Chr2	12985808	12986009	AT4G37180: G2like family	protein:AT4G37180; gene id:AT4G37180; protein family:G2like; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-G2like_tnt-AT4G37180_col_a	TF	DAP-seq
+GSM1925297	AT2G30470	Chr2	12985834	12986035	AT2G40260: G2like family	protein:AT2G40260; gene id:AT2G40260; protein family:G2like; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-G2like_tnt-AT2G40260_colamp_a	TF	DAP-seq
+GSM2388446	AT2G30470	Chr2	12985848	12987587	H3K9ac	WT	Col_K9_rep1	EF	ChIP-seq
+GSM1925621	AT2G30470	Chr2	12985874	12986075	REM19: REM family	protein:REM19; gene id:AT1G49480; protein family:REM; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-REM_tnt-REM19_col_a	TF	DAP-seq
+GSM2130874	AT2G30470	Chr2	12985965	12988413	GBF3	EtOH mock treatment for 4 hours	AT2G46270_GBF3_EtOH_ChIP_rep2	TF	ChIP-seq
+GSM1701079	AT2G30470	Chr2	12985975	12987518	TRB1	14 day-old TRB1pro:TRB1-GFP seedlings with GFP-Trap antibody	ChIP-Seq analysis of TRB1 associated sequences_(TRB1-GFP(+)_GFP-Trap)	TF	ChIP-seq
+GSM2130872	AT2G30470	Chr2	12985993	12988395	GBF3	EtOH mock treatment for 4 hours	AT2G46270_GBF3_EtOH_ChIP_rep1	TF	ChIP-seq
+GSM1383847	AT2G30470	Chr2	12986014	12988350	SPCH	SPCHp:SPCH2-4A-MYC in spch3; 4-day-old light grown seedlings	SPCH ChIP-Seq	TF	ChIP-seq
+GSM2130894	AT2G30470	Chr2	12986015	12988384	GBF2	EtOH mock treatment for 4 hours	AT4G01120_GBF2_EtOH_ChIP_rep1	TF	ChIP-seq
+GSM2367147	AT2G30470	Chr2	12986016	12988788	H2AK121ub	clf/swn mutants	clfswn H2AK121ub 7DAG rep2	EF	ChIP-seq
+GSM1260848	AT2G30470	Chr2	12986023	12988174	LHY	WT; 2 week-old whole seedlings	LHY_ChIPSeq	TF	ChIP-seq
+GSM2130898	AT2G30470	Chr2	12986023	12988493	GBF2	EtOH mock treatment for 4 hours	AT4G01120_GBF2_EtOH_ChIP_rep3	TF	ChIP-seq
+GSM2130871	AT2G30470	Chr2	12986029	12988395	GBF3	10 uM abscisic acid for 4 hours	AT2G46270_GBF3_ABA_ChIP_rep1	TF	ChIP-seq
+GSM1925403	AT2G30470	Chr2	12986037	12986238	AGL63: MADS family	protein:AGL63; gene id:AT1G31140; protein family:MADS; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MADS_tnt-AGL63_col_a	TF	DAP-seq
+GSM1701081	AT2G30470	Chr2	12986039	12987486	TRB1	14 day-old wt seedlings with TRB1 antibody	ChIP-Seq analysis of TRB1 associated sequences_(TRB1(+)_anti-TRB1)	TF	ChIP-seq
+GSM2130896	AT2G30470	Chr2	12986043	12988431	GBF2	EtOH mock treatment for 4 hours	AT4G01120_GBF2_EtOH_ChIP_rep2	TF	ChIP-seq
+GSM2130897	AT2G30470	Chr2	12986045	12988357	GBF2	10 uM abscisic acid for 4 hours	AT4G01120_GBF2_ABA_ChIP_rep3	TF	ChIP-seq
+GSM2130876	AT2G30470	Chr2	12986055	12988453	GBF3	EtOH mock treatment for 4 hours	AT2G46270_GBF3_EtOH_ChIP_rep3	TF	ChIP-seq
+GSM2130895	AT2G30470	Chr2	12986063	12988393	GBF2	10 uM abscisic acid for 4 hours	AT4G01120_GBF2_ABA_ChIP_rep2	TF	ChIP-seq
+GSM2130875	AT2G30470	Chr2	12986078	12988373	GBF3	10 uM abscisic acid for 4 hours	AT2G46270_GBF3_ABA_ChIP_rep3	TF	ChIP-seq
+GSM2130873	AT2G30470	Chr2	12986079	12988389	GBF3	10 uM abscisic acid for 4 hours	AT2G46270_GBF3_ABA_ChIP_rep2	TF	ChIP-seq
+GSM2130942	AT2G30470	Chr2	12986081	12988599	HB5	EtOH mock treatment for 4 hours	AT5G65310_HB5_EtOH_ChIP_rep1	TF	ChIP-seq
+GSM2130943	AT2G30470	Chr2	12986106	12988518	HB5	10 uM abscisic acid for 4 hours	AT5G65310_HB5_ABA_ChIP_rep2	TF	ChIP-seq
+GSM2367145	AT2G30470	Chr2	12986106	12988751	H2AK121ub	clf/swn mutants	clfswn H2AK121ub 7DAG rep1	EF	ChIP-seq
+GSM2130954	AT2G30470	Chr2	12986108	12988494	ZAT6	EtOH mock treatment for 4 hours	AT5G04340_ZAT6_EtOH_ChIP_rep1	TF	ChIP-seq
+GSM1618746	AT2G30470	Chr2	12986117	12987460	WRKY33	14 hour post inoculation with spores of Botrytis cinerea 2100	WK33-HA Bc 14h rep2	TF	ChIP-seq
+GSM2130860	AT2G30470	Chr2	12986124	12988507	NFYB2	EtOH mock treatment for 4 hours	AT5G47640_NFYB2_EtOH_ChIP_rep1	TF	ChIP-seq
+GSM1925006	AT2G30470	Chr2	12986139	12986340	FUS3: ABI3VP1 family	protein:FUS3; gene id:AT3G26790; protein family:ABI3VP1; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-ABI3VP1_tnt-FUS3_col_a	TF	DAP-seq
+GSM2130945	AT2G30470	Chr2	12986139	12988445	HB5	10 uM abscisic acid for 4 hours	AT5G65310_HB5_ABA_ChIP_rep3	TF	ChIP-seq
+GSM2130936	AT2G30470	Chr2	12986141	12988589	MYB44	EtOH mock treatment for 4 hours	AT5G67300_MYB44_EtOH_ChIP_rep1	TF	ChIP-seq
+GSM1925746	AT2G30470	Chr2	12986150	12986351	AtHB32_col200_a: ZFHD family	protein:AtHB32; gene id:AT1G14687; protein family:ZFHD; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-ZFHD_tnt-AtHB32_col200_a	TF	DAP-seq
+GSM2130864	AT2G30470	Chr2	12986150	12987620	NFYB2	EtOH mock treatment for 4 hours	AT5G47640_NFYB2_EtOH_ChIP_rep3	TF	ChIP-seq
+GSM2130893	AT2G30470	Chr2	12986155	12988374	GBF2	10 uM abscisic acid for 4 hours	AT4G01120_GBF2_ABA_ChIP_rep1	TF	ChIP-seq
+GSM1925749	AT2G30470	Chr2	12986158	12986359	BIM2b: bHLH family	protein:BIM2; gene id:AT1G69010; protein family:bHLH; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:v3b; subset:motif	DAPSeq-bHLH_tnt-BIM2_col_v3b	TF	DAP-seq
+GSM2130977	AT2G30470	Chr2	12986158	12988401	ABF3	10 uM abscisic acid for 4 hours	AT4G34000_ABF3_ABA_ChIP_rep2	TF	ChIP-seq
+GSM2130944	AT2G30470	Chr2	12986161	12988453	HB5	EtOH mock treatment for 4 hours	AT5G65310_HB5_EtOH_ChIP_rep2	TF	ChIP-seq
+GSM2130937	AT2G30470	Chr2	12986165	12988634	MYB44	10 uM abscisic acid for 4 hours	AT5G67300_MYB44_ABA_ChIP_rep2	TF	ChIP-seq
+GSM2130967	AT2G30470	Chr2	12986195	12988409	HB7	10 uM abscisic acid for 4 hours	AT2G46680_HB7_ABA_ChIP_rep3	TF	ChIP-seq
+GSM1925006	AT2G30470	Chr2	12986203	12986404	FUS3: ABI3VP1 family	protein:FUS3; gene id:AT3G26790; protein family:ABI3VP1; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-ABI3VP1_tnt-FUS3_col_a	TF	DAP-seq
+GSM2130946	AT2G30470	Chr2	12986204	12988525	HB5	EtOH mock treatment for 4 hours	AT5G65310_HB5_EtOH_ChIP_rep3	TF	ChIP-seq
+GSM2130953	AT2G30470	Chr2	12986208	12988412	ZAT6	10 uM abscisic acid for 4 hours	AT5G04340_ZAT6_ABA_ChIP_rep1	TF	ChIP-seq
+GSM2131012	AT2G30470	Chr2	12986213	12988478	DTAF1	10 uM dexamethasone; 6 hours	AT3G45810_DTAF1_Dex_6h_ChIP	TF	ChIP-seq
+GSM2131013	AT2G30470	Chr2	12986234	12988552	DTAF2	10 uM dexamethasone; 6 hours	AT5G50360_DTAF2_Dex_6h_ChIP	TF	ChIP-seq
+GSM1925143	AT2G30470	Chr2	12986238	12986439	At1g76110: ARID family	protein:At1g76110; gene id:AT1G76110; protein family:ARID; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-ARID_tnt-At1g76110_colamp_a	TF	DAP-seq
+GSM2130956	AT2G30470	Chr2	12986243	12988499	ZAT6	EtOH mock treatment for 4 hours	AT5G04340_ZAT6_EtOH_ChIP_rep2	TF	ChIP-seq
+GSM2130980	AT2G30470	Chr2	12986248	12988517	ABF3	EtOH mock treatment for 4 hours	AT4G34000_ABF3_EtOH_ChIP_rep3	TF	ChIP-seq
+GSM2130955	AT2G30470	Chr2	12986250	12988496	ZAT6	10 uM abscisic acid for 4 hours	AT5G04340_ZAT6_ABA_ChIP_rep2	TF	ChIP-seq
+GSM2130900	AT2G30470	Chr2	12986257	12988373	HAT22	EtOH mock treatment for 4 hours	AT4G37790_HAT22_EtOH_ChIP_rep1	TF	ChIP-seq
+GSM2130914	AT2G30470	Chr2	12986259	12988841	MYB3	EtOH mock treatment for 4 hours	AT1G22640_MYB3_EtOH_ChIP_rep2	TF	ChIP-seq
+GSM1925412	AT2G30470	Chr2	12986265	12986466	MS188: MYB family	protein:MS188; gene id:AT5G56110; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYB_tnt-MS188_col_a	TF	DAP-seq
+GSM2130939	AT2G30470	Chr2	12986266	12988486	MYB44	10 uM abscisic acid for 4 hours	AT5G67300_MYB44_ABA_ChIP_rep3	TF	ChIP-seq
+GSM1925272	AT2G30470	Chr2	12986268	12986469	AT2G20110: CPP family	protein:AT2G20110; gene id:AT2G20110; protein family:CPP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-CPP_tnt-AT2G20110_colamp_a	TF	DAP-seq
+GSM1925274	AT2G30470	Chr2	12986268	12986469	SOL1: CPP family	protein:SOL1; gene id:AT3G22760; protein family:CPP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-CPP_tnt-SOL1_colamp_a	TF	DAP-seq
+GSM1925275	AT2G30470	Chr2	12986273	12986474	TCX2: CPP family	protein:TCX2; gene id:AT4G14770; protein family:CPP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-CPP_tnt-TCX2_colamp_a	TF	DAP-seq
+GSM2130979	AT2G30470	Chr2	12986274	12988383	ABF3	10 uM abscisic acid for 4 hours	AT4G34000_ABF3_ABA_ChIP_rep3	TF	ChIP-seq
+GSM2130912	AT2G30470	Chr2	12986283	12988793	MYB3	EtOH mock treatment for 4 hours	AT1G22640_MYB3_EtOH_ChIP_rep1	TF	ChIP-seq
+GSM2130901	AT2G30470	Chr2	12986285	12988460	HAT22	10 uM abscisic acid for 4 hours	AT4G37790_HAT22_ABA_ChIP_rep2	TF	ChIP-seq
+GSM2130941	AT2G30470	Chr2	12986286	12988453	HB5	10 uM abscisic acid for 4 hours	AT5G65310_HB5_ABA_ChIP_rep1	TF	ChIP-seq
+GSM2130904	AT2G30470	Chr2	12986293	12988458	HAT22	EtOH mock treatment for 4 hours	AT4G37790_HAT22_EtOH_ChIP_rep3	TF	ChIP-seq
+GSM1167537	AT2G30470	Chr2	12986318	12988099	KAN1	Columbia-0 with anti-FLAG antibody	KAN1-FLAG replicate 1	TF	ChIP-seq
+GSM2130963	AT2G30470	Chr2	12986332	12988413	HB7	10 uM abscisic acid for 4 hours	AT2G46680_HB7_ABA_ChIP_rep1	TF	ChIP-seq
+GSM2130903	AT2G30470	Chr2	12986374	12988361	HAT22	10 uM abscisic acid for 4 hours	AT4G37790_HAT22_ABA_ChIP_rep3	TF	ChIP-seq
+GSM2130976	AT2G30470	Chr2	12986383	12988470	ABF3	EtOH mock treatment for 4 hours	AT4G34000_ABF3_EtOH_ChIP_rep1	TF	ChIP-seq
+GSM2287870	AT2G30470	Chr2	12986385	12988034	WRKY18	WRKY18-HA; 1 uM flg22 for 0 h	W18HA_0h_2 (ChIP-Seq)	TF	ChIP-seq
+GSM2130935	AT2G30470	Chr2	12986390	12988499	MYB44	10 uM abscisic acid for 4 hours	AT5G67300_MYB44_ABA_ChIP_rep1	TF	ChIP-seq
+GSM2130902	AT2G30470	Chr2	12986406	12988353	HAT22	EtOH mock treatment for 4 hours	AT4G37790_HAT22_EtOH_ChIP_rep2	TF	ChIP-seq
+GSM2130916	AT2G30470	Chr2	12986431	12988828	MYB3	EtOH mock treatment for 4 hours	AT1G22640_MYB3_EtOH_ChIP_rep3	TF	ChIP-seq
+GSM2388450	AT2G30470	Chr2	12986431	12988647	H3K9ac	pwr mutants rep1	pwr2_K9_rep1	EF	ChIP-seq
+GSM2130911	AT2G30470	Chr2	12986437	12988777	MYB3	10 uM abscisic acid for 4 hours	AT1G22640_MYB3_ABA_ChIP_rep1	TF	ChIP-seq
+GSM1925674	AT2G30470	Chr2	12986447	12986648	AT5G47660: Trihelix family	protein:AT5G47660; gene id:AT5G47660; protein family:Trihelix; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-Trihelix_tnt-AT5G47660_colamp_a	TF	DAP-seq
+GSM1925677	AT2G30470	Chr2	12986447	12986648	GT2: Trihelix family	protein:GT2; gene id:AT1G76890; protein family:Trihelix; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-Trihelix_tnt-GT2_colamp_a	TF	DAP-seq
+GSM1925678	AT2G30470	Chr2	12986447	12986648	GT2: Trihelix family	protein:GT2; gene id:AT1G76890; protein family:Trihelix; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-Trihelix_tnt-GT2_col_a	TF	DAP-seq
+GSM1925680	AT2G30470	Chr2	12986447	12986648	GTL1: Trihelix family	protein:GTL1; gene id:AT1G33240; protein family:Trihelix; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-Trihelix_tnt-GTL1_colamp_a	TF	DAP-seq
+GSM1925681	AT2G30470	Chr2	12986448	12986649	GTL1: Trihelix family	protein:GTL1; gene id:AT1G33240; protein family:Trihelix; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-Trihelix_tnt-GTL1_col_a	TF	DAP-seq
+GSM2130859	AT2G30470	Chr2	12986458	12988420	NFYB2	10 uM abscisic acid for 4 hours	AT5G47640_NFYB2_ABA_ChIP_rep1	TF	ChIP-seq
+GSM2130965	AT2G30470	Chr2	12986472	12988398	HB7	10 uM abscisic acid for 4 hours	AT2G46680_HB7_ABA_ChIP_rep2	TF	ChIP-seq
+GSM2130938	AT2G30470	Chr2	12986475	12988587	MYB44	EtOH mock treatment for 4 hours	AT5G67300_MYB44_EtOH_ChIP_rep2	TF	ChIP-seq
+GSM2130913	AT2G30470	Chr2	12986490	12988772	MYB3	10 uM abscisic acid for 4 hours	AT1G22640_MYB3_ABA_ChIP_rep2	TF	ChIP-seq
+GSM2130952	AT2G30470	Chr2	12986500	12988438	HB6	EtOH mock treatment for 4 hours	AT2G22430_HB6_EtOH_ChIP_rep3	TF	ChIP-seq
+GSM2130862	AT2G30470	Chr2	12986505	12988420	NFYB2	EtOH mock treatment for 4 hours	AT5G47640_NFYB2_EtOH_ChIP_rep2	TF	ChIP-seq
+GSM2130899	AT2G30470	Chr2	12986505	12988290	HAT22	10 uM abscisic acid for 4 hours	AT4G37790_HAT22_ABA_ChIP_rep1	TF	ChIP-seq
+GSM1925519	AT2G30470	Chr2	12986518	12986719	At5g47390: MYBrelated family	protein:At5g47390; gene id:AT5G47390; protein family:MYBrelated; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:b; subset:motif	DAPSeq-MYBrelated_tnt-At5g47390_col_b	TF	DAP-seq
+GSM2130861	AT2G30470	Chr2	12986534	12988417	NFYB2	10 uM abscisic acid for 4 hours	AT5G47640_NFYB2_ABA_ChIP_rep2	TF	ChIP-seq
+GSM2130975	AT2G30470	Chr2	12986539	12988415	ABF3	10 uM abscisic acid for 4 hours	AT4G34000_ABF3_ABA_ChIP_rep1	TF	ChIP-seq
+GSM2130867	AT2G30470	Chr2	12986543	12988152	ABF1	10 uM abscisic acid for 4 hours	AT1G49720_ABF1_ABA_ChIP_rep2	TF	ChIP-seq
+GSM1282365	AT2G30470	Chr2	12986567	12988049	YFP	35S::YFP; 4 week-old plants	YFP	TF	ChIP-seq
+GSM1925241	AT2G30470	Chr2	12986581	12986782	IDD4: C2H2 family	protein:IDD4; gene id:AT2G02080; protein family:C2H2; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-C2H2_tnt-IDD4_col_a	TF	DAP-seq
+GSM1925242	AT2G30470	Chr2	12986581	12986782	IDD5: C2H2 family	protein:IDD5; gene id:AT2G02070; protein family:C2H2; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-C2H2_tnt-IDD5_colamp_a	TF	DAP-seq
+GSM1925529	AT2G30470	Chr2	12986600	12986801	RVE1: MYBrelated family	protein:RVE1; gene id:AT5G17300; protein family:MYBrelated; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYBrelated_tnt-RVE1_col_a	TF	DAP-seq
+GSM2130863	AT2G30470	Chr2	12986603	12988301	NFYB2	10 uM abscisic acid for 4 hours	AT5G47640_NFYB2_ABA_ChIP_rep3	TF	ChIP-seq
+GSM2130951	AT2G30470	Chr2	12986604	12988305	HB6	10 uM abscisic acid for 4 hours	AT2G22430_HB6_ABA_ChIP_rep3	TF	ChIP-seq
+GSM2130940	AT2G30470	Chr2	12986607	12988448	MYB44	EtOH mock treatment for 4 hours	AT5G67300_MYB44_EtOH_ChIP_rep3	TF	ChIP-seq
+GSM2130924	AT2G30470	Chr2	12986619	12988167	RD26	EtOH mock treatment for 4 hours	AT4G27410_RD26_EtOH_ChIP_rep1	TF	ChIP-seq
+GSM1925680	AT2G30470	Chr2	12986625	12986826	GTL1: Trihelix family	protein:GTL1; gene id:AT1G33240; protein family:Trihelix; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-Trihelix_tnt-GTL1_colamp_a	TF	DAP-seq
+GSM1167539	AT2G30470	Chr2	12986628	12987813	KAN1	Columbia-0 with anti-FLAG antibody	KAN1-FLAG replicate 2	TF	ChIP-seq
+GSM2130915	AT2G30470	Chr2	12986667	12988831	MYB3	10 uM abscisic acid for 4 hours	AT1G22640_MYB3_ABA_ChIP_rep3	TF	ChIP-seq
+GSM1925522	AT2G30470	Chr2	12986672	12986873	At5g58900: MYBrelated family	protein:At5g58900; gene id:AT5G58900; protein family:MYBrelated; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-MYBrelated_tnt-At5g58900_colamp_a	TF	DAP-seq
+GSM1925505	AT2G30470	Chr2	12986673	12986874	At1g49010: MYBrelated family	protein:At1g49010; gene id:AT1G49010; protein family:MYBrelated; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYBrelated_tnt-At1g49010_col_a	TF	DAP-seq
+GSM1925506	AT2G30470	Chr2	12986673	12986874	At1g74840_col100_a: MYBrelated family	protein:At1g74840; gene id:AT1G74840; protein family:MYBrelated; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYBrelated_tnt-At1g74840_col100_a	TF	DAP-seq
+GSM1925519	AT2G30470	Chr2	12986673	12986874	At5g47390: MYBrelated family	protein:At5g47390; gene id:AT5G47390; protein family:MYBrelated; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:b; subset:motif	DAPSeq-MYBrelated_tnt-At5g47390_col_b	TF	DAP-seq
+GSM1925498	AT2G30470	Chr2	12986674	12986875	AT5G56840: MYBrelated family	protein:AT5G56840; gene id:AT5G56840; protein family:MYBrelated; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-MYBrelated_tnt-AT5G56840_colamp_a	TF	DAP-seq
+GSM1925499	AT2G30470	Chr2	12986674	12986875	AT5G56840: MYBrelated family	protein:AT5G56840; gene id:AT5G56840; protein family:MYBrelated; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYBrelated_tnt-AT5G56840_col_a	TF	DAP-seq
+GSM865709	AT2G30470	Chr2	12986689	12988051	PIF4	pPIF4::PIF4-myc transgenic etiolated seedlings	PIF4 ChIP-Seq	TF	ChIP-seq
+GSM1925306	AT2G30470	Chr2	12986754	12986955	At2g01060: G2like family	protein:At2g01060; gene id:AT2G01060; protein family:G2like; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-G2like_tnt-At2g01060_colamp_a	TF	DAP-seq
+GSM1925473	AT2G30470	Chr2	12986784	12986985	MYB77: MYB family	protein:MYB77; gene id:AT3G50060; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB77_col_a	TF	DAP-seq
+GSM2388452	AT2G30470	Chr2	12986797	12988268	H3K9ac	WT	Col_K9_rep2	EF	ChIP-seq
+GSM2130978	AT2G30470	Chr2	12986859	12988378	ABF3	EtOH mock treatment for 4 hours	AT4G34000_ABF3_EtOH_ChIP_rep2	TF	ChIP-seq
+GSM1925503	AT2G30470	Chr2	12986899	12987100	At1g19000: MYBrelated family	protein:At1g19000; gene id:AT1G19000; protein family:MYBrelated; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYBrelated_tnt-At1g19000_col_a	TF	DAP-seq
+GSM1925746	AT2G30470	Chr2	12986899	12987100	AtHB32_col200_a: ZFHD family	protein:AtHB32; gene id:AT1G14687; protein family:ZFHD; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-ZFHD_tnt-AtHB32_col200_a	TF	DAP-seq
+GSM1925310	AT2G30470	Chr2	12986917	12987118	At3g04030: G2like family	protein:At3g04030; gene id:AT3G04030; protein family:G2like; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-G2like_tnt-At3g04030_col_a	TF	DAP-seq
+GSM1925274	AT2G30470	Chr2	12986921	12987122	SOL1: CPP family	protein:SOL1; gene id:AT3G22760; protein family:CPP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-CPP_tnt-SOL1_colamp_a	TF	DAP-seq
+GSM2130949	AT2G30470	Chr2	12986924	12988387	HB6	10 uM abscisic acid for 4 hours	AT2G22430_HB6_ABA_ChIP_rep2	TF	ChIP-seq
+GSM1925301	AT2G30470	Chr2	12986929	12987130	AT5G45580: G2like family	protein:AT5G45580; gene id:AT5G45580; protein family:G2like; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-G2like_tnt-AT5G45580_colamp_a	TF	DAP-seq
+GSM1925302	AT2G30470	Chr2	12986929	12987130	AT5G45580: G2like family	protein:AT5G45580; gene id:AT5G45580; protein family:G2like; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-G2like_tnt-AT5G45580_col_a	TF	DAP-seq
+GSM1925314	AT2G30470	Chr2	12986930	12987131	At3g24120: G2like family	protein:At3g24120; gene id:AT3G24120; protein family:G2like; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-G2like_tnt-At3g24120_colamp_a	TF	DAP-seq
+GSM1925297	AT2G30470	Chr2	12986931	12987132	AT2G40260: G2like family	protein:AT2G40260; gene id:AT2G40260; protein family:G2like; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-G2like_tnt-AT2G40260_colamp_a	TF	DAP-seq
+GSM1925315	AT2G30470	Chr2	12986931	12987132	At3g24120: G2like family	protein:At3g24120; gene id:AT3G24120; protein family:G2like; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-G2like_tnt-At3g24120_col_a	TF	DAP-seq
+GSM1925502	AT2G30470	Chr2	12986961	12987162	At1g19000: MYBrelated family	protein:At1g19000; gene id:AT1G19000; protein family:MYBrelated; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-MYBrelated_tnt-At1g19000_colamp_a	TF	DAP-seq
+GSM1925505	AT2G30470	Chr2	12986962	12987163	At1g49010: MYBrelated family	protein:At1g49010; gene id:AT1G49010; protein family:MYBrelated; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYBrelated_tnt-At1g49010_col_a	TF	DAP-seq
+GSM1925506	AT2G30470	Chr2	12986962	12987163	At1g74840_col100_a: MYBrelated family	protein:At1g74840; gene id:AT1G74840; protein family:MYBrelated; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-MYBrelated_tnt-At1g74840_col100_a	TF	DAP-seq
+GSM1925519	AT2G30470	Chr2	12986962	12987163	At5g47390: MYBrelated family	protein:At5g47390; gene id:AT5G47390; protein family:MYBrelated; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:b; subset:motif	DAPSeq-MYBrelated_tnt-At5g47390_col_b	TF	DAP-seq
+GSM1925504	AT2G30470	Chr2	12986964	12987165	At1g49010: MYBrelated family	protein:At1g49010; gene id:AT1G49010; protein family:MYBrelated; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-MYBrelated_tnt-At1g49010_colamp_a	TF	DAP-seq
+GSM2367148	AT2G30470	Chr2	12986978	12988960	H2AK121ub	WT	Col-0 H2AK121ub 7DAG rep4	EF	ChIP-seq
+GSM1925275	AT2G30470	Chr2	12987017	12987218	TCX2: CPP family	protein:TCX2; gene id:AT4G14770; protein family:CPP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-CPP_tnt-TCX2_colamp_a	TF	DAP-seq
+GSM1925326	AT2G30470	Chr2	12987040	12987241	ATHB15: HB family	protein:ATHB15; gene id:AT1G52150; protein family:HB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-HB_tnt-ATHB15_col_a	TF	DAP-seq
+GSM1925740	AT2G30470	Chr2	12987040	12987241	ATHB25: ZFHD family	protein:ATHB25; gene id:AT5G65410; protein family:ZFHD; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-ZFHD_tnt-ATHB25_colamp_a	TF	DAP-seq
+GSM1925743	AT2G30470	Chr2	12987040	12987241	ATHB33: ZFHD family	protein:ATHB33; gene id:AT1G75240; protein family:ZFHD; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-ZFHD_tnt-ATHB33_col_a	TF	DAP-seq
+GSM1925331	AT2G30470	Chr2	12987041	12987242	ATHB5: HB family	protein:ATHB5; gene id:AT5G65310; protein family:HB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-HB_tnt-ATHB5_colamp_a	TF	DAP-seq
+GSM1925369	AT2G30470	Chr2	12987041	12987242	HAT2: Homeobox_ecoli family	protein:HAT2; gene id:AT5G47370; protein family:Homeobox; protein source:Arabidopsis thaliana; protein affinity tag:GST; expression system:ecoli; dna source:col; replicate:v31; subset:motif	DAPSeq-Homeobox_ecoli-HAT2_col_v31	TF	DAP-seq
+GSM1925370	AT2G30470	Chr2	12987041	12987242	HAT2: Homeobox family	protein:HAT2; gene id:AT5G47370; protein family:Homeobox; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-Homeobox_tnt-HAT2_colamp_a	TF	DAP-seq
+GSM1925328	AT2G30470	Chr2	12987042	12987243	ATHB21: HB family	protein:ATHB21; gene id:AT2G18550; protein family:HB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-HB_tnt-ATHB21_col_a	TF	DAP-seq
+GSM1925333	AT2G30470	Chr2	12987042	12987243	ATHB53: HB family	protein:ATHB53; gene id:AT5G66700; protein family:HB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-HB_tnt-ATHB53_colamp_a	TF	DAP-seq
+GSM1925360	AT2G30470	Chr2	12987042	12987243	ATHB18: Homeobox family	protein:ATHB18; gene id:AT1G70920; protein family:Homeobox; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-Homeobox_tnt-ATHB18_colamp_a	TF	DAP-seq
+GSM1925366	AT2G30470	Chr2	12987042	12987243	ATHB7: Homeobox family	protein:ATHB7; gene id:AT2G46680; protein family:Homeobox; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-Homeobox_tnt-ATHB7_col_a	TF	DAP-seq
+GSM1925362	AT2G30470	Chr2	12987043	12987244	ATHB20: Homeobox family	protein:ATHB20; gene id:AT3G01220; protein family:Homeobox; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-Homeobox_tnt-ATHB20_colamp_a	TF	DAP-seq
+GSM1925744	AT2G30470	Chr2	12987043	12987244	ATHB34: ZFHD family	protein:ATHB34; gene id:AT3G28920; protein family:ZFHD; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-ZFHD_tnt-ATHB34_colamp_a	TF	DAP-seq
+GSM1925338	AT2G30470	Chr2	12987044	12987245	PHV: HB family	protein:PHV; gene id:AT1G30490; protein family:HB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-HB_tnt-PHV_col_a	TF	DAP-seq
+GSM1925361	AT2G30470	Chr2	12987044	12987245	ATHB18: Homeobox family	protein:ATHB18; gene id:AT1G70920; protein family:Homeobox; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-Homeobox_tnt-ATHB18_col_a	TF	DAP-seq
+GSM1925371	AT2G30470	Chr2	12987044	12987245	HAT22: Homeobox family	protein:HAT22; gene id:AT4G37790; protein family:Homeobox; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-Homeobox_tnt-HAT22_col_a	TF	DAP-seq
+GSM1925441	AT2G30470	Chr2	12987045	12987246	MYB3R1: MYB family	protein:MYB3R1; gene id:AT4G32730; protein family:MYB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-MYB_tnt-MYB3R1_colamp_a	TF	DAP-seq
+GSM1925742	AT2G30470	Chr2	12987045	12987246	ATHB33: ZFHD family	protein:ATHB33; gene id:AT1G75240; protein family:ZFHD; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-ZFHD_tnt-ATHB33_colamp_a	TF	DAP-seq
+GSM1925329	AT2G30470	Chr2	12987060	12987261	ATHB40: HB family	protein:ATHB40; gene id:AT4G36740; protein family:HB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-HB_tnt-ATHB40_colamp_a	TF	DAP-seq
+GSM1925330	AT2G30470	Chr2	12987060	12987261	ATHB40: HB family	protein:ATHB40; gene id:AT4G36740; protein family:HB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-HB_tnt-ATHB40_col_a	TF	DAP-seq
+GSM1925736	AT2G30470	Chr2	12987062	12987263	ATHB23: ZFHD family	protein:ATHB23; gene id:AT5G39760; protein family:ZFHD; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-ZFHD_tnt-ATHB23_colamp_a	TF	DAP-seq
+GSM1925334	AT2G30470	Chr2	12987063	12987264	ATHB53: HB family	protein:ATHB53; gene id:AT5G66700; protein family:HB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-HB_tnt-ATHB53_col_a	TF	DAP-seq
+GSM1925741	AT2G30470	Chr2	12987063	12987264	ATHB25: ZFHD family	protein:ATHB25; gene id:AT5G65410; protein family:ZFHD; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-ZFHD_tnt-ATHB25_col_a	TF	DAP-seq
+GSM1925327	AT2G30470	Chr2	12987064	12987265	ATHB21: HB family	protein:ATHB21; gene id:AT2G18550; protein family:HB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-HB_tnt-ATHB21_colamp_a	TF	DAP-seq
+GSM1925364	AT2G30470	Chr2	12987064	12987265	ATHB6: Homeobox family	protein:ATHB6; gene id:AT2G22430; protein family:Homeobox; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-Homeobox_tnt-ATHB6_colamp_a	TF	DAP-seq
+GSM1925332	AT2G30470	Chr2	12987074	12987275	ATHB5: HB family	protein:ATHB5; gene id:AT5G65310; protein family:HB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-HB_tnt-ATHB5_col_a	TF	DAP-seq
+GSM1925336	AT2G30470	Chr2	12987077	12987278	LMI1: HB family	protein:LMI1; gene id:AT5G03790; protein family:HB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-HB_tnt-LMI1_colamp_a	TF	DAP-seq
+GSM1925359	AT2G30470	Chr2	12987078	12987279	ATHB13: Homeobox family	protein:ATHB13; gene id:AT1G69780; protein family:Homeobox; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-Homeobox_tnt-ATHB13_col_a	TF	DAP-seq
+GSM1925358	AT2G30470	Chr2	12987079	12987280	ATHB13: Homeobox family	protein:ATHB13; gene id:AT1G69780; protein family:Homeobox; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-Homeobox_tnt-ATHB13_colamp_a	TF	DAP-seq
+GSM1925326	AT2G30470	Chr2	12987080	12987281	ATHB15: HB family	protein:ATHB15; gene id:AT1G52150; protein family:HB; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-HB_tnt-ATHB15_col_a	TF	DAP-seq
+GSM1925743	AT2G30470	Chr2	12987112	12987313	ATHB33: ZFHD family	protein:ATHB33; gene id:AT1G75240; protein family:ZFHD; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-ZFHD_tnt-ATHB33_col_a	TF	DAP-seq
+GSM1925745	AT2G30470	Chr2	12987118	12987319	ATHB34: ZFHD family	protein:ATHB34; gene id:AT3G28920; protein family:ZFHD; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-ZFHD_tnt-ATHB34_col_a	TF	DAP-seq
+GSM1925749	AT2G30470	Chr2	12987176	12987377	BIM2b: bHLH family	protein:BIM2; gene id:AT1G69010; protein family:bHLH; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:v3b; subset:motif	DAPSeq-bHLH_tnt-BIM2_col_v3b	TF	DAP-seq
+GSM1925130	AT2G30470	Chr2	12987186	12987387	RAP26: AP2EREBP family	protein:RAP2.6; gene id:AT1G43160; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-RAP26_col_a	TF	DAP-seq
+GSM1925749	AT2G30470	Chr2	12987221	12987422	BIM2b: bHLH family	protein:BIM2; gene id:AT1G69010; protein family:bHLH; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:v3b; subset:motif	DAPSeq-bHLH_tnt-BIM2_col_v3b	TF	DAP-seq
+GSM1925131	AT2G30470	Chr2	12987243	12987444	RRTF1: AP2EREBP family	protein:RRTF1; gene id:AT4G34410; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-RRTF1_colamp_a	TF	DAP-seq
+GSM1925132	AT2G30470	Chr2	12987243	12987444	RRTF1: AP2EREBP family	protein:RRTF1; gene id:AT4G34410; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-RRTF1_col_a	TF	DAP-seq
+GSM1925011	AT2G30470	Chr2	12987244	12987445	ABR1: AP2EREBP family	protein:ABR1; gene id:AT5G64750; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-ABR1_colamp_a	TF	DAP-seq
+GSM1925128	AT2G30470	Chr2	12987244	12987445	RAP212: AP2EREBP family	protein:RAP212; gene id:AT1G53910; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-RAP212_col_a	TF	DAP-seq
+GSM1925040	AT2G30470	Chr2	12987245	12987446	At2g33710: AP2EREBP family	protein:At2g33710; gene id:AT2G33710; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-At2g33710_colamp_a	TF	DAP-seq
+GSM1925091	AT2G30470	Chr2	12987245	12987446	ERF115: AP2EREBP family	protein:ERF115; gene id:AT5G07310; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-ERF115_colamp_a	TF	DAP-seq
+GSM1925106	AT2G30470	Chr2	12987245	12987446	ERF7: AP2EREBP family	protein:ERF7; gene id:AT3G20310; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-ERF7_colamp_a	TF	DAP-seq
+GSM1925110	AT2G30470	Chr2	12987245	12987446	ERF8: AP2EREBP family	protein:ERF8; gene id:AT1G53170; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-ERF8_colamp_a	TF	DAP-seq
+GSM1925129	AT2G30470	Chr2	12987245	12987446	RAP26: AP2EREBP family	protein:RAP2.6; gene id:AT1G43160; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-RAP26_colamp_a	TF	DAP-seq
+GSM1925090	AT2G30470	Chr2	12987246	12987447	ERF11: AP2EREBP family	protein:ERF11; gene id:AT1G28370; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:b; subset:motif	DAPSeq-AP2EREBP_tnt-ERF11_col_b	TF	DAP-seq
+GSM1925101	AT2G30470	Chr2	12987246	12987447	ERF4: AP2EREBP family	protein:ERF4; gene id:AT3G15210; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:colamp; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-ERF4_colamp_a	TF	DAP-seq
+GSM1925107	AT2G30470	Chr2	12987246	12987447	ERF7: AP2EREBP family	protein:ERF7; gene id:AT3G20310; protein family:AP2EREBP; protein source:Arabidopsis thaliana; protein affinity tag:Halo; expression system:tnt; dna source:col; replicate:a; subset:motif	DAPSeq-AP2EREBP_tnt-ERF7_col_a	TF	DAP-seq
