@@ -1,0 +1,996 @@
+PF00006	CL0023	P-loop_NTPase	ATP-synt_ab	ATP synthase alpha/beta family, nucleotide-binding domain
+PF00009	CL0023	P-loop_NTPase	GTP_EFTU	Elongation factor Tu GTP binding domain
+PF00010	NA	NA	HLH	Helix-loop-helix DNA-binding domain
+PF00027	CL0029	Cupin	cNMP_binding	Cyclic nucleotide-binding domain
+PF00035	CL0196	DSRM	dsrm	Double-stranded RNA binding motif
+PF00037	CL0344	4Fe-4S	Fer4	4Fe-4S binding domain
+PF00044	CL0063	NADP_Rossmann	Gp_dh_N	Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain
+PF00056	CL0063	NADP_Rossmann	Ldh_1_N	lactate/malate dehydrogenase, NAD binding domain
+PF00061	CL0116	Calycin	Lipocalin	Lipocalin / cytosolic fatty-acid binding protein family
+PF00104	NA	NA	Hormone_recep	Ligand-binding domain of nuclear hormone receptor
+PF00107	CL0063	NADP_Rossmann	ADH_zinc_N	Zinc-binding dehydrogenase
+PF00111	CL0486	Fer2	Fer2	2Fe-2S iron-sulfur cluster binding domain
+PF00127	CL0026	CU_oxidase	Copper-bind	Copper binding proteins, plastocyanin/azurin family
+PF00130	CL0006	C1	C1_1	Phorbol esters/diacylglycerol binding domain (C1 domain)
+PF00142	CL0023	P-loop_NTPase	Fer4_NifH	4Fe-4S iron sulfur cluster binding proteins, NifH/frxC family
+PF00173	NA	NA	Cyt-b5	Cytochrome b5-like Heme/Steroid binding domain
+PF00174	CL0072	Ubiquitin	Oxidored_molyb	Oxidoreductase molybdopterin binding domain
+PF00175	CL0091	NAD_Ferredoxin	NAD_binding_1	Oxidoreductase NAD-binding domain 
+PF00181	CL0021	OB	Ribosomal_L2	Ribosomal Proteins L2, RNA binding domain
+PF00185	CL0399	Asp-glut_race	OTCace	Aspartate/ornithine carbamoyltransferase, Asp/Orn binding domain
+PF00216	CL0548	IHF-likeDNA-bdg	Bac_DNA_binding	Bacterial DNA-binding protein
+PF00219	CL0547	GF_recep_C-rich	IGFBP	Insulin-like growth factor binding protein
+PF00241	CL0092	ADF	Cofilin_ADF	Cofilin/tropomyosin-type actin-binding protein
+PF00249	CL0123	HTH	Myb_DNA-binding	Myb-like DNA-binding domain
+PF00298	NA	NA	Ribosomal_L11	Ribosomal protein L11, RNA binding domain
+PF00313	CL0021	OB	CSD	'Cold-shock' DNA-binding domain
+PF00319	NA	NA	SRF-TF	SRF-type transcription factor (DNA-binding and dimerisation domain)
+PF00337	CL0004	Concanavalin	Gal-bind_lectin	Galactoside-binding lectin
+PF00352	CL0407	TBP-like	TBP	Transcription factor TFIID (or TATA-binding protein, TBP)
+PF00353	CL0592	beta_Roll	HemolysinCabind	RTX calcium-binding nonapeptide repeat (4 copies)
+PF00383	CL0109	CDA	dCMP_cyt_deam_1	Cytidine and deoxycytidylate deaminase zinc-binding region
+PF00418	NA	NA	Tubulin-binding	Tau and MAP protein, tubulin-binding repeat
+PF00425	NA	NA	Chorismate_bind	chorismate binding enzyme
+PF00436	CL0021	OB	SSB	Single-strand binding protein family
+PF00447	CL0123	HTH	HSF_DNA-bind	HSF-type DNA-binding
+PF00456	CL0254	THDP-binding	Transketolase_N	Transketolase, thiamine diphosphate binding domain
+PF00479	CL0063	NADP_Rossmann	G6PD_N	Glucose-6-phosphate dehydrogenase, NAD binding domain
+PF00496	CL0177	PBP	SBP_bac_5	Bacterial extracellular solute-binding proteins, family 5 Middle
+PF00497	CL0177	PBP	SBP_bac_3	Bacterial extracellular solute-binding proteins, family 3
+PF00501	CL0378	ANL	AMP-binding	AMP-binding enzyme
+PF00504	NA	NA	Chloroa_b-bind	Chlorophyll A-B binding protein
+PF00528	CL0404	BPD_transp_1	BPD_transp_1	Binding-protein-dependent transport system inner membrane component
+PF00532	CL0144	Periplas_BP	Peripla_BP_1	Periplasmic binding proteins and sugar binding domain of LacI family
+PF00550	CL0314	PP-binding	PP-binding	Phosphopantetheine attachment site
+PF00552	CL0010	SH3	IN_DBD_C	Integrase DNA binding domain
+PF00553	CL0203	CBD	CBM_2	Cellulose binding domain
+PF00554	CL0073	P53-like	RHD_DNA_bind	Rel homology DNA-binding domain
+PF00575	CL0021	OB	S1	S1 RNA binding domain
+PF00612	CL0220	EF_hand	IQ	IQ calmodulin-binding motif
+PF00641	CL0167	Zn_Beta_Ribbon	zf-RanBP	Zn-finger in Ran binding protein and others
+PF00649	NA	NA	Copper-fist	Copper fist DNA binding domain
+PF00658	NA	NA	PABP	Poly-adenylate binding protein, unique domain
+PF00667	CL0076	FAD_Lum_binding	FAD_binding_1	FAD binding domain
+PF00670	CL0063	NADP_Rossmann	AdoHcyase_NAD	S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+PF00676	CL0254	THDP-binding	E1_dh	Dehydrogenase E1 component
+PF00677	CL0076	FAD_Lum_binding	Lum_binding	Lumazine binding domain
+PF00686	CL0369	GHD	CBM_20	Starch binding domain
+PF00734	CL0083	Omega_toxin	CBM_1	Fungal cellulose binding domain
+PF00743	CL0063	NADP_Rossmann	FMO-like	Flavin-binding monooxygenase-like
+PF00747	NA	NA	Viral_DNA_bp	ssDNA binding protein
+PF00751	NA	NA	DM	DM DNA binding domain
+PF00766	CL0085	FAD_DHS	ETF_alpha	Electron transfer flavoprotein FAD-binding domain
+PF00786	NA	NA	PBD	P21-Rho-binding domain
+PF00794	CL0072	Ubiquitin	PI3K_rbd	PI3-kinase family, ras-binding domain
+PF00806	CL0020	TPR	PUF	Pumilio-family RNA binding repeat
+PF00809	CL0036	TIM_barrel	Pterin_bind	Pterin binding enzyme
+PF00870	CL0073	P53-like	P53	P53 DNA-binding domain
+PF00887	CL0632	FERM_M	ACBP	Acyl CoA binding protein
+PF00890	CL0063	NADP_Rossmann	FAD_binding_2	FAD binding domain
+PF00905	CL0013	Beta-lactamase	Transpeptidase	Penicillin binding protein transpeptidase domain
+PF00941	CL0077	FAD_PCMH	FAD_binding_5	FAD binding domain in molybdopterin dehydrogenase
+PF00942	CL0203	CBD	CBM_3	Cellulose binding domain
+PF00970	CL0076	FAD_Lum_binding	FAD_binding_6	Oxidoreductase FAD-binding domain
+PF00981	NA	NA	Rota_NS53	Rotavirus RNA-binding Protein 53 (NS53)
+PF00994	NA	NA	MoCF_biosynth	Probable molybdopterin binding domain
+PF01023	CL0220	EF_hand	S_100	S-100/ICaBP type calcium binding domain
+PF01035	CL0123	HTH	DNA_binding_1	6-O-methylguanine DNA methyltransferase, DNA binding domain
+PF01037	CL0032	Dim_A_B_barrel	AsnC_trans_reg	Lrp/AsnC ligand binding domain
+PF01091	NA	NA	PTN_MK_C	PTN/MK heparin-binding protein family, C-terminal domain
+PF01094	CL0144	Periplas_BP	ANF_receptor	Receptor family ligand binding region
+PF01118	CL0063	NADP_Rossmann	Semialdhyde_dh	Semialdehyde dehydrogenase, NAD binding domain
+PF01122	CL0059	6_Hairpin	Cobalamin_bind	Eukaryotic cobalamin-binding protein
+PF01161	NA	NA	PBP	Phosphatidylethanolamine-binding protein
+PF01237	NA	NA	Oxysterol_BP	Oxysterol-binding protein 
+PF01243	CL0336	FMN-binding	Putative_PNPOx	Pyridoxamine 5'-phosphate oxidase
+PF01287	CL0021	OB	eIF-5a	Eukaryotic elongation factor 5A hypusine, DNA-binding OB fold
+PF01298	CL0193	MBB	TbpB_B_D	C-lobe and N-lobe beta barrels of Tf-binding protein B
+PF01316	CL0123	HTH	Arg_repressor	Arginine repressor, DNA binding domain
+PF01325	CL0123	HTH	Fe_dep_repress	Iron dependent repressor, N-terminal DNA binding domain
+PF01326	CL0179	ATP-grasp	PPDK_N	Pyruvate phosphate dikinase, AMP/ATP-binding domain
+PF01336	CL0021	OB	tRNA_anti-codon	OB-fold nucleic acid binding domain
+PF01378	CL0072	Ubiquitin	IgG_binding_B	B domain
+PF01379	CL0177	PBP	Porphobil_deam	Porphobilinogen deaminase, dipyromethane cofactor binding domain
+PF01388	CL0123	HTH	ARID	ARID/BRIGHT DNA binding domain
+PF01396	CL0167	Zn_Beta_Ribbon	zf-C4_Topoisom	Topoisomerase DNA binding C4 zinc finger
+PF01404	CL0202	GBD	Ephrin_lbd	Ephrin receptor ligand binding domain
+PF01408	CL0063	NADP_Rossmann	GFO_IDH_MocA	Oxidoreductase family, NAD-binding Rossmann fold
+PF01429	CL0081	MBD-like	MBD	Methyl-CpG binding domain
+PF01453	CL0186	Beta_propeller	B_lectin	D-mannose binding lectin
+PF01471	CL0244	PGBD	PG_binding_1	Putative peptidoglycan binding domain
+PF01473	CL0694	Choline_binding	Choline_bind_1	Putative cell wall binding repeat
+PF01494	CL0063	NADP_Rossmann	FAD_binding_3	FAD binding domain
+PF01497	CL0043	Chelatase	Peripla_BP_2	Periplasmic binding protein
+PF01547	CL0177	PBP	SBP_bac_1	Bacterial extracellular solute-binding protein
+PF01565	CL0077	FAD_PCMH	FAD_binding_4	FAD binding domain 
+PF01568	CL0332	AcetylDC-like	Molydop_binding	Molydopterin dinucleotide binding domain
+PF01571	CL0289	FBD	GCV_T	Aminomethyltransferase folate-binding domain
+PF01588	CL0021	OB	tRNA_bind	Putative tRNA binding domain
+PF01607	CL0155	CBM_14_19	CBM_14	Chitin binding Peritrophin-A domain
+PF01613	CL0336	FMN-binding	Flavin_Reduct	Flavin reductase like domain
+PF01623	CL0140	Viral_NABP	Carla_C4	Carlavirus putative nucleic acid binding protein
+PF01656	CL0023	P-loop_NTPase	CbiA	CobQ/CobB/MinD/ParA nucleotide binding domain
+PF01695	CL0023	P-loop_NTPase	IstB_IS21	IstB-like ATP binding protein
+PF01726	CL0123	HTH	LexA_DNA_bind	LexA DNA binding domain
+PF01739	CL0063	NADP_Rossmann	CheR	CheR methyltransferase, SAM binding domain
+PF01749	CL0020	TPR	IBB	Importin beta binding domain
+PF01798	NA	NA	Nop	snoRNA binding domain, fibrillarin
+PF01799	CL0486	Fer2	Fer2_2	[2Fe-2S] binding domain
+PF01803	NA	NA	LIM_bind	LIM-domain binding protein
+PF01814	NA	NA	Hemerythrin	Hemerythrin HHE cation binding domain
+PF01855	CL0254	THDP-binding	POR_N	Pyruvate flavodoxin/ferredoxin oxidoreductase, thiamine diP-bdg
+PF01877	NA	NA	RNA_binding	RNA binding
+PF01906	CL0522	YbjQ-like	YbjQ_1	Putative heavy-metal-binding
+PF01910	CL0360	MTH1187-YkoF	Thiamine_BP	Thiamine-binding protein
+PF01926	CL0023	P-loop_NTPase	MMR_HSR1	50S ribosome-binding GTPase
+PF01957	CL0021	OB	NfeD	NfeD-like C-terminal, partner-binding
+PF01984	NA	NA	dsDNA_bind	Double-stranded DNA-binding domain
+PF02013	NA	NA	CBM_10	Cellulose or protein binding domain
+PF02018	CL0202	GBD	CBM_4_9	Carbohydrate binding domain
+PF02022	NA	NA	Integrase_Zn	Integrase Zinc binding domain
+PF02033	CL0494	DnaA_N	RBFA	Ribosome-binding factor A
+PF02041	CL0029	Cupin	Auxin_BP	Auxin binding protein
+PF02043	NA	NA	Bac_chlorC	Bacteriochlorophyll C binding protein
+PF02045	NA	NA	CBFB_NFYA	CCAAT-binding transcription factor (CBF-B/NF-YA) subunit B
+PF02081	NA	NA	TrpBP	Tryptophan RNA-binding attenuator protein
+PF02098	CL0116	Calycin	His_binding	Tick histamine binding protein
+PF02140	NA	NA	Gal_Lectin	Galactose binding lectin domain
+PF02153	CL0063	NADP_Rossmann	PDH_N	Prephenate dehydrogenase, nucleotide-binding domain
+PF02177	NA	NA	APP_N	Amyloid A4 N-terminal heparin-binding
+PF02190	CL0178	PUA	LON_substr_bdg	ATP-dependent protease La (LON) substrate-binding domain 
+PF02192	CL0072	Ubiquitin	PI3K_p85B	PI3-kinase family, p85-binding domain
+PF02196	CL0072	Ubiquitin	RBD	Raf-like Ras-binding domain
+PF02203	CL0457	4HB_MCP	TarH	Tar ligand binding domain homologue
+PF02217	CL0169	Rep	T_Ag_DNA_bind	Origin of replication binding protein
+PF02236	NA	NA	Viral_DNA_bi	Viral DNA-binding protein, all alpha domain
+PF02257	CL0123	HTH	RFX_DNA_binding	RFX DNA-binding domain
+PF02263	CL0023	P-loop_NTPase	GBP	Guanylate-binding protein, N-terminal domain
+PF02294	CL0049	Tudor	7kD_DNA_binding	7kD DNA-binding domain
+PF02310	CL0063	NADP_Rossmann	B12-binding	B12 binding domain
+PF02311	CL0029	Cupin	AraC_binding	AraC-like ligand binding domain
+PF02312	NA	NA	CBF_beta	Core binding factor beta subunit
+PF02316	CL0123	HTH	HTH_Tnp_Mu_1	Mu DNA-binding domain
+PF02319	CL0123	HTH	E2F_TDP	E2F/DP family winged-helix DNA-binding domain
+PF02352	NA	NA	Decorin_bind	Decorin binding protein
+PF02362	CL0405	DNA_b-psBarrel	B3	B3 DNA binding domain
+PF02399	CL0023	P-loop_NTPase	Herpes_ori_bp	Origin of replication binding protein
+PF02429	NA	NA	PCP	Peridinin-chlorophyll A binding protein
+PF02457	NA	NA	DAC	DisA bacterial checkpoint controller nucleotide-binding
+PF02492	CL0023	P-loop_NTPase	cobW	CobW/HypB/UreG, nucleotide-binding domain
+PF02520	NA	NA	ANIS5_cation-bd	SXP/RAL-2 family protein Ani s 5-like, metal-binding domain
+PF02526	NA	NA	GBP_repeat	Glycophorin-binding protein
+PF02575	CL0717	YbaB	YbaB_DNA_bd	YbaB/EbfC DNA-binding family
+PF02607	NA	NA	B12-binding_2	B12 binding domain
+PF02608	CL0144	Periplas_BP	Bmp	ABC transporter substrate-binding protein PnrA-like
+PF02624	NA	NA	YcaO	YcaO cyclodehydratase, ATP-ad Mg2+-binding
+PF02629	CL0063	NADP_Rossmann	CoA_binding	CoA binding domain
+PF02729	NA	NA	OTCace_N	Aspartate/ornithine carbamoyltransferase, carbamoyl-P binding domain
+PF02737	CL0063	NADP_Rossmann	3HCDH_N	3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+PF02738	CL0635	DmpA_ArgJ	MoCoBD_1	Molybdopterin cofactor-binding domain
+PF02742	CL0123	HTH	Fe_dep_repr_C	Iron dependent repressor, metal binding and dimerisation domain
+PF02748	NA	NA	PyrI_C	Aspartate carbamoyltransferase regulatory chain, metal binding domain
+PF02750	CL0179	ATP-grasp	Synapsin_C	Synapsin, ATP binding domain
+PF02765	CL0021	OB	POT1	Telomeric single stranded DNA binding POT1/CDC13
+PF02775	CL0254	THDP-binding	TPP_enzyme_C	Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+PF02776	CL0254	THDP-binding	TPP_enzyme_N	Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+PF02779	CL0254	THDP-binding	Transket_pyr	Transketolase, pyrimidine binding domain
+PF02784	CL0036	TIM_barrel	Orn_Arg_deC_N	Pyridoxal-dependent decarboxylase, pyridoxal binding domain
+PF02786	CL0179	ATP-grasp	CPSase_L_D2	Carbamoyl-phosphate synthase L chain, ATP binding domain
+PF02805	NA	NA	Ada_Zn_binding	Metal binding domain of Ada
+PF02817	NA	NA	E3_binding	e3 binding domain
+PF02826	CL0063	NADP_Rossmann	2-Hacid_dh_C	D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+PF02837	CL0202	GBD	Glyco_hydro_2_N	Glycosyl hydrolases family 2, sugar binding domain
+PF02839	CL0535	CBM	CBM_5_12	Carbohydrate binding domain
+PF02841	CL0023	P-loop_NTPase	GBP_C	Guanylate-binding protein, C-terminal domain
+PF02864	CL0073	P53-like	STAT_bind	STAT protein, DNA binding domain
+PF02882	CL0063	NADP_Rossmann	THF_DHG_CYH_C	Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+PF02888	NA	NA	CaMBD	Calmodulin binding domain
+PF02896	CL0151	PK_TIM	PEP-utilizers_C	PEP-utilising enzyme, PEP-binding domain
+PF02905	NA	NA	EBV-NA1	Epstein Barr virus nuclear antigen-1, DNA-binding domain
+PF02919	NA	NA	Topoisom_I_N	Eukaryotic DNA topoisomerase I, DNA binding fragment
+PF02920	CL0081	MBD-like	Integrase_DNA	DNA binding domain of tn916 integrase
+PF02922	CL0369	GHD	CBM_48	Carbohydrate-binding module 48 (Isoamylase N-terminal domain)
+PF02931	NA	NA	Neur_chan_LBD	Neurotransmitter-gated ion-channel ligand binding domain
+PF02969	CL0012	Histone	TAF	TATA box binding protein associated factor (TAF)
+PF02970	NA	NA	TBCA	Tubulin binding cofactor A
+PF02978	CL0123	HTH	SRP_SPB	Signal peptide binding domain
+PF02986	NA	NA	Fn_bind	Fibronectin binding repeat
+PF03029	CL0023	P-loop_NTPase	ATP_bind_1	Conserved hypothetical ATP binding protein
+PF03101	CL0274	WRKY-GCM1	FAR1	FAR1 DNA-binding domain
+PF03106	CL0274	WRKY-GCM1	WRKY	WRKY DNA -binding domain
+PF03123	NA	NA	CAT_RBD	CAT RNA binding domain
+PF03129	CL0458	IIaaRS-ABD	HGTP_anticodon	Anticodon binding domain
+PF03147	NA	NA	FDX-ACB	Ferredoxin-fold anticodon binding domain
+PF03173	CL0203	CBD	CHB_HEX	Putative carbohydrate binding domain
+PF03221	CL0123	HTH	HTH_Tnp_Tc5	Tc5 transposase DNA-binding domain
+PF03226	CL0080	Beta-tent	Yippee-Mis18	Yippee zinc-binding/DNA-binding /Mis18, centromere assembly
+PF03234	NA	NA	CDC37_N	Cdc37 N terminal kinase binding
+PF03272	NA	NA	Mucin_bdg	Putative mucin or carbohydrate-binding module
+PF03310	CL0720	Lag3_N	Cauli_DNA-bind	Caulimovirus DNA-binding protein
+PF03370	CL0576	STARBD	CBM_21	Carbohydrate/starch-binding module (family 21)
+PF03392	NA	NA	OS-D	Insect pheromone-binding family, A10/OS-D
+PF03422	CL0202	GBD	CBM_6	Carbohydrate binding module (family 6)
+PF03423	CL0576	STARBD	CBM_25	Carbohydrate binding domain (family 25)
+PF03424	CL0202	GBD	CBM_17_28	Carbohydrate binding domain (family 17/28)
+PF03425	CL0202	GBD	CBM_11	Carbohydrate binding domain (family 11)
+PF03426	CL0202	GBD	CBM_15	Carbohydrate binding domain (family 15)
+PF03427	CL0155	CBM_14_19	CBM_19	Carbohydrate binding domain (family 19)
+PF03435	CL0063	NADP_Rossmann	Sacchrp_dh_NADP	Saccharopine dehydrogenase NADP binding domain
+PF03441	NA	NA	FAD_binding_7	FAD binding domain of DNA photolyase
+PF03442	CL0159	E-set	CBM_X2	Carbohydrate binding domain X2
+PF03444	CL0123	HTH	HrcA_DNA-bdg	Winged helix-turn-helix transcription repressor, HrcA DNA-binding
+PF03446	CL0063	NADP_Rossmann	NAD_binding_2	NAD binding domain of 6-phosphogluconate dehydrogenase
+PF03447	CL0063	NADP_Rossmann	NAD_binding_3	Homoserine dehydrogenase, NAD binding domain
+PF03466	CL0177	PBP	LysR_substrate	LysR substrate binding domain
+PF03472	CL0161	GAF	Autoind_bind	Autoinducer binding domain
+PF03480	CL0177	PBP	DctP	Bacterial extracellular solute-binding protein, family 7
+PF03495	CL0689	TSP3	Binary_toxB	Clostridial binary toxin B/anthrax toxin PA Ca-binding domain
+PF03549	NA	NA	Tir_receptor_M	Translocated intimin receptor (Tir) intimin-binding domain
+PF03556	CL0220	EF_hand	Cullin_binding	Cullin binding
+PF03627	CL0204	Adhesin	PapG_N	PapG carbohydrate binding domain
+PF03628	NA	NA	PapG_C	PapG chaperone-binding domain 
+PF03717	NA	NA	PBP_dimer	Penicillin-binding Protein dimerisation domain
+PF03720	CL0039	HUP	UDPG_MGDP_dh_C	UDP-glucose/GDP-mannose dehydrogenase family, UDP binding domain
+PF03721	CL0063	NADP_Rossmann	UDPG_MGDP_dh_N	UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+PF03726	NA	NA	PNPase	Polyribonucleotide nucleotidyltransferase, RNA binding domain
+PF03728	NA	NA	Viral_DNA_Zn_bi	Viral DNA-binding protein, zinc binding domain
+PF03834	CL0236	PDDEXK	Rad10	Binding domain of DNA repair protein Ercc1 (rad10/Swi10)
+PF03869	CL0057	Met_repress	Arc	Arc-like DNA binding domain
+PF03880	CL0221	RRM	DbpA	DbpA RNA binding domain   
+PF03894	CL0254	THDP-binding	XFP	D-xylulose 5-phosphate/D-fructose 6-phosphate phosphoketolase
+PF03917	CL0483	PreATP-grasp	GSH_synth_ATP	Eukaryotic glutathione synthase, ATP binding domain
+PF03936	CL0613	Terp_synthase	Terpene_synth_C	Terpene synthase family, metal binding domain
+PF03941	NA	NA	INCENP_ARK-bind	Inner centromere protein, ARK binding region
+PF03949	CL0063	NADP_Rossmann	Malic_M	Malic enzyme, NAD binding domain
+PF03950	NA	NA	tRNA-synt_1c_C	tRNA synthetases class I (E and Q), anti-codon binding domain
+PF03991	NA	NA	Prion_octapep	Copper binding octapeptide repeat
+PF04069	CL0177	PBP	OpuAC	Substrate binding domain of ABC-type glycine betaine transport system
+PF04075	CL0336	FMN-binding	F420H2_quin_red	F420H(2)-dependent quinone reductase
+PF04122	NA	NA	CW_binding_2	ell wall binding domain 2 (CWB2)
+PF04135	NA	NA	Nop10p	Nucleolar RNA-binding protein, Nop10p family
+PF04152	NA	NA	Mre11_DNA_bind	Mre11 DNA-binding presumed domain 
+PF04182	CL0123	HTH	B-block_TFIIIC	B-block binding subunit of TFIIIC
+PF04187	CL0572	TIKI	Cofac_haem_bdg	Haem-binding uptake, Tiki superfamily, ChaN
+PF04198	CL0246	ISOCOT_Fold	Sugar-bind	Putative sugar-binding domain
+PF04205	NA	NA	FMN_bind	FMN-binding domain
+PF04218	CL0123	HTH	CENP-B_N	CENP-B N-terminal DNA-binding domain
+PF04265	NA	NA	TPK_B1_binding	Thiamin pyrophosphokinase, vitamin B1 binding domain
+PF04289	CL0336	FMN-binding	DUF447	Protein of unknown function (DUF447)
+PF04299	CL0336	FMN-binding	FMN_bind_2	Putative FMN-binding domain
+PF04307	CL0368	PhosC-NucP1	YdjM	LexA-binding, inner membrane-associated putative hydrolase
+PF04320	NA	NA	YggL_50S_bp	YggL 50S ribosome-binding protein
+PF04321	CL0063	NADP_Rossmann	RmlD_sub_bind	RmlD substrate binding domain
+PF04324	CL0667	Fer2_BFD	Fer2_BFD	BFD-like [2Fe-2S] binding domain
+PF04326	CL0441	AlbA	AlbA_2	Putative DNA-binding domain
+PF04354	NA	NA	ZipA_C	ZipA, C-terminal FtsZ-binding domain
+PF04366	NA	NA	Ysc84	Las17-binding protein actin regulator
+PF04392	CL0144	Periplas_BP	ABC_sub_bind	ABC transporter substrate binding protein
+PF04397	CL0049	Tudor	LytTR	LytTr DNA-binding domain
+PF04410	CL0575	EFTPs	Gar1	Gar1/Naf1 RNA binding region
+PF04440	NA	NA	Dysbindin	Dysbindin (Dystrobrevin binding protein 1)
+PF04488	CL0110	GT-A	Gly_transf_sug	Glycosyltransferase sugar-binding region containing DXD motif   
+PF04498	NA	NA	Pox_VP8_L4R	Poxvirus nucleic acid binding protein VP8/L4R
+PF04503	NA	NA	SSDP	Single-stranded DNA binding protein, SSDP
+PF04552	CL0123	HTH	Sigma54_DBD	Sigma-54, DNA binding domain
+PF04557	NA	NA	tRNA_synt_1c_R2	Glutaminyl-tRNA synthetase, non-specific RNA binding region part 2    
+PF04558	CL0279	GatB_YqeY	tRNA_synt_1c_R1	Glutaminyl-tRNA synthetase, non-specific RNA binding region part 1    
+PF04576	NA	NA	Zein-binding	Zein-binding
+PF04611	NA	NA	AalphaY_MDB	Mating type protein A alpha Y mating type dependent binding region 
+PF04661	NA	NA	Pox_I3	Poxvirus I3 ssDNA-binding protein
+PF04689	NA	NA	S1FA	DNA binding protein S1FA
+PF04721	CL0202	GBD	PAW	PNGase C-terminal domain, mannose-binding module PAW
+PF04732	NA	NA	Filament_head	Intermediate filament head (DNA binding) region
+PF04767	NA	NA	Pox_F17	DNA-binding 11 kDa phosphoprotein
+PF04774	NA	NA	HABP4_PAI-RBP1	Hyaluronan / mRNA binding family
+PF04786	NA	NA	Baculo_DNA_bind	ssDNA binding protein 
+PF04832	CL0319	SHS2	SOUL	SOUL heme-binding protein
+PF04845	CL0609	sPC4_like	PurA	PurA ssDNA and RNA-binding protein
+PF04908	CL0172	Thioredoxin	SH3BGR	SH3-binding, glutamic acid-rich protein
+PF04926	NA	NA	PAP_RNA-bind	Poly(A) polymerase predicted RNA binding domain
+PF04963	CL0123	HTH	Sigma54_CBD	Sigma-54 factor, core binding domain
+PF04967	CL0123	HTH	HTH_10	HTH DNA binding domain
+PF05020	NA	NA	zf-NPL4	NPL4 family, putative zinc binding region
+PF05048	CL0268	Pec_lyase-like	NosD	Periplasmic copper-binding protein (NosD)
+PF05196	NA	NA	PTN_MK_N	PTN/MK heparin-binding protein family, N-terminal domain
+PF05211	CL0342	TolB_N	NLBH	Neuraminyllactose-binding hemagglutinin precursor (NLBH)
+PF05224	CL0073	P53-like	NDT80_PhoG	NDT80 / PhoG like DNA-binding  family
+PF05261	CL0548	IHF-likeDNA-bdg	Tra_M	TraM protein, DNA-binding
+PF05276	NA	NA	SH3BP5	SH3 domain-binding protein 5 (SH3BP5)
+PF05350	NA	NA	GSK-3_bind	Glycogen synthase kinase-3 binding
+PF05424	CL0195	DBL	Duffy_binding	Duffy binding domain
+PF05427	NA	NA	FIBP	Acidic fibroblast growth factor binding (FIBP) 
+PF05428	NA	NA	CRF-BP	Corticotropin-releasing factor binding protein (CRF-BP)
+PF05456	NA	NA	eIF_4EBP	Eukaryotic translation initiation factor 4E binding protein (EIF4EBP)
+PF05458	NA	NA	Siva	Cd27 binding protein (Siva)
+PF05472	NA	NA	Ter	DNA replication terminus site-binding protein (Ter protein)
+PF05473	CL0056	C_Lectin	UL45	UL45 protein, carbohydrate-binding C-type lectin-like
+PF05508	NA	NA	Ran-binding	RanGTP-binding protein
+PF05515	CL0140	Viral_NABP	Viral_NABP	Viral nucleic acid binding 
+PF05551	CL0263	His-Me_finger	zf-His_Me_endon	Zinc-binding loop region of homing endonuclease
+PF05556	NA	NA	Calsarcin	Calcineurin-binding protein (Calsarcin)
+PF05566	CL0159	E-set	Pox_vIL-18BP	Orthopoxvirus interleukin 18 binding protein
+PF05605	CL0361	C2H2-zf	zf-Di19	Drought induced 19 protein (Di19), zinc-binding
+PF05634	NA	NA	APO_RNA-bind	APO RNA-binding
+PF05670	CL0684	NFACT_RNA-bind	NFACT-R_1	NFACT protein RNA binding domain
+PF05694	CL0186	Beta_propeller	SBP56	56kDa selenium binding protein (SBP56)
+PF05737	CL0204	Adhesin	Collagen_bind	Collagen binding domain
+PF05741	NA	NA	zf-nanos	Nanos RNA binding domain
+PF05746	CL0258	DALR	DALR_1	DALR anticodon binding domain
+PF05823	NA	NA	Gp-FAR-1	Nematode fatty acid retinoid binding protein (Gp-FAR-1)
+PF05879	CL0023	P-loop_NTPase	RHD3_GTPase	Root hair defective 3 GTP-binding protein (RHD3) GTPase domain
+PF05901	NA	NA	Excalibur	Excalibur calcium-binding domain
+PF05907	NA	NA	CXXC_Zn-b_euk	CXXC motif containing zinc binding protein, eukaryotic
+PF05937	NA	NA	EB1_binding	EB-1 Binding Domain
+PF06001	NA	NA	RING_CBP-p300	CREB-binding protein/p300, atypical RING domain
+PF06017	CL0266	PH	Myosin_TH1	Unconventional myosin tail, actin- and lipid-binding
+PF06217	NA	NA	GAGA_bind	GAGA binding protein-like family
+PF06224	CL0123	HTH	HTH_42	Winged helix DNA-binding domain
+PF06371	CL0020	TPR	Drf_GBD	Diaphanous GTPase-binding Domain
+PF06421	NA	NA	LepA_C	GTP-binding protein LepA C-terminus
+PF06438	NA	NA	HasA	Heme-binding protein A (HasA)
+PF06445	CL0319	SHS2	GyrI-like	GyrI-like small molecule binding domain
+PF06452	CL0559	CBD9-like	CBM9_1	Carbohydrate family 9 binding domain-like
+PF06464	CL0660	SHOCT	DMAP_binding	DMAP1-binding Domain
+PF06473	NA	NA	FGF-BP1	FGF binding protein 1 (FGF-BP1)
+PF06475	NA	NA	Glycolipid_bind	Putative glycolipid-binding
+PF06485	NA	NA	Tab2-like_N	RNA-binding protein Tab2/Atab2 N terminal
+PF06581	CL0651	Mad2	p31comet	Mad1 and Cdc20-bound-Mad2 binding
+PF06585	CL0648	Aha1_BPI	JHBP	Haemolymph juvenile hormone binding protein (JHBP)
+PF06594	NA	NA	HCBP_related	Haemolysin-type calcium binding protein related domain
+PF06646	CL0177	PBP	CypI	Extracytoplasmic thiamine-binding lipoprotein
+PF06650	NA	NA	SHR-BD	SHR-binding domain of vacuolar-sorting associated protein 13
+PF06657	NA	NA	Cep57_MT_bd	Centrosome microtubule-binding domain of Cep57
+PF06664	NA	NA	MIG-14_Wnt-bd	Wnt-binding factor required for Wnt secretion
+PF06825	NA	NA	HSBP1	Heat shock factor binding protein 1
+PF06832	CL0159	E-set	BiPBP_C	Penicillin-Binding Protein C-terminus Family
+PF06858	CL0023	P-loop_NTPase	NOG1	Nucleolar GTP-binding protein 1 (NOG1)
+PF06971	CL0123	HTH	Put_DNA-bind_N	Putative DNA-binding protein N-terminus
+PF07005	NA	NA	SBD_N	Sugar-binding N-terminal domain
+PF07055	CL0063	NADP_Rossmann	Eno-Rase_FAD_bd	Enoyl reductase FAD binding domain
+PF07159	NA	NA	CYRIA-B_Rac1-bd	CYRIA/CYRIB Rac1 binding domain
+PF07194	CL0634	CheY-binding	P2	P2 response regulator binding domain
+PF07222	NA	NA	PBP_sp32	Proacrosin binding protein sp32
+PF07282	CL0167	Zn_Beta_Ribbon	OrfB_Zn_ribbon	Putative transposase DNA-binding domain
+PF07299	NA	NA	EF-G-binding_N	Elongation factor G-binding protein, N-terminal
+PF07333	CL0054	Knottin_1	SLR1-BP	S locus-related glycoprotein 1 binding pollen coat protein (SLR1-BP)
+PF07354	NA	NA	Sp38	Zona-pellucida-binding protein (Sp38)
+PF07377	CL0314	PP-binding	DUF1493	Protein of unknown function (DUF1493)
+PF07381	CL0123	HTH	DUF1495	Winged helix DNA-binding domain (DUF1495)
+PF07404	CL0021	OB	TEBP_beta	Telomere-binding protein beta subunit (TEBP beta)
+PF07417	NA	NA	Crl	Sigma factor-binding transcriptional regulator Crl
+PF07472	NA	NA	PA-IIL	Fucose-binding lectin II (PA-IIL)
+PF07492	NA	NA	Trehalase_Ca-bi	Neutral trehalase Ca2+ binding domain
+PF07497	CL0021	OB	Rho_RNA_bind	Rho termination factor, RNA-binding domain
+PF07645	CL0001	EGF	EGF_CA	Calcium-binding EGF domain
+PF07677	CL0159	E-set	A2M_recep	A-macroglobulin receptor binding domain
+PF07700	CL0210	HNOX-like	HNOB	Haem-NO-binding
+PF07701	CL0161	GAF	HNOBA	Heme NO binding associated
+PF07717	CL0021	OB	OB_NTP_bind	Oligonucleotide/oligosaccharide-binding (OB)-fold
+PF07741	NA	NA	BRF1	Brf1-like TBP-binding domain
+PF07754	CL0167	Zn_Beta_Ribbon	HVO_2753_ZBP	Small zinc finger protein HVO_2753-like, Zn-binding pocket
+PF07777	NA	NA	MFMR	G-box binding protein MFMR
+PF07839	NA	NA	CaM_binding	Plant calmodulin-binding domain
+PF07842	NA	NA	GCFC	GC-rich sequence DNA-binding factor-like protein
+PF07879	NA	NA	PHB_acc_N	PHB/PHA accumulation regulator DNA-binding domain
+PF07887	CL0073	P53-like	Calmodulin_bind	Calmodulin binding protein-like N-terminal domain
+PF07888	NA	NA	CALCOCO1	Calcium binding and coiled-coil domain (CALCOCO1) like
+PF07897	NA	NA	EAR	Ethylene-responsive binding factor-associated repression
+PF07943	NA	NA	PBP5_C	Penicillin-binding protein 5, C-terminal domain
+PF07951	CL0066	Trefoil	Toxin_R_bind_C	Clostridium neurotoxin, C-terminal receptor binding
+PF07953	CL0004	Concanavalin	Toxin_R_bind_N	Clostridium neurotoxin, N-terminal receptor binding
+PF07986	CL0391	CAP_C-like	TBCC	Tubulin binding cofactor C
+PF07990	NA	NA	NABP	Nucleic acid binding protein NABP
+PF07991	CL0063	NADP_Rossmann	IlvN	Acetohydroxy acid isomeroreductase, NADPH-binding domain
+PF07993	CL0063	NADP_Rossmann	NAD_binding_4	Male sterility protein
+PF07994	CL0063	NADP_Rossmann	NAD_binding_5	Myo-inositol-1-phosphate synthase
+PF08017	NA	NA	Fibrinogen_BP	Fibrinogen binding protein 
+PF08021	CL0076	FAD_Lum_binding	FAD_binding_9	Siderophore-interacting FAD-binding domain
+PF08022	CL0076	FAD_Lum_binding	FAD_binding_8	FAD-binding domain
+PF08030	CL0091	NAD_Ferredoxin	NAD_binding_6	Ferric reductase NAD binding domain
+PF08032	CL0101	PELOTA	SpoU_sub_bind	RNA 2'-O ribose methyltransferase substrate binding
+PF08211	CL0109	CDA	dCMP_cyt_deam_2	Cytidine and deoxycytidylate deaminase zinc-binding region 
+PF08264	CL0258	DALR	Anticodon_1	Anticodon-binding domain of tRNA ligase
+PF08271	CL0167	Zn_Beta_Ribbon	TF_Zn_Ribbon	TFIIB zinc-binding
+PF08273	CL0167	Zn_Beta_Ribbon	Prim_Zn_Ribbon	Zinc-binding domain of primase-helicase
+PF08278	NA	NA	DnaG_DnaB_bind	DNA primase DnaG DnaB-binding 
+PF08313	NA	NA	SCA7	SCA7, zinc-binding domain
+PF08347	NA	NA	CTNNB1_binding	N-terminal CTNNB1 binding
+PF08363	NA	NA	GbpC	Glucan-binding protein C
+PF08416	CL0266	PH	PTB	Phosphotyrosine-binding domain
+PF08421	CL0045	Rubredoxin	Methyltransf_13	Putative zinc binding domain
+PF08492	NA	NA	SRP72	SRP72 RNA-binding domain
+PF08501	CL0603	AA_dh_N	Shikimate_dh_N	Shikimate dehydrogenase substrate binding domain
+PF08509	NA	NA	Ad_cyc_g-alpha	Adenylate cyclase G-alpha binding domain
+PF08537	NA	NA	NBP1	Fungal Nap binding protein NBP1
+PF08558	CL0020	TPR	TRF	Telomere repeat binding factor (TRF)
+PF08565	NA	NA	CDC37_M	Cdc37 Hsp90 binding domain
+PF08605	CL0049	Tudor	Rad9_Rad53_bind	Fungal Rad9-like Rad53-binding
+PF08612	CL0273	CYTH	Med20	TATA-binding related factor (TRF) of subunit 20 of Mediator complex
+PF08617	NA	NA	CGI-121	Kinase binding protein CGI-121
+PF08623	CL0020	TPR	TIP120	TATA-binding protein interacting (TIP20)
+PF08675	CL0221	RRM	RNA_bind	RNA binding domain
+PF08680	NA	NA	DUF1779	TATA-box binding
+PF08683	CL0350	PRC-barrel	CAMSAP_CKK	Microtubule-binding calmodulin-regulated spectrin-associated
+PF08753	CL0070	ACT	NikR_C	NikR C terminal nickel binding domain
+PF08755	NA	NA	YccV-like	Hemimethylated DNA-binding protein YccV like
+PF08768	CL0116	Calycin	THAP4_heme-bd	THAP4-like, heme-binding beta-barrel domain
+PF08771	NA	NA	FRB_dom	FKBP12-rapamycin binding domain 
+PF08772	CL0167	Zn_Beta_Ribbon	NOB1_Zn_bind	Nin one binding (NOB1) Zn-ribbon like
+PF08777	CL0221	RRM	RRM_3	RNA binding motif
+PF08780	CL0291	KNTase_C	NTase_sub_bind	Nucleotidyltransferase substrate binding protein like
+PF08782	NA	NA	c-SKI_SMAD_bind	c-SKI Smad4 binding domain
+PF08804	CL0021	OB	gp32	gp32 DNA binding protein like
+PF08823	CL0244	PGBD	PG_binding_2	Putative peptidoglycan binding domain
+PF08825	NA	NA	E2_bind	E2 binding domain
+PF08833	NA	NA	Axin_b-cat_bind	Axin beta-catenin binding motif
+PF08912	NA	NA	Rho_Binding	Rho Binding
+PF08913	CL0705	VBS-like	VBS	Vinculin Binding Site
+PF08919	NA	NA	F_actin_bind	F-actin binding
+PF08931	CL0326	Reo_sigma	Caudo_bapla_RBP	Receptor-binding protein of phage tail base-plate Siphoviridae, head
+PF08961	NA	NA	NRBF2	Nuclear receptor-binding factor 2, autophagy regulator
+PF09003	CL0081	MBD-like	Arm-DNA-bind_1	Bacteriophage lambda integrase, Arm DNA-binding domain 
+PF09008	NA	NA	Head_binding	Head binding
+PF09027	NA	NA	GTPase_binding	GTPase binding
+PF09030	NA	NA	Creb_binding	Creb binding
+PF09038	CL0049	Tudor	53-BP1_Tudor	Tumour suppressor p53-binding protein-1 Tudor
+PF09039	CL0123	HTH	HTH_Tnp_Mu_2	Mu DNA binding, I gamma subdomain
+PF09041	NA	NA	Aurora-A_bind	Aurora-A binding 
+PF09047	NA	NA	MEF2_binding	MEF2 binding
+PF09067	CL0159	E-set	EpoR_lig-bind	Erythropoietin receptor, ligand binding
+PF09070	NA	NA	PFU	PFU (PLAA family ubiquitin binding)
+PF09078	CL0634	CheY-binding	CheY-binding	CheY binding
+PF09098	CL0318	Cytochrome-c	Dehyd-heme_bind	Quinohemoprotein amine dehydrogenase A, alpha subunit, haem binding
+PF09101	CL0004	Concanavalin	Exotox-A_bind	Exotoxin A binding
+PF09103	CL0021	OB	BRCA-2_OB1	BRCA2, oligonucleotide/oligosaccharide-binding, domain 1
+PF09104	CL0021	OB	BRCA-2_OB3	BRCA2, oligonucleotide/oligosaccharide-binding, domain 3
+PF09119	NA	NA	SicP-binding	SicP binding
+PF09129	CL0277	FAD-oxidase_C	Chol_subst-bind	Cholesterol oxidase, substrate-binding
+PF09160	CL0204	Adhesin	FimH_man-bind	FimH, mannose binding
+PF09162	CL0221	RRM	Tap-RNA_bind	Tap, RNA-binding
+PF09164	CL0282	Serum_albumin	VitD-bind_III	Vitamin D binding protein, domain III
+PF09179	NA	NA	TilS	TilS substrate binding domain
+PF09197	CL0123	HTH	Rap1-DNA-bind	Rap1, DNA-binding
+PF09212	CL0202	GBD	CBM27	Carbohydrate binding module 27
+PF09240	CL0159	E-set	IL6Ra-bind	Interleukin-6 receptor alpha chain, binding
+PF09242	CL0608	Reductase_C	FCSD-flav_bind	Flavocytochrome c sulphide dehydrogenase, flavin-binding
+PF09247	NA	NA	TBP-binding	TATA box-binding protein binding
+PF09256	CL0607	TNF_receptor	BaffR-Tall_bind	BAFF-R, TALL-1 binding
+PF09257	CL0607	TNF_receptor	BCMA-Tall_bind	BCMA, TALL-1 binding
+PF09265	CL0277	FAD-oxidase_C	Cytokin-bind	Cytokinin dehydrogenase 1, FAD and cytokinin binding
+PF09270	CL0066	Trefoil	BTD	Beta-trefoil DNA-binding domain
+PF09271	CL0073	P53-like	LAG1-DNAbind	LAG1, DNA binding
+PF09273	NA	NA	Rubis-subs-bind	Rubisco LSMT substrate-binding
+PF09278	CL0123	HTH	MerR-DNA-bind	MerR, DNA binding
+PF09280	NA	NA	XPC-binding	XPC-binding domain
+PF09282	NA	NA	Mago-bind	Mago binding
+PF09287	CL0073	P53-like	CEP1-DNA_bind	CEP-1, DNA binding
+PF09295	CL0020	TPR	ChAPs	ChAPs (Chs5p-Arf1p-binding proteins)
+PF09330	CL0277	FAD-oxidase_C	Lact-deh-memb	D-lactate dehydrogenase, membrane binding
+PF09360	NA	NA	zf-CDGSH	Iron-binding zinc finger CDGSH type
+PF09364	CL0254	THDP-binding	XFP_N	XFP N-terminal domain
+PF09369	NA	NA	MZB	MrfA Zn-binding domain
+PF09373	NA	NA	PMBR	Pseudomurein-binding repeat
+PF09374	CL0244	PGBD	PG_binding_3	Predicted Peptidoglycan domain
+PF09387	CL0609	sPC4_like	MRP	Mitochondrial RNA binding protein MRP
+PF09399	NA	NA	bCoV_lipid_BD	Betacoronavirus lipid binding protein
+PF09405	NA	NA	Btz	CASC3/Barentsz eIF4AIII binding
+PF09408	NA	NA	bCoV_S1_RBD	Betacoronavirus spike glycoprotein S1, receptor binding
+PF09429	NA	NA	Wbp11	WW domain binding protein 11
+PF09441	NA	NA	Abp2	ARS binding protein 2
+PF09478	CL0203	CBD	CBM49	Carbohydrate binding domain CBM49
+PF09526	CL0167	Zn_Beta_Ribbon	DUF2387	Probable metal-binding protein (DUF2387)
+PF09607	CL0123	HTH	BrkDBD	Brinker DNA-binding domain
+PF09632	NA	NA	Rac1	Rac1-binding domain
+PF09635	NA	NA	MetRS-N	MetRS-N binding domain
+PF09722	NA	NA	Xre_MbcA_ParS_C	Antitoxin Xre/MbcA/ParS C-terminal toxin-binding domain
+PF09727	NA	NA	CortBP2	Cortactin-binding protein-2
+PF09732	NA	NA	CactinC_cactus	Cactus-binding C-terminus of cactin protein
+PF09792	NA	NA	But2	Ubiquitin 3 binding protein But2 C-terminal domain
+PF09793	NA	NA	AD	Anticodon-binding domain
+PF09814	CL0552	Hect	HECT_2	HECT-like Ubiquitin-conjugating enzyme (E2)-binding
+PF09836	NA	NA	DUF2063	Putative DNA-binding domain
+PF09855	CL0167	Zn_Beta_Ribbon	zinc_ribbon_13	Nucleic-acid-binding protein containing Zn-ribbon domain (DUF2082)
+PF09876	NA	NA	DUF2103	Predicted metal-binding protein (DUF2103)
+PF09905	NA	NA	VF530	DNA-binding protein VF530
+PF09948	NA	NA	DUF2182	Predicted metal-binding integral membrane protein (DUF2182)
+PF09985	CL0559	CBD9-like	Glucodextran_C	C-terminal binding-module, SLH-like, of glucodextranase
+PF09988	CL0368	PhosC-NucP1	DUF2227	Uncharacterized metal-binding protein (DUF2227)
+PF10012	CL0336	FMN-binding	DUF2255	Uncharacterized protein conserved in bacteria (DUF2255)
+PF10050	NA	NA	DUF2284	Predicted metal-binding protein (DUF2284)
+PF10058	CL0167	Zn_Beta_Ribbon	zinc_ribbon_10	Predicted integral membrane zinc-ribbon metal-binding protein
+PF10071	NA	NA	DUF2310	Zn-ribbon-containing, possibly nucleic-acid-binding protein (DUF2310)
+PF10135	NA	NA	Rod-binding	Rod binding protein
+PF10137	CL0173	STIR	TIR-like	Predicted nucleotide-binding protein containing TIR-like domain
+PF10174	NA	NA	Cast	RIM-binding protein of the cytomatrix active zone
+PF10195	NA	NA	Phospho_p8	DNA-binding nuclear phosphoprotein p8
+PF10199	NA	NA	Adaptin_binding	Alpha and gamma adaptin binding protein p34
+PF10243	CL0188	CH	MIP-T3	Microtubule-binding protein MIP-T3 CH-like domain
+PF10258	NA	NA	PHAX_RNA-bd	Phosphorylated adapter RNA export protein, RNA-binding domain
+PF10297	NA	NA	Hap4_Hap_bind	Minimal binding motif of Hap4 for binding to Hap2/3/5   
+PF10309	NA	NA	NCBP3	Nuclear cap-binding protein subunit 3 
+PF10330	NA	NA	Stb3	Putative Sin3 binding protein
+PF10335	CL0291	KNTase_C	DUF294_C	Putative nucleotidyltransferase substrate binding domain
+PF10357	CL0123	HTH	Kin17_mid	Domain of Kin17 curved DNA-binding protein
+PF10368	NA	NA	YkyA	Putative cell-wall binding lipoprotein
+PF10373	CL0020	TPR	EST1_DNA_bind	Est1 DNA/RNA binding domain
+PF10396	CL0289	FBD	TrmE_N	GTP-binding protein TrmE N-terminus
+PF10407	NA	NA	Cytokin_check_N	Cdc14 phosphatase binding protein N-terminus   
+PF10410	NA	NA	DnaB_bind	DnaB-helicase binding domain of primase
+PF10412	CL0023	P-loop_NTPase	TrwB_AAD_bind	Type IV secretion-system coupling protein DNA-binding domain
+PF10416	CL0123	HTH	IBD	Transcription-initiator DNA-binding domain IBD
+PF10418	CL0486	Fer2	DHODB_Fe-S_bind	Iron-sulfur cluster binding domain of dihydroorotate dehydrogenase B
+PF10425	CL0204	Adhesin	SdrG_C_C	C-terminus of bacterial fibrinogen-binding adhesin
+PF10440	CL0214	UBA	WIYLD	Ubiquitin-binding WIYLD domain
+PF10456	CL0145	Golgi-transport	BAR_3_WASP_bdg	WASP-binding domain of Sorting nexin protein
+PF10458	CL0298	tRNA_bind_arm	Val_tRNA-synt_C	Valyl tRNA synthetase tRNA binding arm
+PF10470	NA	NA	AKAP7_RIRII_bdg	PKA-RI-RII subunit binding domain of A-kinase anchor protein
+PF10477	NA	NA	EIF4E-T	Nucleocytoplasmic shuttling protein for mRNA cap-binding EIF4E
+PF10480	CL0266	PH	ICAP-1_inte_bdg	Beta-1 integrin binding protein
+PF10487	CL0585	Nucleoporin_A	Nup188	Nucleoporin subcomplex protein binding to Pom34
+PF10488	NA	NA	PP1c_bdg	Phosphatase-1 catalytic subunit binding region
+PF10490	NA	NA	CENP-F_C_Rb_bdg	Rb-binding domain of kinetochore protein Cenp-F/LEK1
+PF10491	NA	NA	Nrf1_DNA-bind	NLS-binding and DNA-binding and dimerisation domains of Nrf1
+PF10492	NA	NA	Nrf1_activ_bdg	Nrf1 activator activation site binding domain
+PF10501	CL0314	PP-binding	Ribosomal_L50	Ribosomal subunit 39S
+PF10509	CL0329	S5	GalKase_gal_bdg	Galactokinase galactose-binding signature
+PF10511	NA	NA	Cementoin	Trappin protein transglutaminase binding domain
+PF10522	NA	NA	RII_binding_1	RII binding domain
+PF10529	NA	NA	Hist_rich_Ca-bd	Histidine-rich Calcium-binding repeat region
+PF10562	NA	NA	CaM_bdg_C0	Calmodulin-binding domain C0 of NMDA receptor NR1 subunit
+PF10564	NA	NA	MAR_sialic_bdg	Sialic-acid binding micronemal adhesive repeat
+PF10570	NA	NA	Myelin-PO_C	Myelin-PO cytoplasmic C-term p65 binding region
+PF10576	NA	NA	EndIII_4Fe-2S	Iron-sulfur binding domain of endonuclease III
+PF10588	NA	NA	NADH-G_4Fe-4S_3	NADH-ubiquinone oxidoreductase-G iron-sulfur binding region
+PF10589	NA	NA	NADH_4Fe-4S	NADH-ubiquinone oxidoreductase-F iron-sulfur binding region
+PF10591	CL0220	EF_hand	SPARC_Ca_bdg	Secreted protein acidic and rich in cysteine Ca binding region
+PF10597	NA	NA	U5_2-snRNA_bdg	U5-snRNA binding site 2 of PrP8
+PF10606	NA	NA	GluR_Homer-bdg	Homer-binding domain of metabotropic glutamate receptor 
+PF10613	CL0177	PBP	Lig_chan-Glu_bd	Ligated ion channel L-glutamate- and glycine-binding site
+PF10645	NA	NA	Carb_bind	Carbohydrate binding
+PF10683	NA	NA	DBD_Tnp_Hermes	Hermes transposase DNA-binding domain  
+PF10789	NA	NA	Phage_RpbA	Phage RNA polymerase binding, RpbA
+PF10923	CL0023	P-loop_NTPase	BrxC_BrxD	BREX system ATP-binding protein BrxC/D
+PF10972	NA	NA	CsiV	Peptidoglycan-binding protein, CsiV
+PF11056	NA	NA	UvsY	Recombination, repair and ssDNA binding protein UvsY
+PF11209	NA	NA	LmeA	LmeA-like phospholipid-binding 
+PF11261	NA	NA	IRF-2BP1_2	Interferon regulatory factor 2-binding protein zinc finger
+PF11416	NA	NA	Syntaxin-5_N	Syntaxin-5 N-terminal, Sly1p-binding domain
+PF11422	NA	NA	IBP39	Initiator binding protein 39 kDa
+PF11435	NA	NA	She2p	RNA binding protein She2p
+PF11437	NA	NA	Vanabin-2	Vanadium-binding protein 2
+PF11464	NA	NA	Rbsn	Rabenosyn Rab binding domain
+PF11473	NA	NA	B2	RNA binding protein B2
+PF11478	CL0083	Omega_toxin	Tachystatin_B	Antimicrobial chitin binding protein tachystatin B
+PF11524	CL0522	YbjQ-like	SeleniumBinding	Selenium binding protein
+PF11527	NA	NA	ARL2_Bind_BART	The ARF-like 2 binding protein BART
+PF11535	NA	NA	Calci_bind_CcbP	Calcium binding
+PF11545	CL0159	E-set	HemeBinding_Shp	Cell surface heme-binding protein Shp
+PF11556	NA	NA	EBA-175_VI	Erythrocyte binding antigen 175
+PF11559	NA	NA	ADIP	Afadin- and alpha -actinin-Binding
+PF11570	NA	NA	E2R135	Coiled-coil receptor-binding R-domain of colicin E2
+PF11603	NA	NA	Sir1	Sir1, ORC-binding domain
+PF11604	CL0021	OB	CusF_Ec	Copper binding periplasmic protein CusF
+PF11606	CL0159	E-set	AlcCBM31	Family 31 carbohydrate binding protein
+PF11610	NA	NA	Ste5	Scaffold protein Ste5, Fus3-binding region
+PF11616	NA	NA	EZH2_WD-Binding	WD repeat binding protein EZH2
+PF11617	NA	NA	Cu-binding_MopE	Putative metal-binding motif
+PF11620	CL0072	Ubiquitin	GABP-alpha	GA-binding protein alpha chain
+PF11621	NA	NA	Sbi-IV	C3 binding domain 4 of IgG-bind protein SBI
+PF11633	CL0223	MACRO	bCoV_SUD_M	Betacoronavirus single-stranded poly(A) binding domain
+PF11669	NA	NA	WBP-1	WW domain-binding protein 1
+PF11701	CL0020	TPR	UNC45-central	Myosin-binding striated muscle assembly central
+PF11717	CL0049	Tudor	Tudor-knot	RNA binding activity-knot of a chromodomain 
+PF11740	NA	NA	KfrA_N	Plasmid replication region DNA-binding N-term
+PF11763	NA	NA	DIPSY	Cell-wall adhesin ligand-binding C-terminal
+PF11766	CL0159	E-set	Candida_ALS_N	Cell-wall agglutinin N-terminal ligand-sugar binding 
+PF11770	NA	NA	GAPT	GRB2-binding adapter (GAPT)
+PF11916	NA	NA	Vac14_Fig4_bd	Vacuolar protein 14 C-terminal Fig4p binding
+PF11952	NA	NA	XTBD	XRN-Two Binding Domain, XTBD
+PF11956	NA	NA	KCNQC3-Ank-G_bd	Ankyrin-G binding motif of KCNQ2-3
+PF11969	CL0265	HIT	DcpS_C	Scavenger mRNA decapping enzyme C-term binding
+PF11972	CL0123	HTH	HTH_13	HTH DNA binding domain
+PF11999	NA	NA	Ice_binding	Ice-binding-like
+PF12009	NA	NA	Telomerase_RBD	Telomerase ribonucleoprotein complex - RNA binding domain
+PF12014	NA	NA	Cyclin_D1_bind	Cyclin D1 binding domain
+PF12064	NA	NA	DUF3544	Protein kinase C-binding protein 1
+PF12068	CL0266	PH	PH_RBD	Rab-binding domain (RBD)
+PF12108	NA	NA	SF3a60_bindingd	Splicing factor SF3a60 binding domain
+PF12123	CL0089	GlnB-like	CBD_PlyG	PlyG Cell wall binding domain
+PF12130	NA	NA	bMERB_dom	Bivalent Mical/EHBP Rab binding domain
+PF12144	NA	NA	Med12-PQL	Eukaryotic Mediator 12 catenin-binding domain
+PF12151	NA	NA	MVL	Mannan-binding protein
+PF12153	NA	NA	CAP18_C	LPS binding domain of CAP18 (C terminal)
+PF12156	CL0175	TRASH	ATPase-cat_bd	Putative metal-binding domain of cation transport ATPase
+PF12162	NA	NA	STAT1_TAZ2bind	STAT1 TAZ2 binding domain
+PF12166	NA	NA	Piezo_RRas_bdg	Piezo non-specific cation channel, R-Ras-binding domain
+PF12167	CL0081	MBD-like	Arm-DNA-bind_2	Arm DNA-binding domain
+PF12168	NA	NA	DNA_pol3_tau_4	DNA polymerase III subunits tau domain IV DnaB-binding
+PF12171	CL0361	C2H2-zf	zf-C2H2_jaz	Zinc-finger double-stranded RNA-binding
+PF12179	NA	NA	IKKbetaNEMObind	I-kappa-kinase-beta NEMO binding domain
+PF12180	NA	NA	EABR	TSG101 and ALIX binding domain of CEP55
+PF12181	CL0123	HTH	MogR_DNAbind	DNA binding domain of the motility gene repressor (MogR)
+PF12189	NA	NA	VirE1	Single-strand DNA-binding protein
+PF12192	NA	NA	CBP	Fungal calcium binding protein
+PF12194	CL0128	vWA-like	Ste5_C	Protein kinase Fus3-binding
+PF12196	NA	NA	hNIFK_binding	FHA Ki67 binding domain of hNIFK
+PF12199	NA	NA	efb-c	Extracellular fibrinogen binding protein C terminal
+PF12229	NA	NA	PG_binding_4	Putative peptidoglycan binding domain
+PF12242	CL0063	NADP_Rossmann	Eno-Rase_NADH_b	NAD(P)H binding domain of trans-2-enoyl-CoA reductase
+PF12265	NA	NA	CAF1C_H4-bd	Histone-binding protein RBBP4 or subunit C of CAF1 complex
+PF12269	NA	NA	CpG_bind_C	CpG binding protein C-terminal domain
+PF12296	NA	NA	HsbA	Hydrophobic surface binding protein A
+PF12309	NA	NA	KBP_C	KIF-1 binding protein C terminal
+PF12325	NA	NA	TMF_TATA_bd	TATA element modulatory factor 1 TATA binding
+PF12329	NA	NA	TMF_DNA_bd	TATA element modulatory factor 1 DNA binding
+PF12361	NA	NA	DBP	Duffy-antigen binding protein 
+PF12377	NA	NA	DuffyBP_N	Duffy binding protein N terminal 
+PF12399	CL0023	P-loop_NTPase	BCA_ABC_TP_C	Branched-chain amino acid ATP-binding cassette transporter
+PF12436	CL0072	Ubiquitin	USP7_ICP0_bdg	ICP0-binding domain of Ubiquitin-specific protease 7
+PF12470	NA	NA	SUFU_C	Suppressor of Fused Gli/Ci N terminal binding domain
+PF12501	NA	NA	DUF3708	Phosphate ATP-binding cassette transporter
+PF12558	NA	NA	DUF3744	ATP-binding cassette cobalt transporter
+PF12560	NA	NA	RAG1_imp_bd	RAG1 importin binding
+PF12617	NA	NA	LdpA_C	Iron-Sulfur binding protein C terminal
+PF12625	NA	NA	Arabinose_bd	Arabinose-binding domain of AraC transcription regulator, N-term
+PF12627	NA	NA	PolyA_pol_RNAbd	Probable RNA and SrmB- binding site of polymerase A
+PF12632	NA	NA	Vezatin	Mysoin-binding motif of peroxisomes
+PF12744	CL0159	E-set	ATG19	Autophagy protein Atg19, Atg8-binding
+PF12745	CL0458	IIaaRS-ABD	HGTP_anticodon2	Anticodon binding domain of tRNAs
+PF12755	CL0020	TPR	Vac14_Fab1_bd	Vacuolar 14 Fab1-binding region
+PF12766	CL0336	FMN-binding	Pyridox_oxase_2	Pyridoxamine 5'-phosphate oxidase
+PF12771	CL0020	TPR	SusD-like_2	Starch-binding associating with outer membrane
+PF12772	NA	NA	GHBP	Growth hormone receptor binding
+PF12774	CL0023	P-loop_NTPase	AAA_6	Hydrolytic ATP binding site of dynein motor region
+PF12776	CL0123	HTH	Myb_DNA-bind_3	Myb/SANT-like DNA-binding domain
+PF12777	NA	NA	MT	Microtubule-binding stalk of dynein motor
+PF12781	CL0023	P-loop_NTPase	AAA_9	ATP-binding dynein motor region
+PF12797	CL0344	4Fe-4S	Fer4_2	4Fe-4S binding domain
+PF12798	CL0344	4Fe-4S	Fer4_3	4Fe-4S binding domain
+PF12800	CL0344	4Fe-4S	Fer4_4	4Fe-4S binding domain
+PF12801	CL0344	4Fe-4S	Fer4_5	4Fe-4S binding domain
+PF12808	NA	NA	Mto2_bdg	Micro-tubular organiser Mto1 C-term Mto2-binding region
+PF12815	CL0462	TPA-repeat	CTD	Spt5 C-terminal nonapeptide repeat binding Spt4
+PF12837	CL0344	4Fe-4S	Fer4_6	4Fe-4S binding domain
+PF12855	NA	NA	Ecl1	ECL1/2/3 zinc binding proteins
+PF12876	CL0058	Glyco_hydro_tim	Cellulase-like	Sugar-binding cellulase-like
+PF12888	NA	NA	Lipid_bd	Lipid-binding putative hydrolase
+PF12893	CL0051	NTF2	Lumazine_bd_2	Putative lumazine-binding
+PF12900	CL0336	FMN-binding	Pyridox_ox_2	Pyridoxamine 5'-phosphate oxidase
+PF12904	CL0369	GHD	Collagen_bind_2	Putative collagen-binding domain of a collagenase 
+PF12907	CL0361	C2H2-zf	zf-met2	Zinc-binding
+PF12924	NA	NA	APP_Cu_bd	Copper-binding of amyloid precursor, CuBD
+PF12931	NA	NA	Sec16_C	Sec23-binding domain of Sec16
+PF12974	CL0177	PBP	Phosphonate-bd	ABC transporter, phosphonate, periplasmic substrate-binding protein 
+PF12998	NA	NA	ING	Inhibitor of growth proteins N-terminal histone-binding
+PF13004	CL0159	E-set	BACON	Putative binding domain, N-terminal
+PF13005	NA	NA	zf-IS66	zinc-finger binding domain of transposase IS66 
+PF13008	NA	NA	zf-Paramyx-P	Zinc-binding domain of Paramyxoviridae V protein
+PF13085	CL0486	Fer2	Fer2_3	2Fe-2S iron-sulfur cluster binding domain
+PF13167	NA	NA	GTP-bdg_N	GTP-binding GTPase N-terminal
+PF13186	NA	NA	SPASM	Iron-sulfur cluster-binding domain
+PF13193	CL0531	AMP-binding_C	AMP-binding_C	AMP-binding enzyme C-terminal domain
+PF13241	CL0063	NADP_Rossmann	NAD_binding_7	Putative NAD(P)-binding
+PF13281	CL0020	TPR	MAP3K_TRAF_bd	MAP3K TRAFs-binding domain
+PF13292	CL0254	THDP-binding	DXP_synthase_N	1-deoxy-D-xylulose-5-phosphate synthase
+PF13343	CL0177	PBP	SBP_bac_6	Bacterial extracellular solute-binding protein
+PF13356	CL0081	MBD-like	Arm-DNA-bind_3	Arm DNA-binding domain
+PF13377	CL0144	Periplas_BP	Peripla_BP_3	Periplasmic binding protein-like domain
+PF13380	CL0063	NADP_Rossmann	CoA_binding_2	CoA binding domain
+PF13397	NA	NA	RbpA	RNA polymerase-binding protein
+PF13407	CL0144	Periplas_BP	Peripla_BP_4	Periplasmic binding protein domain
+PF13412	CL0123	HTH	HTH_24	Winged helix-turn-helix DNA-binding
+PF13416	CL0177	PBP	SBP_bac_8	Bacterial extracellular solute-binding protein
+PF13433	CL0144	Periplas_BP	Peripla_BP_5	Periplasmic binding protein domain
+PF13443	CL0123	HTH	HTH_26	Cro/C1-type HTH DNA-binding domain
+PF13450	CL0063	NADP_Rossmann	NAD_binding_8	NAD(P)-binding Rossmann-like domain
+PF13454	CL0063	NADP_Rossmann	NAD_binding_9	FAD-NAD(P)-binding
+PF13458	CL0144	Periplas_BP	Peripla_BP_6	Periplasmic binding protein
+PF13460	CL0063	NADP_Rossmann	NAD_binding_10	NAD(P)H-binding 
+PF13463	CL0123	HTH	HTH_27	Winged helix DNA-binding domain
+PF13484	CL0344	4Fe-4S	Fer4_16	4Fe-4S double cluster binding domain
+PF13510	CL0486	Fer2	Fer2_4	2Fe-2S iron-sulfur cluster binding domain
+PF13531	CL0177	PBP	SBP_bac_11	Bacterial extracellular solute-binding protein
+PF13601	CL0123	HTH	HTH_34	Winged helix DNA-binding domain
+PF13602	CL0063	NADP_Rossmann	ADH_zinc_N_2	Zinc-binding dehydrogenase
+PF13636	CL0178	PUA	Methyltranf_PUA	RNA-binding PUA-like domain of methyltransferase RsmF
+PF13682	NA	NA	CZB	Chemoreceptor zinc-binding domain
+PF13693	CL0123	HTH	HTH_35	Winged helix-turn-helix DNA-binding
+PF13695	CL0317	Multiheme_cytos	zf-3CxxC	Zinc-binding domain
+PF13724	NA	NA	DNA_binding_2	DNA-binding domain
+PF13725	CL0123	HTH	tRNA_bind_2	Possible tRNA binding domain
+PF13727	CL0063	NADP_Rossmann	CoA_binding_3	CoA-binding domain
+PF13731	NA	NA	WxL	WxL domain surface cell wall-binding
+PF13742	CL0021	OB	tRNA_anti_2	OB-fold nucleic acid binding domain
+PF13771	CL0390	zf-FYVE-PHD	zf-HC5HC2H	PHD-like zinc-binding domain
+PF13820	NA	NA	Nucleic_acid_bd	Putative nucleic acid-binding region
+PF13837	CL0123	HTH	Myb_DNA-bind_4	Myb/SANT-like DNA-binding domain
+PF13851	NA	NA	GAS	Growth-arrest specific micro-tubule binding
+PF13856	CL0504	Phage_barrel	Gifsy-2	ATP-binding sugar transporter from pro-phage
+PF13864	NA	NA	Enkurin	Calmodulin-binding
+PF13867	NA	NA	SAP30_Sin3_bdg	Sin3 binding region of histone deacetylase complex subunit SAP30
+PF13873	CL0123	HTH	Myb_DNA-bind_5	Myb/SANT-like DNA-binding domain
+PF13877	NA	NA	RPAP3_C	Potential Monad-binding region of RPAP3
+PF13883	CL0336	FMN-binding	Pyrid_oxidase_2	Pyridoxamine 5'-phosphate oxidase
+PF13891	NA	NA	zf-C3Hc3H	Potential DNA-binding domain
+PF13892	NA	NA	DBINO	DNA-binding domain
+PF13914	NA	NA	Phostensin	Phostensin PP1-binding and SH3-binding region
+PF13921	CL0123	HTH	Myb_DNA-bind_6	Myb-like DNA-binding domain
+PF13931	NA	NA	Microtub_bind	Kinesin-associated microtubule-binding
+PF13947	NA	NA	GUB_WAK_bind	Wall-associated receptor kinase galacturonan-binding
+PF13949	NA	NA	ALIX_LYPXL_bnd	ALIX V-shaped domain binding to HIV 
+PF13966	NA	NA	zf-RVT	zinc-binding in reverse transcriptase
+PF14048	NA	NA	MBD_C	C-terminal domain of methyl-CpG binding protein 2 and 3
+PF14262	CL0268	Pec_lyase-like	Cthe_2159	Carbohydrate-binding domain-containing protein Cthe_2159
+PF14319	NA	NA	Zn_Tnp_IS91	Transposase zinc-binding domain
+PF14322	CL0020	TPR	SusD-like_3	Starch-binding associating with outer membrane
+PF14376	CL0318	Cytochrome-c	Haem_bd	Haem-binding domain
+PF14377	NA	NA	UBM	Ubiquitin binding region
+PF14455	NA	NA	Metal_CEHH	Predicted metal binding domain
+PF14466	NA	NA	PLCC	PLAT/LH2 and C2-like Ca2+-binding lipoprotein
+PF14475	NA	NA	Mso1_Sec1_bdg	Sec1-binding region of Mso1
+PF14525	CL0029	Cupin	AraC_binding_2	AraC-binding-like domain
+PF14526	CL0319	SHS2	Cass2	Integron-associated effector binding protein
+PF14535	CL0531	AMP-binding_C	AMP-binding_C_2	AMP-binding enzyme C-terminal domain
+PF14549	CL0123	HTH	P22_Cro	DNA-binding transcriptional regulator Cro
+PF14554	NA	NA	VEGF_C	VEGF heparin-binding domain
+PF14564	NA	NA	Membrane_bind	Membrane binding
+PF14569	CL0229	RING	zf-UDP	Zinc-binding RING-finger
+PF14570	CL0229	RING	zf-RING_4	RING/Ubox like zinc-binding domain
+PF14573	CL0314	PP-binding	PP-binding_2	Acyl-carrier
+PF14600	CL0535	CBM	CBM_5_12_2	Cellulose-binding domain
+PF14601	NA	NA	TFX_C	DNA_binding protein, TFX, C-term
+PF14608	CL0537	CCCH_zf	zf-CCCH_2	RNA-binding, Nab2-type zinc finger
+PF14621	NA	NA	RFX5_DNA_bdg	RFX5 DNA-binding domain
+PF14641	NA	NA	HTH_44	Helix-turn-helix DNA-binding domain of SPT6
+PF14651	CL0116	Calycin	Lipocalin_7	Lipocalin / cytosolic fatty-acid binding protein family
+PF14657	CL0081	MBD-like	Arm-DNA-bind_4	Arm DNA-binding domain
+PF14706	NA	NA	Tnp_DNA_bind	Transposase DNA-binding
+PF14709	CL0196	DSRM	DND1_DSRM	double strand RNA binding domain from DEAD END PROTEIN 1
+PF14752	NA	NA	RBP_receptor	Retinol binding protein receptor
+PF14773	NA	NA	VIGSSK	Helicase-associated putative binding domain, C-terminal
+PF14833	CL0106	6PGD_C	NAD_binding_11	NAD-binding of NADP-dependent 3-hydroxyisobutyrate dehydrogenase
+PF14847	CL0072	Ubiquitin	Ras_bdg_2	Ras-binding domain of Byr2
+PF14848	CL0548	IHF-likeDNA-bdg	HU-DNA_bdg	DNA-binding domain
+PF14850	NA	NA	Pro_dh-DNA_bdg	DNA-binding domain of Proline dehydrogenase
+PF14860	NA	NA	DrrA_P4M	DrrA phosphatidylinositol 4-phosphate binding domain
+PF14888	CL0159	E-set	PBP-Tp47_c	Penicillin-binding protein Tp47 domain C
+PF14889	NA	NA	PBP-Tp47_a	Penicillin-binding protein Tp47 domain a
+PF14918	NA	NA	MTBP_N	MDM2-binding
+PF14919	NA	NA	MTBP_mid	MDM2-binding
+PF14920	NA	NA	MTBP_C	MDM2-binding
+PF14928	NA	NA	S_tail_recep_bd	Short tail fibre protein receptor-binding domain
+PF14952	NA	NA	zf-tcix	Putative treble-clef, zinc-finger, Zn-binding
+PF15017	NA	NA	WRNPLPNID	Putative WW-binding domain and destruction box 
+PF15045	NA	NA	Clathrin_bdg	Clathrin-binding box of Aftiphilin, vesicle trafficking
+PF15247	NA	NA	SLBP_RNA_bind	Histone RNA hairpin-binding protein RNA-binding domain
+PF15271	NA	NA	BBP1_N	Spindle pole body component BBP1, Mps2-binding protein
+PF15276	NA	NA	PP1_bind	Protein phosphatase 1 binding
+PF15277	CL0266	PH	Sec3-PIP2_bind	Exocyst complex component SEC3 N-terminal PIP2 binding PH
+PF15279	NA	NA	SOBP	Sine oculis-binding protein
+PF15289	NA	NA	RFXA_RFXANK_bdg	Regulatory factor X-associated C-terminal binding domain
+PF15290	NA	NA	Syntaphilin	Golgi-localised syntaxin-1-binding clamp
+PF15327	NA	NA	Tankyrase_bdg_C	Tankyrase binding protein C terminal domain
+PF15333	NA	NA	TAF1D	TATA box-binding protein-associated factor 1D
+PF15364	NA	NA	PAXIP1_C	PAXIP1-associated-protein-1 C term PTIP binding protein
+PF15367	NA	NA	CABS1	Calcium-binding and spermatid-specific protein 1
+PF15412	NA	NA	Nse4-Nse3_bdg	Binding domain of Nse4/EID3 to Nse3-MAGE
+PF15427	NA	NA	S100PBPR	S100P-binding protein
+PF15435	NA	NA	UNC119_bdg	UNC119-binding protein C5orf30 homologue
+PF15436	NA	NA	PGBA_N	Plasminogen-binding protein pgbA N-terminal
+PF15437	NA	NA	PGBA_C	Plasminogen-binding protein pgbA C-terminal
+PF15498	NA	NA	Dendrin	Nephrin and CD2AP-binding protein, Dendrin
+PF15539	NA	NA	CAF1-p150_C2	CAF1 complex subunit p150, region binding to CAF1-p60 at C-term
+PF15557	NA	NA	CAF1-p150_N	CAF1 complex subunit p150, region binding to PCNA
+PF15608	CL0101	PELOTA	PELOTA_1	PELOTA RNA binding domain
+PF15616	NA	NA	TerY_C	TerY-C metal binding domain
+PF15620	NA	NA	CENP-C_mid	Centromere assembly component CENP-C middle DNMT3B-binding region
+PF15684	NA	NA	AROS	Active regulator of SIRT1, or 40S ribosomal protein S19-binding 1
+PF15750	CL0361	C2H2-zf	UBZ_FAAP20	Ubiquitin-binding zinc-finger
+PF15777	NA	NA	Anti-TRAP	Tryptophan RNA-binding attenuator protein inhibitory protein
+PF15790	NA	NA	EP400_N	E1A-binding protein p400, N-terminal
+PF15801	CL0175	TRASH	zf-C6H2	zf-MYND-like zinc finger, mRNA-binding
+PF15826	NA	NA	PUMA	Bcl-2-binding component 3, p53 upregulated modulator of apoptosis
+PF15870	NA	NA	EloA-BP1	ElonginA binding-protein 1
+PF15886	CL0159	E-set	CBM39	Carbohydrate binding domain (family 32)
+PF15887	CL0126	Peptidase_MA	Peptidase_Mx	Putative zinc-binding metallo-peptidase
+PF15890	CL0126	Peptidase_MA	Peptidase_Mx1	Putative zinc-binding metallo-peptidase
+PF15963	CL0123	HTH	Myb_DNA-bind_7	Myb DNA-binding like
+PF15974	NA	NA	Cadherin_tail	Cadherin C-terminal cytoplasmic tail, catenin-binding region
+PF15977	CL0123	HTH	HTH_46	Winged helix-turn-helix DNA binding
+PF16005	CL0007	KH	MOEP19	KH-like RNA-binding domain
+PF16011	CL0559	CBD9-like	CBM9_2	Carbohydrate-binding family 9
+PF16025	NA	NA	CaM_bind	Calcium-dependent calmodulin binding
+PF16114	CL0506	Succ_CoA_synth	Citrate_bind	ATP citrate lyase citrate-binding
+PF16124	NA	NA	RecQ_Zn_bind	RecQ zinc-binding
+PF16135	NA	NA	TDBD	Tify domain binding domain
+PF16174	NA	NA	IHABP4_N	Intracellular hyaluronan-binding protein 4 N-terminal
+PF16213	NA	NA	DCB	Dimerisation and cyclophilin-binding domain of Mon2
+PF16242	CL0336	FMN-binding	Pyrid_ox_like	Pyridoxamine 5'-phosphate oxidase like
+PF16251	NA	NA	bCoV_NAB	Betacoronavirus nucleic acid-binding (NAB)
+PF16278	CL0361	C2H2-zf	zf-C2HE	C2HE / C2H2 / C2HC zinc-binding finger
+PF16294	NA	NA	RSB_motif	RNSP1-SAP18 binding (RSB) motif
+PF16331	NA	NA	TolA_bind_tri	TolA binding protein trimerisation
+PF16360	NA	NA	GTP-bdg_M	GTP-binding GTPase Middle Region
+PF16366	NA	NA	CEBP_ZZ	Cytoplasmic polyadenylation element-binding protein ZZ domain
+PF16368	NA	NA	CEBP1_N	Cytoplasmic polyadenylation element-binding protein 1 N-terminus
+PF16399	CL0020	TPR	Aquarius_N	Intron-binding protein aquarius N-terminus
+PF16415	CL0020	TPR	CNOT1_CAF1_bind	CCR4-NOT transcription complex subunit 1 CAF1-binding domain
+PF16417	CL0020	TPR	CNOT1_TTP_bind	CCR4-NOT transcription complex subunit 1 TTP binding domain
+PF16422	NA	NA	COE1_DBD	Transcription factor COE1 DNA-binding domain
+PF16455	NA	NA	UBD	Ubiquitin-binding domain
+PF16500	NA	NA	Cyclin_N2	Cyclin-A N-terminal APC/C binding region
+PF16515	CL0705	VBS-like	HIP1_clath_bdg	Clathrin-binding domain of Huntingtin-interacting protein 1
+PF16520	NA	NA	BDV_M	ssRNA-binding matrix protein of Bornaviridae
+PF16521	NA	NA	Myosin-VI_CBD	Myosin VI cargo binding domain
+PF16525	NA	NA	MHB	Haemophore, haem-binding
+PF16550	NA	NA	RPN13_C	UCH-binding domain
+PF16553	CL0123	HTH	PUFD	BCORL-PCGF1-binding domain
+PF16557	CL0123	HTH	CUTL	CUT1-like DNA-binding domain of SATB
+PF16558	NA	NA	AZUL	Amino-terminal Zinc-binding domain of ubiquitin ligase E3A
+PF16564	CL0081	MBD-like	MBDa	p55-binding region of Methyl-CpG-binding domain proteins MBD
+PF16608	NA	NA	TNRC6-PABC_bdg	TNRC6-PABC binding domain
+PF16617	NA	NA	INTAP	Intersectin and clathrin adaptor AP2 binding region
+PF16643	NA	NA	cNMPbd_u2	Unstructured region on cNMP-binding protein
+PF16646	NA	NA	AXIN1_TNKS_BD	Axin-1 tankyrase binding domain
+PF16673	NA	NA	TRAF_BIRC3_bd	TNF receptor-associated factor BIRC3 binding domain
+PF16675	NA	NA	FOXO_KIX_bdg	KIX-binding domain of forkhead box O, CR2
+PF16686	CL0021	OB	POT1PC	ssDNA-binding domain of telomere protection protein
+PF16700	NA	NA	SNCAIP_SNCA_bd	Synphilin-1 alpha-Synuclein-binding domain
+PF16704	NA	NA	Rab_bind	Rab binding domain
+PF16709	CL0159	E-set	SCAB-Ig	Ig domain of plant-specific actin-binding protein
+PF16711	NA	NA	SCAB-ABD	Actin-binding domain of plant-specific actin-binding protein
+PF16712	NA	NA	SCAB_CC	Coiled-coil regions of plant-specific actin-binding protein
+PF16721	CL0361	C2H2-zf	zf-H3C2	Zinc-finger like, probable DNA-binding 
+PF16725	NA	NA	Nucleolin_bd	Nucleolin binding domain
+PF16726	CL0266	PH	OCRL_clath_bd	Inositol polyphosphate 5-phosphatase clathrin binding domain
+PF16730	NA	NA	DnaGprimase_HBD	DnaG-primase C-terminal, helicase-binding domain
+PF16737	NA	NA	PHF12_MRG_bd	PHD finger protein 12 MRG binding domain
+PF16738	CL0576	STARBD	CBM26	Starch-binding module 26
+PF16748	NA	NA	INSC_LBD	Inscuteable LGN-binding domain
+PF16751	NA	NA	RsdA_SigD_bd	Anti-sigma-D factor RsdA to sigma factor binding region
+PF16760	CL0576	STARBD	CBM53	Starch/carbohydrate-binding module (family 53)
+PF16766	NA	NA	CID_GANP	Binding region of GANP to ENY2
+PF16772	NA	NA	TERF2_RBM	Telomeric repeat-binding factor 2 Rap1-binding motif
+PF16773	CL0021	OB	Phage_SSB	Lactococcus phage single-stranded DNA binding protein
+PF16780	NA	NA	AIMP2_LysRS_bd	AIMP2 lysyl-tRNA synthetase binding domain
+PF16783	NA	NA	FANCM-MHF_bd	FANCM to MHF binding domain
+PF16785	NA	NA	SMBP	Small metal-binding protein
+PF16787	CL0382	DNA-mend	NDC10_II	Centromere DNA-binding protein complex CBF3 subunit, domain 2
+PF16788	NA	NA	ATF7IP_BD	ATF-interacting protein binding domain
+PF16796	CL0023	P-loop_NTPase	Microtub_bd	Microtubule binding
+PF16824	CL0202	GBD	CBM_26	C-terminal carbohydrate-binding module
+PF16828	NA	NA	GAGBD	GAG-binding domain on surface antigen
+PF16830	NA	NA	NBD94	Nucleotide-Binding Domain 94 of RH
+PF16834	CL0023	P-loop_NTPase	CSM2	Shu complex component Csm2, DNA-binding
+PF16836	CL0023	P-loop_NTPase	PSY3	Shu complex component Psy3, DNA-binding description
+PF16841	CL0202	GBD	CBM60	Ca-dependent carbohydrate-binding module xylan-binding
+PF16843	NA	NA	Get5_bdg	Binding domain to Get4 on Get5, Golgi to ER traffic protein 
+PF16846	CL0507	Fungal_trans	Cep3	Centromere DNA-binding protein complex CBF3 subunit B
+PF16847	NA	NA	AvrPtoB_bdg	Avirulence AvrPtoB, BAK1-binding domain
+PF16852	NA	NA	HHV-1_VABD	Herpes viral adaptor-to-host cellular mRNA binding domain
+PF16947	NA	NA	Ferredoxin_N	N-terminal region of 4Fe-4S ferredoxin iron-sulfur binding
+PF16949	CL0181	ABC-2	ABC_tran_2	Putative ATP-binding cassette
+PF16969	NA	NA	SRP68	RNA-binding signal recognition particle 68
+PF16990	CL0202	GBD	CBM_35	Carbohydrate binding module (family 35)
+PF17042	NA	NA	NBD_C	Nucleotide-binding C-terminal domain
+PF17047	CL0648	Aha1_BPI	SMP_LBD	Synaptotagmin-like mitochondrial-lipid-binding domain
+PF17092	CL0021	OB	PCB_OB	Penicillin-binding protein OB-like domain
+PF17093	NA	NA	PBP_N	Penicillin-binding protein N-terminus
+PF17095	NA	NA	CAMSAP_CC1	Spectrin-binding region of Ca2+-Calmodulin
+PF17120	CL0229	RING	zf-RING_16	RING/Ubox like zinc-binding domain
+PF17169	NA	NA	NRBF2_MIT	MIT domain of nuclear receptor-binding factor 2
+PF17176	CL0123	HTH	tRNA_bind_3	tRNA-binding domain
+PF17180	CL0317	Multiheme_cytos	zf-3CxxC_2	Zinc-binding domain
+PF17208	NA	NA	RBR	RNA binding Region
+PF17219	NA	NA	YAF2_RYBP	Yaf2/RYBP C-terminal binding motif
+PF17293	CL0081	MBD-like	Arm-DNA-bind_5	Arm DNA-binding domain
+PF17366	NA	NA	AGA2	A-agglutinin-binding subunit Aga2
+PF17426	NA	NA	Putative_G5P	Putative Gamma DNA binding protein G5P
+PF17427	NA	NA	Phi29_Phage_SSB	Phage Single-stranded DNA-binding protein
+PF17483	NA	NA	TbpB_C	C-lobe handle domain of Tf-binding protein B
+PF17484	NA	NA	TbpB_A	N-Lobe handle Tf-binding protein B
+PF17517	NA	NA	IgGFc_binding	IgGFc binding protein
+PF17538	CL0123	HTH	C_LFY_FLO	DNA Binding Domain (C-terminal) Leafy/Floricaula
+PF17684	CL0266	PH	SCAB-PH	PH domain of plant-specific actin-binding protein
+PF17725	CL0159	E-set	YBD	YAP binding domain
+PF17749	NA	NA	MIP-T3_C	Microtubule-binding protein MIP-T3 C-terminal region
+PF17755	NA	NA	UvrA_DNA-bind	UvrA DNA-binding domain
+PF17764	NA	NA	PriA_3primeBD	3'DNA-binding domain (3'BD)
+PF17765	CL0183	PAS_Fold	MLTR_LBD	MmyB-like transcription regulator ligand binding domain
+PF17774	CL0221	RRM	YlmH_RBD	Putative RNA-binding domain in YlmH
+PF17805	CL0032	Dim_A_B_barrel	AsnC_trans_reg2	AsnC-like ligand binding domain
+PF17831	CL0254	THDP-binding	PDH_E1_M	Pyruvate dehydrogenase E1 component middle domain
+PF17842	CL0196	DSRM	dsRBD2	Double-stranded RNA binding domain 2
+PF17845	CL0021	OB	FbpC_C_terminal	FbpC C-terminal regulatory nucleotide binding domain
+PF17878	CL0021	OB	ssDBP	Single-stranded DNA-binding protein
+PF17882	NA	NA	SBD	OAA-family lectin sugar binding domain
+PF17885	NA	NA	Smoa_sbd	Styrene monooxygenase A putative substrate binding domain
+PF17921	CL0361	C2H2-zf	Integrase_H2C2	Integrase zinc binding domain
+PF17948	NA	NA	DnaT	DnaT DNA-binding domain
+PF17965	CL0072	Ubiquitin	MucBP_2	Mucin binding domain
+PF17974	CL0004	Concanavalin	GalBD_like	Galactose-binding domain-like
+PF17976	CL0229	RING	zf-RING_12	RING/Ubox like zinc-binding domain
+PF17977	CL0229	RING	zf-RING_13	RING/Ubox like zinc-binding domain
+PF17978	CL0229	RING	zf-RING_14	RING/Ubox like zinc-binding domain
+PF17979	CL0361	C2H2-zf	zf-CRD	Cysteine rich domain with multizinc binding regions
+PF17984	NA	NA	TERT_thumb	Telomerase reverse transcriptase thumb DNA binding domain
+PF17985	NA	NA	SipA_VBS	SipA vinculin binding site
+PF18009	CL0344	4Fe-4S	Fer4_23	4Fe-4S iron-sulfur cluster binding domain
+PF18056	NA	NA	PBP3	Penicillin Binding Protein 3 Domain 
+PF18064	CL0057	Met_repress	ParB_C	Centromere-binding protein ParB C-terminal
+PF18073	CL0167	Zn_Beta_Ribbon	Rubredoxin_2	Rubredoxin metal binding domain
+PF18090	CL0123	HTH	SoPB_HTH	Centromere-binding protein HTH domain 
+PF18113	CL0608	Reductase_C	Rbx_binding	Rubredoxin binding C-terminal domain
+PF18196	CL0123	HTH	Cdh1_DBD_1	Chromodomain helicase DNA-binding domain 1
+PF18243	CL0405	DNA_b-psBarrel	BfiI_DBD	Metal-independent restriction enzyme BfiI DNA binding domain
+PF18244	NA	NA	CttA_N	Cellulose-binding protein CttA N-terminal domain
+PF18245	NA	NA	XRN1_DBM	5-3 exonuclease XRN1 DCP1-binding motif
+PF18249	NA	NA	Ca_bind_SSO6904	Calcium binding protein SSO6904
+PF18252	NA	NA	Cu_bind_CorA	Copper(I)-binding protein CorA
+PF18256	NA	NA	HscB_4_cys	Co-chaperone HscB tetracysteine metal binding motif
+PF18258	CL0333	gCrystallin	IL4_i_Ig	Interleukin-4 inducing immunoglobulin-binding domain
+PF18259	CL0202	GBD	CBM65_1	Carbohydrate binding module 65 domain 1
+PF18260	CL0537	CCCH_zf	Nab2p_Zf1	Nuclear polyadenylated RNA-binding 2 protein CCCH zinc finger 1
+PF18272	NA	NA	ssDNA_TraI_N	single-stranded DNA binding TraI N-terminal subdomain
+PF18276	CL0202	GBD	TcA_TcB_BD	Tc toxin complex TcA C-terminal TcB-binding domain
+PF18279	CL0361	C2H2-zf	zf-WRNIP1_ubi	Werner helicase-interacting protein 1 ubiquitin-binding domain
+PF18283	NA	NA	CBM77	Carbohydrate binding module 77
+PF18297	CL0684	NFACT_RNA-bind	NFACT-R_2	NFACT protein RNA binding domain
+PF18325	CL0314	PP-binding	Fas_alpha_ACP	Fatty acid synthase subunit alpha Acyl carrier domain
+PF18329	CL0202	GBD	SGBP_B_XBD	Surface glycan-binding protein B xyloglucan binding domain
+PF18333	NA	NA	ssDNA_DBD	Non-canonical single-stranded DNA-binding domain
+PF18341	NA	NA	PSA_CBD	PSA endolysin C-terminal cell wall binding domain
+PF18344	CL0202	GBD	CBM32	Carbohydrate binding module family 32
+PF18361	NA	NA	ssDBP_DBD	Single stranded DNA-binding protein ss DNA binding domain
+PF18377	CL0632	FERM_M	FERM_F2	FERM F2 acyl-CoA binding protein-like domain
+PF18382	CL0072	Ubiquitin	Formin_GBD_N	Formin N-terminal GTPase-binding domain
+PF18394	NA	NA	TBK1_CCD1	TANK-binding kinase 1 coiled-coil domain 1
+PF18396	CL0072	Ubiquitin	TBK1_ULD	TANK binding kinase 1 ubiquitin-like domain
+PF18416	NA	NA	GbpA_2	N-acetylglucosamine binding protein domain 2
+PF18418	CL0465	Ank	AnkUBD	Ankyrin ubiquitin-binding domain
+PF18423	NA	NA	zf_CopZ	Zinc binding domain
+PF18430	CL0123	HTH	DBD_HTH	Putative DNA-binding domain
+PF18439	CL0361	C2H2-zf	zf_UBZ	Ubiquitin-Binding Zinc Finger
+PF18442	NA	NA	G2BR	E3 gp78 Ube2g2-binding region (G2BR)
+PF18448	CL0202	GBD	CBM46	Carbohydrate binding domain
+PF18453	NA	NA	C4bp_oligo	Oligomerization domain of C4b-binding protein alpha
+PF18490	CL0094	Peptidase_ME	tRNA_bind_4	tRNA-binding domain
+PF18499	NA	NA	Cue1_U7BR	Ubc7p-binding region of Cue1
+PF18518	CL0159	E-set	TcA_RBD	TcA receptor binding domain
+PF18526	NA	NA	DB_JBP1	Thymine dioxygenase JBP1 DNA-binding domain
+PF18535	NA	NA	Gal11_ABD1	Gal11 activator-binding domain (ABD1)
+PF18552	CL0123	HTH	PheRS_DBD1	PheRS DNA binding domain 1 
+PF18553	CL0123	HTH	PheRS_DBD3	PheRS DNA binding domain 3
+PF18554	CL0123	HTH	PheRS_DBD2	PheRS DNA binding domain 2
+PF18559	CL0202	GBD	Exop_C	Galactose-binding domain-like
+PF18610	CL0144	Periplas_BP	Peripla_BP_7	Periplasmic binding protein domain
+PF18615	NA	NA	SMYLE_N	Short myomegalin-like EB1 binding proteins, N-terminal domain
+PF18647	NA	NA	Fungal_lectin_2	Alpha-galactosyl-binding fungal lectin
+PF18666	NA	NA	CBM64	Carbohydrate-binding module 64
+PF18668	NA	NA	Tail_spike_N	Tail spike TSP1/Gp66 receptor binding N-terminal domain
+PF18694	NA	NA	TDP43_N	Transactive response DNA-binding protein N-terminal domain
+PF18696	CL0648	Aha1_BPI	SMP_C2CD2L	Synaptotagmin-like, mitochondrial and lipid-binding domain
+PF18973	NA	NA	CBL	Putative Chitin binding like
+PF19041	NA	NA	CBP30	Nuclear cap binding complex subunit CBP30
+PF19042	NA	NA	CBP110	Nuclear cap binding complex subunit CBP110
+PF19043	NA	NA	CBP66	Nuclear cap binding complex subunit CBP66
+PF19046	NA	NA	GM130_C	GM130 C-terminal binding motif
+PF19085	CL0694	Choline_binding	Choline_bind_2	Choline-binding repeat
+PF19086	CL0613	Terp_synthase	Terpene_syn_C_2	Terpene synthase family 2, C-terminal metal binding
+PF19127	CL0694	Choline_binding	Choline_bind_3	Choline-binding repeat
+PF19269	NA	NA	Anticodon_2	Anticodon binding domain
+PF19300	NA	NA	BPD_transp_1_N	Binding-prot-dependent transport system membrane comp, N-term
+PF19303	CL0258	DALR	Anticodon_3	Anticodon binding domain of methionyl tRNA ligase
+PF19335	CL0105	Hybrid	HMBD	Heavy metal binding domain
+PF19444	NA	NA	MTP_lip_bd	MTP large subunit, lipid-binding domain
+PF19582	NA	NA	AdeT1_2	Solute-binding protein AdeT 1/2
+PF19710	NA	NA	PIK3CG_ABD	PIK3 catalytic subunit gamma adaptor-binding domain
+PF20170	CL0072	Ubiquitin	Plexin_RBD	Plexin cytoplasmic RhoGTPase-binding domain
+PF20256	CL0635	DmpA_ArgJ	MoCoBD_2	Molybdopterin cofactor-binding domain
+PF20429	NA	NA	Tab2-like_C	RNA-binding protein Tab2/Atab2, C terminal
+PF20450	CL0169	Rep	PPV_E1_DBD	Papillomavirus E1, DNA-binding domain
+PF20451	NA	NA	Calmod_bind_M	Calmodulin binding protein central domain
+PF20452	NA	NA	Calmod_bind_C	Calmodulin binding protein C-terminal domain
+PF20557	NA	NA	DnaT_2	Putative DnaT-like ssDNA binding protein
+PF20588	NA	NA	DMTF1_N	Cyclin-D-binding Myb-like transcription factor 1 N-terminal
+PF20597	NA	NA	pAdhesive_15	Putative Ice-binding-like adhesive domain

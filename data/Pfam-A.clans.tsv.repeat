@@ -1,0 +1,331 @@
+PF00023	CL0465	Ank	Ank	Ankyrin repeat
+PF00058	CL0186	Beta_propeller	Ldl_recept_b	Low-density lipoprotein receptor repeat class B
+PF00084	CL0001	EGF	Sushi	Sushi repeat (SCR repeat)
+PF00086	NA	NA	Thyroglobulin_1	Thyroglobulin type-1 repeat
+PF00132	CL0536	HEXAPEP	Hexapep	Bacterial transferase hexapeptide (six repeats)
+PF00353	CL0592	beta_Roll	HemolysinCabind	RTX calcium-binding nonapeptide repeat (4 copies)
+PF00382	CL0065	Cyclin	TFIIB	Transcription factor TFIIB repeat
+PF00399	NA	NA	PIR	Yeast PIR protein repeat
+PF00400	CL0186	Beta_propeller	WD40	WD domain, G-beta repeat
+PF00402	NA	NA	Calponin	Calponin family repeat
+PF00414	NA	NA	MAP1B_neuraxin	Neuraxin and MAP1B repeat
+PF00415	CL0186	Beta_propeller	RCC1	Regulator of chromosome condensation (RCC1) repeat
+PF00418	NA	NA	Tubulin-binding	Tau and MAP protein, tubulin-binding repeat
+PF00432	CL0059	6_Hairpin	Prenyltrans	Prenyltransferase and squalene oxidase repeat
+PF00435	NA	NA	Spectrin	Spectrin repeat
+PF00514	CL0020	TPR	Arm	Armadillo/beta-catenin-like repeat
+PF00515	CL0020	TPR	TPR_1	Tetratricopeptide repeat
+PF00526	NA	NA	Dicty_CTDC	Dictyostelium (slime mold) repeat
+PF00560	CL0022	LRR	LRR_1	Leucine Rich Repeat
+PF00608	CL0674	Triple_B_spiral	Adeno_shaft	Adenoviral fibre protein (repeat/shaft region)
+PF00624	NA	NA	Flocculin	Flocculin repeat
+PF00626	CL0092	ADF	Gelsolin	Gelsolin repeat
+PF00630	CL0159	E-set	Filamin	Filamin/ABP280 repeat
+PF00634	NA	NA	BRCA2	BRCA2 repeat
+PF00681	NA	NA	Plectin	Plectin repeat
+PF00805	CL0505	Pentapeptide	Pentapeptide	Pentapeptide repeats (8 copies)
+PF00806	CL0020	TPR	PUF	Pumilio-family RNA binding repeat
+PF00818	NA	NA	Ice_nucleation	Ice nucleation protein repeat
+PF00839	NA	NA	Cys_rich_FGFR	Cysteine rich repeat
+PF00878	CL0226	M6PR	CIMR	Cation-independent mannose-6-phosphate receptor repeat
+PF00880	NA	NA	Nebulin	Nebulin repeat
+PF00904	NA	NA	Involucrin	Involucrin repeat
+PF01011	CL0186	Beta_propeller	PQQ	PQQ enzyme repeat
+PF01239	CL0020	TPR	PPTA	Protein prenyltransferase alpha subunit repeat
+PF01304	NA	NA	Gas_vesicle_C	Gas vesicles protein GVPc repeated domain
+PF01391	NA	NA	Collagen	Collagen triple helix repeat (20 copies)
+PF01394	CL0020	TPR	Clathrin_propel	Clathrin propeller repeat
+PF01413	CL0056	C_Lectin	C4	C-terminal tandem repeated domain in type 4 procollagen
+PF01436	CL0186	Beta_propeller	NHL	NHL repeat
+PF01437	CL0630	PSI	PSI	Plexin repeat
+PF01462	NA	NA	LRRNT	Leucine rich repeat N-terminal domain
+PF01463	NA	NA	LRRCT	Leucine rich repeat C-terminal domain
+PF01469	NA	NA	Pentapeptide_2	Pentapeptide repeats (8 copies)
+PF01473	CL0694	Choline_binding	Choline_bind_1	Putative cell wall binding repeat
+PF01505	CL0666	Vault	Vault	Major Vault Protein repeat domain
+PF01535	CL0020	TPR	PPR	PPR repeat
+PF01744	NA	NA	GLTT	GLTT repeat (6 copies)
+PF01816	CL0020	TPR	LRV	Leucine rich repeat variant
+PF01839	CL0186	Beta_propeller	FG-GAP	FG-GAP repeat
+PF01851	CL0020	TPR	PC_rep	Proteasome/cyclosome repeat
+PF02012	CL0434	Sialidase	BNR	BNR/Asp-box repeat
+PF02071	CL0020	TPR	NSF	Aromatic-di-Alanine (AdAR) repeat 
+PF02095	NA	NA	Extensin_1	Extensin-like protein repeat
+PF02162	NA	NA	XYPPX	XYPPX repeat (two copies)
+PF02184	CL0020	TPR	HAT	HAT (Half-A-TPR) repeat
+PF02185	NA	NA	HR1	Hr1 repeat
+PF02218	NA	NA	HS1_rep	Repeat in HS1/Cortactin
+PF02363	NA	NA	C_tripleX	Cysteine rich repeat
+PF02370	NA	NA	M	M protein repeat
+PF02412	CL0689	TSP3	TSP_3	Thrombospondin type 3 repeat
+PF02415	CL0268	Pec_lyase-like	Chlam_PMP	Chlamydia polymorphic membrane protein (Chlamydia_PMP) repeat
+PF02420	NA	NA	AFP	Insect antifreeze protein repeat
+PF02493	CL0251	MORN	MORN	MORN repeat
+PF02524	NA	NA	KID	KID repeat
+PF02526	NA	NA	GBP_repeat	Glycophorin-binding protein
+PF02671	NA	NA	PAH	Paired amphipathic helix repeat
+PF02755	NA	NA	RPEL	RPEL repeat
+PF02820	CL0049	Tudor	MBT	mbt repeat
+PF02946	NA	NA	GTF2I	GTF2I-like repeat
+PF02985	CL0020	TPR	HEAT	HEAT repeat
+PF02986	NA	NA	Fn_bind	Fibronectin binding repeat
+PF03057	NA	NA	DUF236	DUF236 repeat
+PF03128	NA	NA	CXCXC	CXCXC repeat
+PF03130	CL0020	TPR	HEAT_PBS	PBS lyase HEAT-like repeat
+PF03335	NA	NA	Phage_fiber	Phage tail fibre repeat
+PF03373	NA	NA	Octapeptide	Octapeptide repeat
+PF03377	CL0020	TPR	TAL_effector	TAL effector repeat
+PF03406	NA	NA	Phage_fiber_2	Phage tail fibre repeat
+PF03482	NA	NA	SIC	sic protein repeat
+PF03561	CL0202	GBD	Allantoicase	Allantoicase repeat
+PF03578	NA	NA	HGWP	HGWP repeat
+PF03640	NA	NA	Lipoprotein_15	Secreted repeat of unknown function
+PF03707	NA	NA	MHYT	Bacterial signalling protein N terminal repeat
+PF03729	NA	NA	DUF308	Short repeat of unknown function (DUF308)
+PF03752	NA	NA	ALF	Short repeats of unknown function
+PF03779	NA	NA	SPW	SPW repeat
+PF03984	CL0186	Beta_propeller	DUF346	Repeat of unknown function (DUF346)  
+PF03988	NA	NA	DUF347	Repeat of Unknown Function (DUF347) 
+PF03991	NA	NA	Prion_octapep	Copper binding octapeptide repeat
+PF04022	NA	NA	Staphylcoagulse	Staphylocoagulase repeat
+PF04193	CL0141	MtN3-like	PQ-loop	PQ loop repeat 
+PF04508	NA	NA	Pox_A_type_inc	Viral A-type inclusion protein repeat 
+PF04624	NA	NA	Dec-1	Dec-1 repeat
+PF04649	NA	NA	VlpA_repeat	Mycoplasma hyorhinis VlpA repeat 
+PF04680	NA	NA	OGFr_III	Opioid growth factor receptor repeat
+PF04778	NA	NA	LMP	LMP repeated region
+PF04806	NA	NA	EspF	EspF protein repeat
+PF04886	NA	NA	PT	PT repeat
+PF05001	NA	NA	RNA_pol_Rpb1_R	RNA polymerase Rpb1 C-terminal repeat 
+PF05017	NA	NA	TMP	TMP repeat
+PF05465	NA	NA	Halo_GVPC	Halobacterial gas vesicle protein C (GVPC) repeat
+PF05593	NA	NA	RHS_repeat	RHS Repeat
+PF05594	CL0268	Pec_lyase-like	Fil_haemagg	Haemagglutinin repeat
+PF05647	NA	NA	Epiglycanin_TR	Tandem-repeating region of mucin, epiglycanin-like
+PF05658	NA	NA	YadA_head	YadA head domain repeat (2 copies)
+PF05671	NA	NA	GETHR	GETHR pentapeptide repeat (5 copies)
+PF05725	CL0022	LRR	FNIP	FNIP Repeat
+PF05906	NA	NA	DUF865	Herpesvirus-7 repeat of unknown function (DUF865)
+PF05923	NA	NA	APC_r	APC repeat
+PF06049	NA	NA	LSPR	Coagulation Factor V LSPD Repeat
+PF06131	NA	NA	DUF963	Schizosaccharomyces pombe repeat of unknown function (DUF963)
+PF06392	NA	NA	Asr	Acid shock protein repeat 
+PF06394	NA	NA	Pepsin-I3	Pepsin inhibitor-3-like repeated domain
+PF06435	NA	NA	DUF1079	Repeat of unknown function (DUF1079)
+PF06513	NA	NA	DUF1103	Repeat of unknown function (DUF1103)
+PF06598	NA	NA	Chlorovi_GP_rpt	Chlorovirus glycoprotein repeat
+PF06671	NA	NA	DUF1174	Repeat of unknown function (DUF1174)
+PF06696	NA	NA	Strep_SA_rep	Streptococcal surface antigen repeat
+PF06715	CL0606	Phage_fibre	Gp5_C	Gp5 C-terminal repeat (3 copies)
+PF06739	CL0186	Beta_propeller	SBBP	Beta-propeller repeat
+PF06757	NA	NA	Ins_allergen_rp	Insect allergen related repeat, nitrile-specifier detoxification
+PF06848	NA	NA	Disaggr_repeat	Disaggregatase related repeat
+PF07004	NA	NA	SHIPPO-rpt	Sperm-tail PG-rich repeat
+PF07012	NA	NA	Curlin_rpt	Curlin associated repeat
+PF07046	NA	NA	CRA_rpt	Cytoplasmic repetitive antigen (CRA) like repeat
+PF07054	NA	NA	Pericardin_rpt	Pericardin like repeat
+PF07142	NA	NA	DUF1388	Repeat of unknown function (DUF1388)
+PF07244	CL0191	POTRA	POTRA	Surface antigen variable number repeat
+PF07337	NA	NA	CagY_M	DC-EC Repeat
+PF07391	NA	NA	NPR	NPR nonapeptide repeat (2 copies)
+PF07397	NA	NA	DUF1502	Repeat of unknown function (DUF1502)
+PF07571	CL0020	TPR	TAF6_C	TAF6 C-terminal HEAT repeat domain
+PF07634	NA	NA	RtxA	RtxA repeat
+PF07661	CL0251	MORN	MORN_2	MORN repeat variant
+PF07676	CL0186	Beta_propeller	PD40	WD40-like Beta Propeller Repeat
+PF07709	NA	NA	SRR	Seven Residue Repeat
+PF07719	CL0020	TPR	TPR_2	Tetratricopeptide repeat
+PF07720	CL0020	TPR	TPR_3	Tetratricopeptide repeat
+PF07721	CL0020	TPR	TPR_4	Tetratricopeptide repeat
+PF07723	CL0022	LRR	LRR_2	Leucine Rich Repeat
+PF07725	CL0022	LRR	LRR_3	Leucine Rich Repeat
+PF07769	NA	NA	PsiF_repeat	psiF repeat
+PF07806	NA	NA	Nod_GRP	Nodule-specific GRP repeat
+PF07918	NA	NA	CAP160	CAP160 repeat
+PF07981	NA	NA	Plasmod_MYXSPDY	Plasmodium repeat_MYXSPDY
+PF08043	NA	NA	Xin	Xin repeat
+PF08061	NA	NA	P68HR	P68HR (NUC004) repeat
+PF08062	NA	NA	P120R	P120R (NUC006) repeat
+PF08065	NA	NA	KI67R	KI67R (NUC007) repeat
+PF08140	NA	NA	Cuticle_1	Crustacean cuticle protein repeat
+PF08230	NA	NA	CW_7	CW_7 repeat
+PF08238	CL0020	TPR	Sel1	Sel1 repeat
+PF08263	NA	NA	LRRNT_2	Leucine rich repeat N-terminal domain
+PF08309	CL0186	Beta_propeller	LVIVD	LVIVD repeat
+PF08310	CL0186	Beta_propeller	LGFP	LGFP repeat
+PF08321	CL0020	TPR	PPP5	PPP5 TPR repeat region
+PF08481	CL0159	E-set	GBS_Bsp-like	GBS Bsp-like repeat
+PF08558	CL0020	TPR	TRF	Telomere repeat binding factor (TRF)
+PF08920	CL0462	TPA-repeat	SF3b1	Splicing factor 3B subunit 1
+PF09373	NA	NA	PMBR	Pseudomurein-binding repeat
+PF09479	CL0072	Ubiquitin	Flg_new	Listeria-Bacteroides repeat domain (List_Bact_rpt)
+PF09528	NA	NA	Ehrlichia_rpt	Ehrlichia tandem repeat (Ehrlichia_rpt)
+PF09689	NA	NA	PY_rept_46	Plasmodium yoelii repeat (PY_rept_46)
+PF09976	CL0020	TPR	TPR_21	Tetratricopeptide repeat-like domain
+PF10300	CL0020	TPR	Iml2-TPR_39	Iml2/Tetratricopeptide repeat protein 39
+PF10473	NA	NA	CENP-F_leu_zip	Leucine-rich repeats of kinetochore protein Cenp-F/LEK1
+PF10529	NA	NA	Hist_rich_Ca-bd	Histidine-rich Calcium-binding repeat region
+PF10564	NA	NA	MAR_sialic_bdg	Sialic-acid binding micronemal adhesive repeat
+PF10578	NA	NA	SVS_QK	Seminal vesicle protein repeat
+PF10685	CL0385	Hydrophilin	KGG	Stress-induced bacterial acidophilic repeat motif
+PF11616	NA	NA	EZH2_WD-Binding	WD repeat binding protein EZH2
+PF11768	CL0186	Beta_propeller	Frtz	WD repeat-containing and planar cell polarity effector protein Fritz
+PF12135	NA	NA	Plasmo_rep	Plasmodium repeat family
+PF12346	NA	NA	HJURP_mid	Holliday junction recognition protein-associated repeat
+PF12347	NA	NA	HJURP_C	Holliday junction regulator protein family C-terminal repeat
+PF12356	NA	NA	BIRC6	Baculoviral IAP repeat-containing protein 6  
+PF12468	CL0022	LRR	TTSSLRR	Type III secretion system leucine rich repeat protein  
+PF12688	CL0020	TPR	TPR_5	Tetratrico peptide repeat
+PF12765	CL0020	TPR	Cohesin_HEAT	HEAT repeat associated with sister chromatid cohesion
+PF12778	NA	NA	PXPV	PXPV repeat (3 copies)
+PF12779	NA	NA	WXXGXW	WXXGXW repeat (2 copies)
+PF12789	NA	NA	PTR	Phage tail repeat like
+PF12796	CL0465	Ank	Ank_2	Ankyrin repeats (3 copies)
+PF12799	CL0022	LRR	LRR_4	Leucine Rich repeats (2 copies)
+PF12815	CL0462	TPA-repeat	CTD	Spt5 C-terminal nonapeptide repeat binding Spt4
+PF12854	CL0020	TPR	PPR_1	PPR repeat
+PF12951	CL0268	Pec_lyase-like	PATR	Passenger-associated-transport-repeat
+PF13041	CL0020	TPR	PPR_2	PPR repeat family 
+PF13088	CL0434	Sialidase	BNR_2	BNR repeat-like domain
+PF13174	CL0020	TPR	TPR_6	Tetratricopeptide repeat
+PF13176	CL0020	TPR	TPR_7	Tetratricopeptide repeat
+PF13181	CL0020	TPR	TPR_8	Tetratricopeptide repeat
+PF13306	CL0022	LRR	LRR_5	BspA type Leucine rich repeat region (6 copies)
+PF13330	NA	NA	Mucin2_WxxW	Mucin-2 protein WxxW repeating region
+PF13332	CL0268	Pec_lyase-like	Fil_haemagg_2	Hemagglutinin repeat
+PF13342	CL0167	Zn_Beta_Ribbon	Toprim_Crpt	C-terminal repeat of topoisomerase
+PF13368	NA	NA	Toprim_C_rpt	Topoisomerase C-terminal repeat
+PF13371	CL0020	TPR	TPR_9	Tetratricopeptide repeat
+PF13374	CL0020	TPR	TPR_10	Tetratricopeptide repeat
+PF13414	CL0020	TPR	TPR_11	TPR repeat
+PF13424	CL0020	TPR	TPR_12	Tetratricopeptide repeat
+PF13428	CL0020	TPR	TPR_14	Tetratricopeptide repeat
+PF13429	CL0020	TPR	TPR_15	Tetratricopeptide repeat
+PF13431	CL0020	TPR	TPR_17	Tetratricopeptide repeat
+PF13432	CL0020	TPR	TPR_16	Tetratricopeptide repeat
+PF13446	NA	NA	RPT	A repeated domain in UCH-protein
+PF13512	CL0020	TPR	TPR_18	Tetratricopeptide repeat
+PF13513	CL0020	TPR	HEAT_EZ	HEAT-like repeat
+PF13516	CL0022	LRR	LRR_6	Leucine Rich repeat
+PF13517	CL0186	Beta_propeller	FG-GAP_3	FG-GAP-like repeat
+PF13540	CL0186	Beta_propeller	RCC1_2	Regulator of chromosome condensation (RCC1) repeat
+PF13573	CL0159	E-set	SprB	SprB repeat
+PF13576	CL0505	Pentapeptide	Pentapeptide_3	Pentapeptide repeats (9 copies)
+PF13599	CL0505	Pentapeptide	Pentapeptide_4	Pentapeptide repeats (9 copies)
+PF13606	CL0465	Ank	Ank_3	Ankyrin repeat
+PF13634	CL0647	FG_rpt	Nucleoporin_FG	Nucleoporin FG repeat region
+PF13637	CL0465	Ank	Ank_4	Ankyrin repeats (many copies)
+PF13646	CL0020	TPR	HEAT_2	HEAT repeats
+PF13753	CL0159	E-set	SWM_repeat	Putative flagellar system-associated repeat
+PF13812	CL0020	TPR	PPR_3	Pentatricopeptide repeat domain
+PF13855	CL0022	LRR	LRR_8	Leucine rich repeat
+PF13857	CL0465	Ank	Ank_5	Ankyrin repeats (many copies)
+PF13859	CL0434	Sialidase	BNR_3	BNR repeat-like domain
+PF13928	NA	NA	Flocculin_t3	Flocculin type 3 repeat
+PF14046	NA	NA	NR_Repeat	Nuclear receptor repeat
+PF14077	NA	NA	WD40_alt	Alternative WD40 repeat motif
+PF14312	CL0186	Beta_propeller	FG-GAP_2	FG-GAP repeat
+PF14559	CL0020	TPR	TPR_19	Tetratricopeptide repeat
+PF14561	CL0020	TPR	TPR_20	Tetratricopeptide repeat
+PF14580	CL0022	LRR	LRR_9	Leucine-rich repeat
+PF14585	NA	NA	CagY_I	CagY type 1 repeat
+PF14602	CL0536	HEXAPEP	Hexapep_2	Hexapeptide repeat of succinyl-transferase
+PF14625	NA	NA	Lustrin_cystein	Lustrin, cysteine-rich repeated domain
+PF14726	NA	NA	RTTN_N	Rotatin, an armadillo repeat protein, centriole functioning 
+PF14852	CL0020	TPR	Fis1_TPR_N	Fis1 N-terminal tetratricopeptide repeat
+PF14853	CL0020	TPR	Fis1_TPR_C	Fis1 C-terminal tetratricopeptide repeat
+PF14873	NA	NA	BNR_assoc_N	N-terminal domain of BNR-repeat neuraminidase
+PF14882	NA	NA	INT_rpt	Integrase repeat unit
+PF14903	NA	NA	WG_beta_rep	WG containing repeat
+PF14912	NA	NA	THEG	Testicular haploid expressed repeat
+PF14939	NA	NA	DCAF15_WD40	DDB1-and CUL4-substrate receptor 15, WD repeat
+PF15176	NA	NA	LRR19-TM	Leucine-rich repeat family 19 TM domain
+PF15287	NA	NA	KRBA1	KRBA1 family repeat
+PF15390	CL0186	Beta_propeller	WDCP	WD repeat and coiled-coil-containing protein family
+PF15779	NA	NA	LRRC37	Leucine-rich repeat-containing protein 37 family
+PF15808	NA	NA	BCOR	BCL-6 co-repressor, non-ankyrin-repeat region
+PF15892	CL0434	Sialidase	BNR_4	BNR repeat-containing family member
+PF15899	CL0434	Sialidase	BNR_6	BNR-Asp box repeat
+PF15907	CL0186	Beta_propeller	Itfg2	Integrin-alpha FG-GAP repeat-containing protein 2
+PF15911	CL0186	Beta_propeller	WD40_3	WD domain, G-beta repeat
+PF15913	CL0547	GF_recep_C-rich	Furin-like_2	Furin-like repeat, cysteine-rich
+PF15967	CL0647	FG_rpt	Nucleoporin_FG2	Nucleoporin FG repeated region
+PF16186	CL0020	TPR	Arm_3	Atypical Arm repeat 
+PF16300	CL0186	Beta_propeller	WD40_4	Type of WD40 repeat
+PF16416	CL0020	TPR	GUN4_N	ARM-like repeat domain, GUN4-N terminal
+PF16418	NA	NA	CNOT1_HEAT	CCR4-NOT transcription complex subunit 1 HEAT repeat
+PF16419	CL0020	TPR	CNOT1_HEAT_N	CCR4-NOT transcription complex subunit 1 HEAT repeat
+PF16597	NA	NA	Thyroglob_assoc	Thyroglobulin_1 repeat associated disordered domain
+PF16601	NA	NA	NPF	Rabosyn-5 repeating NPF sequence-motif
+PF16669	CL0021	OB	TTC5_OB	Tetratricopeptide repeat protein 5 OB fold domain
+PF16772	NA	NA	TERF2_RBM	Telomeric repeat-binding factor 2 Rap1-binding motif
+PF16910	NA	NA	VPS13_mid_rpt	Repeating coiled region of VPS13
+PF16918	CL0020	TPR	PknG_TPR	Protein kinase G tetratricopeptide repeat
+PF16920	NA	NA	LRRCT_2	Leucine rich repeat C-terminal motif
+PF17004	CL0020	TPR	SRP_TPR_like	Putative TPR-like repeat
+PF17177	CL0020	TPR	PPR_long	Pentacotripeptide-repeat region of PRORP
+PF17432	CL0020	TPR	DUF3458_C	Domain of unknown function (DUF3458_C) ARM repeats
+PF17660	NA	NA	BTRD1	Bacterial tandem repeat domain 1
+PF17794	CL0666	Vault	Vault_2	Major Vault Protein repeat domain
+PF17795	CL0666	Vault	Vault_3	Major Vault Protein Repeat domain
+PF17796	CL0666	Vault	Vault_4	Major Vault Protein repeat domain
+PF18028	CL0020	TPR	Zmiz1_N	Zmiz1 N-terminal tetratricopeptide repeat domain
+PF18278	CL0607	TNF_receptor	RANK_CRD_2	Receptor activator of the NF-KB cysteine-rich repeat domain 2
+PF18346	CL0010	SH3	SH3_15	Mind bomb SH3 repeat domain
+PF18391	CL0020	TPR	CHIP_TPR_N	CHIP N-terminal tetratricopeptide repeat domain
+PF18484	NA	NA	CDCA	Cadmium carbonic anhydrase repeat
+PF18487	NA	NA	TSR	Thrombospondin type 1 repeat
+PF18581	CL0020	TPR	SYCP2_ARLD	Synaptonemal complex 2 armadillo-repeat-like domain
+PF18727	NA	NA	ALMS_repeat	Alstrom syndrome repeat
+PF18764	CL0186	Beta_propeller	nos_propeller	Nitrous oxide reductase propeller repeat
+PF18770	CL0020	TPR	Arm_vescicular	Armadillo tether-repeat of vescicular transport factor
+PF18773	CL0020	TPR	Importin_rep	Importin 13 repeat
+PF18776	CL0536	HEXAPEP	Hexapep_loop	Hexapeptide repeat including loop
+PF18777	CL0020	TPR	CRM1_repeat	Chromosome region maintenance or exportin repeat
+PF18779	CL0022	LRR	LRR_RI_capping	Capping Ribonuclease inhibitor Leucine Rich Repeat
+PF18780	NA	NA	HNH_repeat	Homing endonuclease associated repeat
+PF18783	CL0268	Pec_lyase-like	IPU_b_solenoid	Isopullulanase beta-solenoid repeat
+PF18784	NA	NA	CRM1_repeat_2	CRM1 / Exportin repeat 2
+PF18786	CL0020	TPR	Importin_rep_2	Importin 13 repeat
+PF18787	CL0020	TPR	CRM1_repeat_3	CRM1 / Exportin repeat 3
+PF18792	NA	NA	UspA1_rep	Ubiquitous surface protein adhesin repeat
+PF18793	CL0186	Beta_propeller	nos_propeller_2	Nitrous oxide reductase propeller repeat 2
+PF18797	CL0020	TPR	APC_rep	Adenomatous polyposis coli (APC) repeat
+PF18805	CL0022	LRR	LRR_10	Leucine-rich repeat
+PF18806	CL0020	TPR	Importin_rep_3	Importin 13 repeat
+PF18807	NA	NA	TTc_toxin_rep	Tripartite Tc toxins repeat
+PF18808	CL0020	TPR	Importin_rep_4	Importin repeat
+PF18815	NA	NA	AFP_2	Bacterial antifreeze protein repeat
+PF18816	CL0020	TPR	Importin_rep_5	Importin repeat
+PF18817	CL0020	TPR	HEAT_UF	Repeat of uncharacterized protein PH0542
+PF18829	CL0020	TPR	Importin_rep_6	Importin repeat 6
+PF18831	CL0022	LRR	LRR_11	Leucine-rich repeat
+PF18833	CL0020	TPR	TPR_22	Tetratricopeptide repeat
+PF18835	CL0268	Pec_lyase-like	Beta_helix_2	Beta helix repeat of Inulin fructotransferase
+PF18836	CL0268	Pec_lyase-like	B_solenoid_ydck	YdcK Beta solenoid repeat
+PF18837	CL0022	LRR	LRR_12	Leucine-rich repeat
+PF18841	CL0268	Pec_lyase-like	B_solenoid_dext	Beta solenoid repeat from Dextranase
+PF18868	CL0361	C2H2-zf	zf-C2H2_3rep	Zinc finger C2H2-type, 3 repeats
+PF18872	NA	NA	Daz	Daz repeat
+PF18884	CL0689	TSP3	TSP3_bac	Bacterial TSP3 repeat
+PF18885	NA	NA	DUF5648	Repeat of unknown function (DUF5648)
+PF18886	CL0268	Pec_lyase-like	DUF5649	Repeats of unknown function (DUF5649)
+PF18888	NA	NA	DUF5650	Repeat of unknown function (DUF5650)
+PF18889	CL0268	Pec_lyase-like	Beta_helix_3	Beta helix repeat
+PF18998	CL0072	Ubiquitin	Flg_new_2	Divergent InlB B-repeat domain
+PF19056	CL0186	Beta_propeller	WD40_2	WD40 repeated domain
+PF19076	CL0159	E-set	CshA_repeat	Surface adhesin CshA repetitive domain
+PF19079	NA	NA	CFSR	Collagen-flanked surface repeat
+PF19085	CL0694	Choline_binding	Choline_bind_2	Choline-binding repeat
+PF19127	CL0694	Choline_binding	Choline_bind_3	Choline-binding repeat
+PF19264	NA	NA	DUF5907	Repeat of unknown function (DUF5907)
+PF19440	CL0020	TPR	TTC7_N	Tetratricopeptide repeat protein 7 N-terminal
+PF19729	CL0022	LRR	FBXL18_LRR	F-box/LRR-repeat protein 18, LRR
+PF20023	CL0020	TPR	WSLR	Wolframin Sel1-like repeat
+PF20080	NA	NA	ALTTAQ_rpt	ALTTAQ repeat
+PF20175	NA	NA	Tra1_central	Tra1 HEAT repeat central region
+PF20206	CL0020	TPR	Tra1_ring	Tra1 HEAT repeat ring region
+PF20210	CL0020	TPR	Laa1_Sip1_HTR5	Laa1/Sip1/HEATR5 HEAT repeat region
+PF20269	NA	NA	CATRA-N	CASPASE and TPR Repeat-Associated N-terminal domain
+PF20270	NA	NA	CATRA-C	CASPASE and TPR Repeat-Associated C-terminal domain
+PF20308	CL0020	TPR	TPR-S	Tetratricopeptide Repeats-Sensor
