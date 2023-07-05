@@ -1,0 +1,7 @@
+Interactor	Evidence_description	PMID,,,,,,,,,
+AT1G02580	yeast two-hybrid assay	11148284,,,,,,,,,
+AT1G02680	FRET,yeast two-hybrid assay	23506837,,,,,,,,
+AT2G35670	Co-immunoprecipitation,yeast two-hybrid assay	16924116,,,,,,,,
+AT3G20740	Affinity Capture-Western,Co-fractionation,PCA,Reconstituted Complex,yeast two-hybrid assay	11114524,11148284,12970192,14871310,15469499,23146178
+AT5G49160	Affinity Capture-Western,yeast two-hybrid assay	23146178,,,,,,,,
+AT5G58230	Affinity Capture-Western,Co-fractionation,Co-immunoprecipitation	12970192,,,,,,,
