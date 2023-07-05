@@ -5,10 +5,9 @@ If you use ARTFOUNDATION-LOG, please cite the article below in your publication.
 
 Kang, J.E.; Jun, J.H.; Kwon, J.H.; Lee, J.; Hwang, K.; Kim, S.; Jeong, N. ART FounDATion-LOG (ARabidopsis Transcription regulatory Factor Domain-domain interaction Analysis Tool-Liquid liquid phase separation, Oligomerization, Go analysis), a toolkit for interaction data based domain analysis. Preprints.org 2023, 2023060366. https://doi.org/10.20944/preprints202306.0366.v1
 
-Program is for Linux/ Unix OS only. If you want to use in Windows, please change the codes accordingly. Sources are available in each program folder.
+The program is for Linux/ Unix OS only. If you want to use in Windows, please change the codes accordingly. Sources are available in each program folder.
 
-Download
-Three ARTFOUNDATION-LOG programs are available. Download any of the zip files available in download folder.
+In download folder, three ARTFOUNDATION-LOG programs are available. Download any of the zip files available in download folder.
 Select one that you want to download. Click the name and then you will go to the file page. Right-click "view raw" and select "save link" to download the file.
 
 1.art_foundation_log_online: llps factors and their TF. You need to know how to program Java language to use this one. Otherwise, you can look at their outputs in output folder, if you are interested in details of outputs mentioned in the article.
