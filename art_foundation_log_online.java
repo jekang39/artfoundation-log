@@ -17,6 +17,7 @@
  */
 import java.io.*;
 import java.util.*;
+import java.text.SimpleDateFormat;
 import java.util.regex.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -33,9 +34,9 @@ import org.apache.commons.math3.stat.correlation.*;
 import org.apache.commons.math3.stat.inference.TestUtils;
 import org.apache.commons.math3.stat.inference.MannWhitneyUTest;
 import org.apache.commons.math3.util.Combinations;
-///home/centos2/ should be replaced with your directory path in your computer 
-///home/centos2/java/jdk-11.0.17_linux-x64_bin.tar-1/jdk-11.0.17/bin/javac -nowarn -cp .:/home/centos2/java/jdk-11.0.17_linux-x64_bin.tar-1/jdk-11.0.17/lib/commons-io-2.11.0.jar:/home/centos2/java/jdk-11.0.17_linux-x64_bin.tar-1/jdk-11.0.17/lib/commons-math3-3.6.1.jar:/home/centos2/java/jdk-11.0.17_linux-x64_bin.tar-1/jdk-11.0.17/lib/commons-lang3-3.12.0.jar:/home/centos2/java/jdk-11.0.17_linux-x64_bin.tar-1/jdk-11.0.17/lib/commons-collections4-4.4.jar:/home/centos2/java/jdk-11.0.17_linux-x64_bin.tar-1/jdk-11.0.17/lib/commons-lang3-3.12.0.jar art_foundation_log_online.java
-///home/centos2/java/jdk-11.0.17_linux-x64_bin.tar-1/jdk-11.0.17/bin/java -cp .:/home/centos2/java/jdk-11.0.17_linux-x64_bin.tar-1/jdk-11.0.17/lib/commons-io-2.11.0.jar:/home/centos2/java/jdk-11.0.17_linux-x64_bin.tar-1/jdk-11.0.17/lib/commons-math3-3.6.1.jar:/home/centos2/java/jdk-11.0.17_linux-x64_bin.tar-1/jdk-11.0.17/lib/commons-lang3-3.12.0.jar:/home/centos2/java/jdk-11.0.17_linux-x64_bin.tar-1/jdk-11.0.17/lib/commons-collections4-4.4.jar:/home/centos2/java/jdk-11.0.17_linux-x64_bin.tar-1/jdk-11.0.17/lib/commons-lang3-3.12.0.jar art_foundation_log_online >out_art_foundation_log_online
+///home/centos2/java/jdk-11.0.17_linux-x64_bin.tar-1/jdk-11.0.17/bin/ should be replaced with your directory path in your computer 
+///home/centos2/java/jdk-11.0.17_linux-x64_bin.tar-1/jdk-11.0.17/bin/javac -nowarn -cp .:lib/commons-io-2.11.0.jar:lib/commons-math3-3.6.1.jar:lib/commons-lang3-3.12.0.jar:lib/commons-collections4-4.4.jar:lib/commons-lang3-3.12.0.jar art_foundation_log_online.java
+///home/centos2/java/jdk-11.0.17_linux-x64_bin.tar-1/jdk-11.0.17/bin/java -cp .:lib/commons-io-2.11.0.jar:lib/commons-math3-3.6.1.jar:lib/commons-lang3-3.12.0.jar:lib/commons-collections4-4.4.jar:lib/commons-lang3-3.12.0.jar art_foundation_log_online >out_art_foundation_log_online
 
 /*prepare AI/stat input files based on seven modules of art_foundation_log*/
 
@@ -85,8 +86,6 @@ public static void main(String[] args) throws IOException,InterruptedException,E
 	llps_go.get_dom_linker();
 	llps_go.get_trans_memb();
 	llps_go.get_disordered_d2p2();
-	llps_go.make_tf_cofactor_list_tair();
-	llps_go.map_lnc_tfco_tair();
 	llps_go.map_repeat_pfam();
 	llps_go.map_binding_pfam();
 	llps_go.get_interpro_binding();
@@ -97,6 +96,14 @@ public static void main(String[] args) throws IOException,InterruptedException,E
 	llps_go.do_go_ori_func_po_ana_freq();
 	llps_go.do_go_ori_func_po_temp_freq();
 	llps_go.do_go_slim_analysis();
+
+	//instantiate inner class other_modules
+    	art_foundation_log_online.other_modules  oth_mod = new art_foundation_log_online.other_modules();
+	
+      ////inner class functions
+
+	//oth_mod.make_tf_cofactor_list_tair();
+	oth_mod.map_lnc_tfco_tair();
 	
        ////inner functions end
 
@@ -192,7 +199,7 @@ public void  make_input_tf_cofactor_llps()  throws IOException,Exception{
 
 	Integer[] lnc_freq = new Integer[llps_tf.length + 1];
 	for(int i =0; i < llps_tf.length; i++){
-		LinkedList<String> lncs = llps_go_analysis.tfco_lncrna_tair.get(llps_tf[i]);
+		LinkedList<String> lncs = other_modules.tfco_lncrna_tair.get(llps_tf[i]);
 		if(lncs != null){
 			lnc_freq[i] = new Integer(lncs.size());
 		}
@@ -204,7 +211,7 @@ public void  make_input_tf_cofactor_llps()  throws IOException,Exception{
 	
 	//header: tf, llps factor that it interact with, pfams of llps factor, tf family, tf type1, type2, type3, tf's binding motifs, families of tf's binding motifs, domain description, number of different tf's binding motifs
 	//tfs were retrieved from intersection of oligomerization, 3did, llps pfam, has llps factor that it interacts with tf. 
-	String path = "/home/centos2/art_foundation_log_online/data/out_map_atxg_to_pfam_from_interpro.llps.sort.uniq.no.one.pfam.only.sort.uniq.protcad_3did_intersect2.2.gene.sort.uniq.k2.string.sort.uniq.tf.sort.k3.family.howmanymotif.sortk1";
+	String path = "data/out_map_atxg_to_pfam_from_interpro.llps.sort.uniq.no.one.pfam.only.sort.uniq.protcad_3did_intersect2.2.gene.sort.uniq.k2.string.sort.uniq.tf.sort.k3.family.howmanymotif.sortk1";
 	
 	List<String> lines  = FileUtils.readLines(new File(path));
 	//AT1G09770 AT1G28180 PF00270,PF00271 MYB/SANT T266324_2.00 F266_2.00 TS12_2.00 M02698_2.00:M11037_2.00:M11049_2.00 MS31_2.00:MS59_2.00:MS59_2.00 CDC5 Myb/SANT Myb_DNA-binding 3
@@ -233,7 +240,7 @@ public void  make_input_tf_cofactor_llps()  throws IOException,Exception{
 		String id2 = space_split[1].trim();//llps factor
 		d2_list.add(id2);
 		//get lncRNA interacting with llps factor
-		LinkedList<String> lncs_co = llps_go_analysis.tfco_lncrna_tair.get(id2);
+		LinkedList<String> lncs_co = other_modules.tfco_lncrna_tair.get(id2);
 		if(lncs_co != null){
 			lnc_freq[lnc_freq.length-1] = new Integer(lncs_co.size());
 		}
@@ -831,10 +838,13 @@ public void  combine_log() throws IOException,Exception {
 	boolean llps_flag = true;
 
 	//output file path. we will create weka input file based on this output file
-	String out_path_all="/home/centos2/art_foundation_log_online/output/weka_input.co_tf";
+	String time_stamp = new SimpleDateFormat("yyyyMMddHHmm'.txt'").format(new Date());
+	String out_path_all="output/weka_input." + time_stamp;
 				
 	//another output file path. this file includes ppi partners based on string database
-	String out_path_all_partner="/home/centos2/art_foundation_log_online/output/weka_input_partner.co_tf";
+	String out_path_all_partner="output/weka_input_partner." + time_stamp;
+	
+				
 
 	//LinkedHashMap<Integer,Integer> go_ori_cat_big_ind = new LinkedHashMap();
 
@@ -958,6 +968,11 @@ public void  combine_log() throws IOException,Exception {
 	}
 	*/	
 	System.out.println("cofactor_to_pfam_key.size():"+cofactor_to_pfam_key.size());
+
+	//write input_list with timestamp to output folder
+	String input_file_mv = "output/input_list." + time_stamp;
+
+	FileUtils.writeStringToFile(new File(input_file_mv),  Arrays.toString(cofactor_to_pfam_key.toArray()), false);
 	
 	for(int s = 0; s <cofactor_to_pfam_key.size(); s++){
 	
@@ -4472,7 +4487,7 @@ void  map_groupid_pfam()  throws IOException{
 	Pattern colon_pattern = Pattern.compile(":");
 	Pattern underbar_pattern = Pattern.compile("_");
 
-	String sub_path = "/home/centos2/art_foundation_log_online/data/out_pfam_dimer_protcad_9_inter_intra_interface_domain_9_oligo_stat.get_groupid_dimer.4.per_groupid.dimer_fix1";
+	String sub_path = "data/out_pfam_dimer_protcad_9_inter_intra_interface_domain_9_oligo_stat.get_groupid_dimer.4.per_groupid.dimer_fix1";
 
 	List<String> lines  = FileUtils.readLines(new File(sub_path));
 
@@ -4558,7 +4573,7 @@ static LinkedList<String> pdb_one_uniprot;
 
 	pdb_one_uniprot = new LinkedList();
 
-	String path = "/home/centos2/art_foundation_log_online/data/pdb_chain_uniprot.lst.sort.k1.k2.k3.pdb.uniprot.sort.uniq.c.diff.uniprot.count.2.1.id.sort.join.sort.uniq.pdbid.sort.uniq";
+	String path = "data/pdb_chain_uniprot.lst.sort.k1.k2.k3.pdb.uniprot.sort.uniq.c.diff.uniprot.count.2.1.id.sort.join.sort.uniq.pdbid.sort.uniq";
 
 	List<String> lines  = FileUtils.readLines(new File(path));
 	//PF14868, PF14377:0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -4588,7 +4603,7 @@ void  map_groupid_to_pdb()  throws IOException{
 	Pattern semi_pattern = Pattern.compile(";");
 	
 	//String path = "/home/centos2/out_map_groupid_pdb_from_oligomerization_assem";
-	String path = "/home/centos2/art_foundation_log_online/data/out_final_dynamic_db_creation2_check.final";
+	String path = "data/out_final_dynamic_db_creation2_check.final";
  	//864:[1p2i, 1p2j, 1p2k, 1tpa, 2fi3, 2fi4, 2fi5, 2ftl, 2ftm, 2ptc, 2tgp, 2tpi, 3btd, 3bte, 3btf, 3btg, 3bth, 3btk, 3btm, 3btq, 3btt, 3btw, 3tpi, 4tpi, 4y0y, 4y0z, 4y10, 4y11, 1ejm, 1eaw, 6bx8, 3p92, 3p95, 3uir, 2r9p, 4dg4, 6har, 4wwy, 3l33, 3l3t, 4u32, 1brb, 1brc, 1co7, 1f5r, 1f7z, 1fy8, 1ykt, 1ylc, 1yld, 3fp6, 3fp8, 3tgi, 3tgj, 3tgk, 3m7q, 1zr0, 1tfx, 2uuy, 3gym, 4wxv, 4u30, 6gfi, 3d65, 1yc0, 4isl, 4isn, 4iso, 1zjd, 5c67, 1p2m, 1p2n, 1p2o, 1p2q, 1t7c, 1t8l, 1t8m, 1t8n, 1t8o, 1bzx, 1taw, 3uou, 2ra3, 3t62, 4bnr, 3otj, 5nx1, 5nx3]
 	
 	List<String> groupid_lines  = FileUtils.readLines(new File(path));
@@ -4634,7 +4649,7 @@ static LinkedHashMap<String,LinkedList<String>> groupid_to_uniprot;
 
 void  map_groupid_to_uniprot()  throws IOException{
 
-	String path = "/home/centos2/art_foundation_log_online/data/out_final_dynamic_db_creation2_check.final";
+	String path = "data/out_final_dynamic_db_creation2_check.final";
 
 	//String path = "/home/centos2/out_map_groupid_pdb_from_oligomerization_assem";
  	//864:[1p2i, 1p2j, 1p2k, 1tpa, 2fi3, 2fi4, 2fi5, 2ftl, 2ftm, 2ptc, 2tgp, 2tpi, 3btd, 3bte, 3btf, 3btg, 3bth, 3btk, 3btm, 3btq, 3btt, 3btw, 3tpi, 4tpi, 4y0y, 4y0z, 4y10, 4y11, 1ejm, 1eaw, 6bx8, 3p92, 3p95, 3uir, 2r9p, 4dg4, 6har, 4wwy, 3l33, 3l3t, 4u32, 1brb, 1brc, 1co7, 1f5r, 1f7z, 1fy8, 1ykt, 1ylc, 1yld, 3fp6, 3fp8, 3tgi, 3tgj, 3tgk, 3m7q, 1zr0, 1tfx, 2uuy, 3gym, 4wxv, 4u30, 6gfi, 3d65, 1yc0, 4isl, 4isn, 4iso, 1zjd, 5c67, 1p2m, 1p2n, 1p2o, 1p2q, 1t7c, 1t8l, 1t8m, 1t8n, 1t8o, 1bzx, 1taw, 3uou, 2ra3, 3t62, 4bnr, 3otj, 5nx1, 5nx3]
@@ -4750,7 +4765,7 @@ void  get_llps_uniprot()  throws IOException{
 
 	llps_uniprot = new LinkedList();
 
-	String path = "/home/centos2/art_foundation_log_online/data/LLPS.txt.uniprot.sort";
+	String path = "data/LLPS.txt.uniprot.sort";
 
 	List<String> lines  = FileUtils.readLines(new File(path));
 	//PF14868, PF14377:0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -4788,7 +4803,7 @@ void create_new_data_weka_input() throws IOException{
 	Pattern colon_pattern = Pattern.compile(":");
 	Pattern at_pattern = Pattern.compile("@");
 	
-	String path = "/home/centos2/art_foundation_log_online/data/out_final_dynamic_db_creation.03212023.homo_hetero_moder_fix";
+	String path = "data/out_final_dynamic_db_creation.03212023.homo_hetero_moder_fix";
 //10008:[PF01546, PF07687]@[PF07687, PF07687]@[PF01546, PF01546]@:0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,4,52,0,0,0,0,0,0,0,0,2219,221,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,homo_obligate_oligomer_obligate
 	
 	
@@ -4973,7 +4988,7 @@ LinkedHashMap<String,String> interpro_to_pfam;
 void  map_interpro_pfam()  throws IOException{
 
 	interpro_to_pfam = new LinkedHashMap();
-	String path = "/home/centos2/art_foundation_log_online/data/map_interpro_pfam.raw.txt";
+	String path = "data/map_interpro_pfam.raw.txt";
  	//101m PF00042
 	//102l PF00959
 	//103l PF00959
@@ -5042,7 +5057,7 @@ void  map_domain_pos_per_atxg_ordered() throws IOException{
 
 	domain_pos_per_atxg_ordered = new LinkedHashMap();
 
-	String path = "/home/centos2/art_foundation_log_online/data/out_map_jp_db_domain_arabidopsis_interpro_range.ordered.domain";
+	String path = "data/out_map_jp_db_domain_arabidopsis_interpro_range.ordered.domain";
  	
 
 	Pattern space_pattern = Pattern.compile("\\s+");
@@ -5092,7 +5107,7 @@ void  map_domain_linker_pos_per_atxg() throws IOException{
 
 	domain_linker_pos_per_atxg = new LinkedHashMap();
 
-	String path = "/home/centos2/art_foundation_log_online/data/out_map_jp_db_domain_arabidopsis_interpro_range.dom.linker.pos";
+	String path = "data/out_map_jp_db_domain_arabidopsis_interpro_range.dom.linker.pos";
  	
 
 	Pattern space_pattern = Pattern.compile("\\s+");
@@ -5147,7 +5162,7 @@ void  map_ptm_to_domain_atxg()  throws IOException{
 	
 	ptm_to_atxg = new LinkedHashMap();
 
-	String path = "/home/centos2/art_foundation_log_online/data/out_map_ptm_to_domain_arabidopsis_interpro.final";
+	String path = "data/out_map_ptm_to_domain_arabidopsis_interpro.final";
 
 	List<String> lines  = FileUtils.readLines(new File(path));
 	/*
@@ -5214,7 +5229,7 @@ void  map_ptm_to_domain_linker_atxg()  throws IOException{
 	
 	ptm_to_domain_linker_atxg = new LinkedHashMap();
 
-	String path = "/home/centos2/art_foundation_log_online/data/out_map_ptm_to_domain_arabidopsis_interpro_range_domain_linker.final";
+	String path = "data/out_map_ptm_to_domain_arabidopsis_interpro_range_domain_linker.final";
 
 	List<String> lines  = FileUtils.readLines(new File(path));
 	/*
@@ -5281,7 +5296,7 @@ void  get_plant_prAS()  throws IOException{
 	
 	plant_prAS = new LinkedHashMap();
 
-	String path = "/home/centos2/art_foundation_log_online/data/out_map_jp_db_domain_arabidopsis_interpro.final";
+	String path = "data/out_map_jp_db_domain_arabidopsis_interpro.final";
 
 	List<String> lines  = FileUtils.readLines(new File(path));
 	//AT1G01010.1:IPR003441:[-0.731, 4.93, NA, cyto, insoluble, false, true, false, true, true, false, false, true, false, true, false]
@@ -5332,7 +5347,7 @@ void  get_plant_prAS_dom_linker()  throws IOException{
 
 	plant_prAS_dom_linker = new LinkedHashMap();
 
-	String path = "/home/centos2/art_foundation_log_online/data/out_map_jp_db_domain_arabidopsis_interpro_range.dom.linker";
+	String path = "data/out_map_jp_db_domain_arabidopsis_interpro_range.dom.linker";
 
 	List<String> lines  = FileUtils.readLines(new File(path));
 	//AT1G01010.1:IPR003441:[-0.731, 4.93, NA, cyto, insoluble, false, true, false, true, true, false, false, true, false, true, false]
@@ -5629,7 +5644,7 @@ void do_three_did_comp() throws IOException{
 	three_did_lig = new LinkedHashMap();
 
 	
-	String path = "/home/centos2/art_foundation_log_online/data/out_three_did_domain_to_pfam_make_interface_dimers_cross_protcad_uniq_arch.final.intersect.protcad.uniqarch";
+	String path = "data/out_three_did_domain_to_pfam_make_interface_dimers_cross_protcad_uniq_arch.final.intersect.protcad.uniqarch";
 		
 	List<String> lines  = FileUtils.readLines(new File(path));
 		
@@ -5736,6 +5751,107 @@ void do_three_did_comp() throws IOException{
 static class llps_go_analysis {
 
   
+static LinkedHashMap<String,String> enst_to_ensg;
+static LinkedHashMap<String,LinkedList<String>> ensg_to_enst;
+
+public void  map_enst_to_ensg()  throws IOException{
+
+	Pattern space_pattern = Pattern.compile("\\s+");
+	Pattern colon_pattern = Pattern.compile(":");
+	
+	enst_to_ensg = new LinkedHashMap();
+	ensg_to_enst = new LinkedHashMap();
+	
+	String path = "/home/centos/src/human.ensg.enst.map";
+ 	
+	List<String> lines  = FileUtils.readLines(new File(path));
+					
+	for(int k = 0; k < lines.size(); k++){
+				
+		String one_line = lines.get(k).toUpperCase();
+		String[] space_split = colon_pattern.split(one_line);
+		String ensg = space_split[1].trim();
+		String enst = space_split[0].trim();
+		
+		enst_to_ensg.put(enst,ensg);
+
+		if(ensg_to_enst.containsKey(ensg)){
+		
+			LinkedList<String> exist = ensg_to_enst.get(ensg);
+			exist.add(enst);
+			ensg_to_enst.put(ensg,exist);
+			
+		}else{
+		
+			LinkedList<String> new_list = new LinkedList();
+			new_list.add(enst);
+			ensg_to_enst.put(ensg,new_list);
+		}
+		
+	}
+		
+	
+	//System.out.println("enst_to_ensg.size():" + enst_to_ensg.size());
+	
+}
+
+static LinkedHashMap<String,LinkedList<String>> map_pfam_human_gene;
+static LinkedList<LinkedList<String>> pfam_human_gene_list;
+ 
+ void map_pfam_to_human_gene() throws IOException{
+ 
+ 	System.out.println("map_pfam_to_human_gene():" );
+ 
+	Pattern space_pattern = Pattern.compile("\\s+");
+	Pattern tab_pattern = Pattern.compile("\\t+");
+	Pattern comma_pattern = Pattern.compile(",");
+	Pattern colon_pattern = Pattern.compile(":");
+
+	
+	map_pfam_human_gene= new LinkedHashMap();
+	pfam_human_gene_list= new LinkedList();
+	
+ 
+ 	String path = "data/human/knownToPfam.txt";
+	List<String> lines  = FileUtils.readLines(new File(path));
+					
+	for(int k = 0; k < lines.size(); k++){
+	
+		String one_line = lines.get(k).toUpperCase();
+		String[] space_split = space_pattern.split(one_line);
+		String enst = space_split[0].trim();
+		enst = enst.substring(0,enst.indexOf("."));
+		String pfam = space_split[1].trim();
+		
+		if(map_pfam_human_gene.containsKey(enst)){
+		
+			LinkedList<String> exist = map_pfam_human_gene.get(enst);
+			exist.add(pfam);
+			Collections.sort((List)exist);
+			map_pfam_human_gene.put(enst,exist);
+			
+		}else{
+		
+			LinkedList<String> new_list = new LinkedList();
+			new_list.add(pfam);
+			map_pfam_human_gene.put(enst,new_list);
+		}
+				
+		
+	}
+	
+	
+	List<String> keys_list = new LinkedList<String>(map_pfam_human_gene.keySet());
+	
+	for(int i = 0; i < keys_list.size(); i++){
+	
+		pfam_human_gene_list.add(map_pfam_human_gene.get(keys_list.get(i)));
+	}
+	
+	System.out.println("map_pfam_human_gene.size():" + map_pfam_human_gene.size());
+			
+
+}//method
 
 		
 ////////////////////
@@ -5753,7 +5869,7 @@ void get_dom_linker() throws IOException{
 	dom_linker = new LinkedList();
  	
 
-	String input="/home/centos2/art_foundation_log_online/data/out_map_jp_db_domain_arabidopsis_interpro.out_map_atxg_to_pfam_from_interpro.tair.atxg.domlink.sort.uniq.atxg.sort.uniq.sort.uniq";
+	String input="data/out_map_jp_db_domain_arabidopsis_interpro.out_map_atxg_to_pfam_from_interpro.tair.atxg.domlink.sort.uniq.atxg.sort.uniq.sort.uniq";
 	
 	List<String> lines  = FileUtils.readLines(new File(input));
 
@@ -5777,7 +5893,7 @@ void get_trans_memb() throws IOException{
 	trans_memb = new LinkedList();
  	
 
-	String input="/home/centos2/art_foundation_log_online/data/out_map_jp_db_domain_arabidopsis_interpro.out_map_atxg_to_pfam_from_interpro.tair.atxg.transmemb.sort.uniq.2.sort.uniq";
+	String input="data/out_map_jp_db_domain_arabidopsis_interpro.out_map_atxg_to_pfam_from_interpro.tair.atxg.transmemb.sort.uniq.2.sort.uniq";
 	
 	List<String> lines  = FileUtils.readLines(new File(input));
 
@@ -5825,7 +5941,7 @@ void map_repeat_pfam() throws IOException{
 	Pattern comma_pattern = Pattern.compile(",");
 	Pattern colon_pattern = Pattern.compile(":");
 	
-	String input="/home/centos2/art_foundation_log_online/data/Pfam-A.clans.tsv.repeat";
+	String input="data/Pfam-A.clans.tsv.repeat";
 	
 	List<String> lines  = FileUtils.readLines(new File(input));
 
@@ -5845,7 +5961,7 @@ void map_repeat_pfam() throws IOException{
 	
 	}//q
 
-	input="/home/centos2/art_foundation_log_online/data/repeats.from.interpro.sort.uniq";
+	input="data/repeats.from.interpro.sort.uniq";
 	
 	lines  = FileUtils.readLines(new File(input));
 
@@ -5889,7 +6005,7 @@ void map_binding_pfam() throws IOException{
 	Pattern comma_pattern = Pattern.compile(",");
 	Pattern colon_pattern = Pattern.compile(":");
 	
-	String input="/home/centos2/art_foundation_log_online/data/Pfam-A.clans.tsv.binding";
+	String input="data/Pfam-A.clans.tsv.binding";
 	
 	List<String> lines  = FileUtils.readLines(new File(input));
 
@@ -5940,6 +6056,8 @@ void get_interpro_binding() throws IOException{
 	}
 
 }
+
+
 static LinkedHashMap<LinkedList<String>,LinkedList<String>> human_disordered_all_neighbor_domain;
 static LinkedList<LinkedList<String>> human_disordered;
 
@@ -5964,7 +6082,7 @@ void map_low_complex_pfams() throws IOException{
 	Pattern comma_pattern = Pattern.compile(",");
 	Pattern colon_pattern = Pattern.compile(":");
 	
-	String input="/home/centos2/art_foundation_log_online/data/LCR-eXXXplorer.txt";
+	String input="data/LCR-eXXXplorer.txt";
 	
 	List<String> lines  = FileUtils.readLines(new File(input));
 
@@ -5980,22 +6098,28 @@ void map_low_complex_pfams() throws IOException{
 
 			if(tab_split[1].trim().contains("ENSG")){
 				String humanid = tab_split[1].trim();
-				String enst = ensg_enst.get(humanid);
-				LinkedList<String> pfams = map_pfam_human_gene.get(enst);
+				LinkedList<String> enst = ensg_to_enst.get(humanid);
 
-				if(pfams != null){
+				for(int w =0; w < enst.size(); w++){
+				
+					LinkedList<String> pfams = map_pfam_human_gene.get(enst.get(w));
 
-					Collections.sort((List)pfams);
-					if(!low_complex_gene_human.contains(humanid)){
+					if(pfams != null){
 
-						low_complex_gene_human.add(humanid);
+						Collections.sort((List)pfams);
+						if(!low_complex_gene_human.contains(humanid)){
+
+							low_complex_gene_human.add(humanid);
+						}
+
+						if(!low_complex_gene_pfam_human.contains(pfams)){
+
+							low_complex_gene_pfam_human.add(pfams);
+						}
 					}
 
-					if(!low_complex_gene_pfam_human.contains(pfams)){
-
-						low_complex_gene_pfam_human.add(pfams);
-					}
 				}
+
 			}else if(tab_split[1].trim().startsWith("AT")){
 
 				String tairid = tab_split[1].trim();
@@ -6035,7 +6159,7 @@ void  get_llps_uniprot_pfam()  throws IOException{
 
 	Pattern space_pattern = Pattern.compile("\\s+");
 
-	String path = "/home/centos2/art_foundation_log_online/data/LLPS.txt";
+	String path = "data/LLPS.txt";
  	
 	List<String> lines  = FileUtils.readLines(new File(path));
 	llps_uniprot = new LinkedList();
@@ -6705,7 +6829,7 @@ static LinkedList<String> nucleus_gene_llps;
 
 void  map_drllps_to_type_conden_freq()  throws IOException{
 
-	String path = "/home/centos2/art_foundation_log_online/data/LLPS.txt";
+	String path = "data/LLPS.txt";
 	nucleus_pfam_llps = new LinkedList();
 	nucleus_gene_llps = new LinkedList();
 	
@@ -7345,7 +7469,7 @@ void  do_signal_path_analysis()  throws IOException{
 	System.out.println("do_signal_path_analysis()");
 
 	//74 different types will be mapped to 12 categories of path_big_types
-	String sub_path = "/home/centos2/art_foundation_log_online/data/slim.pathway.signaling.pathway.types";
+	String sub_path = "data/slim.pathway.signaling.pathway.types";
  	List<String> lines  = FileUtils.readLines(new File(sub_path));
 	path_types_sub = new LinkedHashMap();
 					
@@ -7366,7 +7490,7 @@ void  do_signal_path_analysis()  throws IOException{
 	}
 
 	//slim.pathway contains gene and description of its function. gene will be mapped to pfam. pfam will be mapped to path_big_types. if a gene contains only one pfam, it will be saved to one_pfam_freq, otherwise, to multi_freq and dimer_freq. 
-	String path = "/home/centos2/art_foundation_log_online/data/slim.pathway.nucleus.signaling";
+	String path = "data/slim.pathway.nucleus.signaling";
  	
 	lines  = FileUtils.readLines(new File(path));
 	Pattern space_pattern = Pattern.compile("\\s+");
@@ -7777,7 +7901,7 @@ void  do_go_slim_analysis()  throws IOException{
 
 	System.out.println("do_go_slim_analysis");
 
-	String path = "/home/centos2/art_foundation_log_online/data/ATH_GO_GOSLIM.nucleus";
+	String path = "data/ATH_GO_GOSLIM.nucleus";
  
 	List<String> lines  = FileUtils.readLines(new File(path));
 	Pattern space_pattern = Pattern.compile("\\s+");
@@ -8165,7 +8289,7 @@ void  do_go_ori_func_gene_asso_freq()  throws IOException{
 
 	System.out.println("do_go_ori_func_gene_asso_freq()");
 
-	String path = "/home/centos2/art_foundation_log_online/data/gene_association.tair.sortk2.nucleus.only";
+	String path = "data/gene_association.tair.sortk2.nucleus.only";
  	
 	List<String> lines  = FileUtils.readLines(new File(path));
 	Pattern space_pattern = Pattern.compile("\\s+");
@@ -8550,7 +8674,7 @@ void  do_go_ori_func_po_ana_freq()  throws IOException{
 
 	System.out.println("do_go_ori_func_po_ana_freq()");
 
-	String path = "/home/centos2/art_foundation_log_online/data/po_anatomy_gene_arabidopsis_tair.assoc.nucleus.only";
+	String path = "data/po_anatomy_gene_arabidopsis_tair.assoc.nucleus.only";
  	
 	List<String> lines  = FileUtils.readLines(new File(path));
 	Pattern space_pattern = Pattern.compile("\\s+");
@@ -8940,7 +9064,7 @@ void  do_go_ori_func_po_temp_freq()  throws IOException{
 
 	System.out.println("do_go_ori_func_po_temp_freq()");
 
-	String path = "/home/centos2/art_foundation_log_online/data/po_temporal_gene_arabidopsis_tair.assoc.nucleus.only";
+	String path = "data/po_temporal_gene_arabidopsis_tair.assoc.nucleus.only";
  	//TAIR	locus:2200935	NAC001		PO:0001185	TAIR:Publication:501715286|PMID:15806101	IEP		G	AT1G01010	AT1G01010|ANAC001|NAC001|NAC domain containing protein 1|T25K16.1|T25K16_1	protein	taxon:3702	20081209	TAIR		TAIR:locus:2200935
 
 
@@ -9305,7 +9429,7 @@ static LinkedHashMap<String,LinkedList<String>> pdb_to_uniprot;
 	pdb_to_uniprot = new LinkedHashMap();
 	uniprot_to_pdb = new LinkedHashMap();
 
-	String path = "/home/centos2/art_foundation_log_online/data/uniprot-pdb.tsv.only.uni.pdb";
+	String path = "data/uniprot-pdb.tsv.only.uni.pdb";
  	
 	pdb_to_uniprot = new LinkedHashMap();
 	Pattern space_pattern = Pattern.compile("\\s+");
@@ -9359,7 +9483,7 @@ static LinkedHashMap<LinkedList<String>,LinkedList<String>> sifts_nr_pfam_unipro
 
 void  map_sifts_pdb_pfam()  throws IOException{
 
-	String path = "/home/centos2/art_foundation_log_online/data/PDB.pfam.id";
+	String path = "data/PDB.pfam.id";
 
 	Pattern space_pattern = Pattern.compile("\\s+");
 	Pattern tab_pattern = Pattern.compile("\\t+");
@@ -9536,7 +9660,7 @@ static LinkedList<LinkedList<String>> pfam_tair_gene_list;
 	
 	
  
- 	String path = "/home/centos2/art_foundation_log_online/data/out_mix_interpro_genbank.final";
+ 	String path = "data/out_mix_interpro_genbank.final";
 	//AT1G01030:[PF02362]
 	//AT1G01040:[PF00035, PF00271, PF00636, PF02170, PF04851, PF14622]
 	
@@ -9614,23 +9738,205 @@ static LinkedList<LinkedList<String>> pfam_tair_gene_list;
 
 	
 
-}//methodmap_pfam_human_gene
+}//method
 
 
-static LinkedHashMap<String,String> ensp_enst;
-static LinkedHashMap<String,String> ensg_enst;
+static LinkedHashMap<String, String> pfam_clan_map_only;
+static  LinkedHashMap<String, String> pfam_domain;
+static LinkedHashMap<String, String> domain_pfam;
+static LinkedHashMap<String, LinkedList<String>> clan_to_pfam;
 
-void map_ensp_enst() throws IOException{
 
- 	ensp_enst = new LinkedHashMap();
-	ensg_enst = new LinkedHashMap();
+
+
+void map_pfam_clans_only() throws IOException{
+
+	System.out.println("map_pfam_clans_only():" );
+
+	pfam_clan_map_only = new LinkedHashMap();
+ 	clan_to_pfam = new LinkedHashMap();
+ 	pfam_domain = new LinkedHashMap();
+ 	domain_pfam = new LinkedHashMap();
+
  	
   	Pattern space_pattern = Pattern.compile("\\s+");
 	Pattern tab_pattern = Pattern.compile("\\t+");
 	Pattern comma_pattern = Pattern.compile(",");
 	Pattern colon_pattern = Pattern.compile(":");
 	
-	String input="/home/centos2/art_foundation_log_online/data/human/map_ensg_enst_ensp.sort.uniq";
+	String input="data/Pfam-A.clans.tsv";
+	
+	List<String> lines  = FileUtils.readLines(new File(input));
+	
+	for(int q= 0; q < lines.size(); q++){
+	
+		String one_line = lines.get(q).trim().toUpperCase();
+		
+		if(!one_line.equals("")){
+		
+			String[] one_line_tab = tab_pattern.split(one_line);
+			
+			if(one_line_tab.length != 5){
+			
+				//System.out.println("tab error:"+one_line_tab.length + ":" +q + ":"+one_line);
+			}
+			String pre_clan_id = "";
+			String clan ="";
+			if(one_line_tab[1].trim().equals("NA")){
+			
+				
+				one_line_tab[1]=one_line_tab[0].toUpperCase();
+				clan = one_line_tab[0].toUpperCase();
+			
+			}else{
+			
+				clan = one_line_tab[1].toUpperCase();
+				
+			
+			}
+			String pfamid = one_line_tab[0].toUpperCase();
+			String domain = one_line_tab[3].toUpperCase();
+			
+			////////////System.out.println("pfamid:" + pfamid + ":"+ name);
+			
+			if(!pfam_clan_map_only.containsKey(pfamid)){
+				
+				//pfam_clan_map_only.put(pfamid, one_line_tab[1]+":"+one_line_tab[2]+":"+one_line_tab[3]+":"+one_line_tab[4]);
+				pfam_clan_map_only.put(pfamid, clan);	
+				
+						
+			}else{
+				//System.out.println(q + ":double key error:" + pfamid+":"+one_line);
+			}
+			
+			
+			
+			pfam_domain.put(pfamid,domain);
+			domain_pfam.put(domain,pfamid);
+			
+			if(clan_to_pfam.containsKey(clan)){
+			
+				LinkedList<String> exist = clan_to_pfam.get(clan);
+				exist.add(pfamid);
+				Collections.sort((List)exist);
+				clan_to_pfam.put(clan,exist);
+			}else{
+			
+				LinkedList<String> new_list = new LinkedList();
+				new_list.add(pfamid);
+				clan_to_pfam.put(clan,new_list);
+			
+			}	
+					
+				
+			
+		}//if
+			
+
+}//q
+System.out.println("clan_to_pfam:" + clan_to_pfam.size());
+}
+
+
+
+
+static LinkedHashMap<String,LinkedList<String>> tair_gene_uniprot;
+static LinkedHashMap<String,LinkedList<String>> uniprot_tair_gene;
+	
+
+void map_atxg_to_uniprot() throws IOException{
+
+	System.out.println("map_atxg_to_uniprot():" );
+
+	tair_gene_uniprot = new LinkedHashMap();
+	uniprot_tair_gene = new LinkedHashMap();
+
+  	Pattern space_pattern = Pattern.compile("\\s+");
+	Pattern tab_pattern = Pattern.compile("	");
+	Pattern comma_pattern = Pattern.compile(",");
+	Pattern colon_pattern = Pattern.compile(":");
+	
+
+	String input="data/TAIR2UniprotMapping-JAN2023.txt.col1.2";
+	
+	List<String> lines  = FileUtils.readLines(new File(input));
+
+	
+	for(int q= 0; q < lines.size(); q++){
+	
+		String one_line = lines.get(q).trim().toUpperCase();
+		
+		if(!one_line.equals("")){
+
+			
+
+			String[] tab_split = space_pattern.split(one_line);
+			String uniprot = tab_split[0].trim();
+	
+			String tairid = tab_split[1].trim();
+
+			if(tair_gene_uniprot.containsKey(tairid)){
+				LinkedList<String> exist = tair_gene_uniprot.get(tairid);
+				exist.add(uniprot);
+				tair_gene_uniprot.put(tairid,exist);
+
+			}else{
+				LinkedList<String> exist = new LinkedList();
+				exist.add(uniprot);
+				tair_gene_uniprot.put(tairid,exist);
+
+			}
+
+			if(uniprot_tair_gene.containsKey(uniprot)){
+				LinkedList<String> exist = uniprot_tair_gene.get(uniprot);
+				exist.add(tairid);
+				uniprot_tair_gene.put(uniprot,exist);
+
+			}else{
+				LinkedList<String> exist = new LinkedList();
+				exist.add(tairid);
+				uniprot_tair_gene.put(uniprot,exist);
+
+			}
+			
+	
+			LinkedList<String> array = new LinkedList();
+			array.add(uniprot);
+			tair_gene_uniprot.put(tairid,array);
+
+
+		}
+	
+	}//q
+	System.out.println("tair_gene_uniprot:" + tair_gene_uniprot.size());
+	
+}
+
+
+}//inner class
+
+/////////////////
+
+static class other_modules{
+
+
+//map_pfam_human_gene
+
+
+static LinkedHashMap<String,String> ensp_enst;
+
+
+void map_ensp_enst() throws IOException{
+
+ 	ensp_enst = new LinkedHashMap();
+	
+ 	
+  	Pattern space_pattern = Pattern.compile("\\s+");
+	Pattern tab_pattern = Pattern.compile("\\t+");
+	Pattern comma_pattern = Pattern.compile(",");
+	Pattern colon_pattern = Pattern.compile(":");
+	
+	String input="data/human/map_ensg_enst_ensp.sort.uniq";
 	//ENSG00000000003 ENST00000373020 ENSP00000362111
 	
 	List<String> lines  = FileUtils.readLines(new File(input));
@@ -9647,77 +9953,170 @@ void map_ensp_enst() throws IOException{
 		String enst = colon_split[0];
 		String ensp = colon_split[2];
 		////System.out.println("ensg:"+ensg+":enst:"+enst+":ensp:"+ensp);
-		ensg_enst.put(ensg,enst);
+		
 		ensp_enst.put(ensp,enst);
 		
 
 	}//q
 
 	System.out.println("ensp_enst.size():"+ensp_enst.size());
-	System.out.println("ensg_enst.size():"+ensg_enst.size());
+	
 
 }//method
 
 
-static LinkedHashMap<String,LinkedList<String>> map_pfam_human_gene;
-static LinkedList<LinkedList<String>> pfam_human_gene_list;
+static LinkedHashMap<String,String> ensg_to_gene_name;
+static  LinkedHashMap<String,String> gene_name_to_ensg;
  
- void map_pfam_to_human_gene() throws IOException{
- 
- 	System.out.println("map_pfam_to_human_gene():" );
- 
-	Pattern space_pattern = Pattern.compile("\\s+");
-	Pattern tab_pattern = Pattern.compile("\\t+");
-	Pattern comma_pattern = Pattern.compile(",");
-	Pattern colon_pattern = Pattern.compile(":");
+void  map_ensg_to_gene_name()  throws IOException{
 
+	//System.out.println("map_ensg_to_gene_name():" );
+
+	Pattern space_pattern = Pattern.compile("\\s+");
+	Pattern colon_pattern = Pattern.compile(":");
 	
-	map_pfam_human_gene= new LinkedHashMap();
-	pfam_human_gene_list= new LinkedList();
-	
+	ensg_to_gene_name= new LinkedHashMap();
+	gene_name_to_ensg=new LinkedHashMap();
  
- 	String path = "/home/centos2/art_foundation_log_online/data/human/knownToPfam.txt";
+ 	String path = "data/human/homo.sapiens.38.ensg_gene_map";
+ 	//237839
+	List<String> lines  = FileUtils.readLines(new File(path));
+	//ENSG00000222623:RNU6-1100P
+	//NSG00000279928:DDX11L17
+
+					
+	for(int k = 0; k < lines.size(); k++){
+				
+		String one_line = lines.get(k).toUpperCase();
+		String[] space_split = colon_pattern.split(one_line);
+		String ensg = space_split[0].trim();
+		String gene = space_split[1].trim();
+		
+		ensg_to_gene_name.put(ensg,gene);
+		gene_name_to_ensg.put(gene,ensg);
+		
+	}
+	//System.out.println("ensg_to_gene_name.size():" + ensg_to_gene_name.size());
+	
+	//System.out.println("gene_name_to_ensg:" +gene_name_to_ensg.size());
+}
+
+static LinkedHashMap<String,String> enst_to_ensg;
+static LinkedHashMap<String,LinkedList<String>> ensg_to_enst;
+
+public void  map_enst_to_ensg()  throws IOException{
+
+	Pattern space_pattern = Pattern.compile("\\s+");
+	Pattern colon_pattern = Pattern.compile(":");
+	
+	enst_to_ensg = new LinkedHashMap();
+	ensg_to_enst = new LinkedHashMap();
+	
+	String path = "/home/centos/src/human.ensg.enst.map";
+ 	
 	List<String> lines  = FileUtils.readLines(new File(path));
 					
 	for(int k = 0; k < lines.size(); k++){
-	
+				
 		String one_line = lines.get(k).toUpperCase();
-		String[] space_split = space_pattern.split(one_line);
+		String[] space_split = colon_pattern.split(one_line);
+		String ensg = space_split[1].trim();
 		String enst = space_split[0].trim();
-		enst = enst.substring(0,enst.indexOf("."));
-		String pfam = space_split[1].trim();
 		
-		if(map_pfam_human_gene.containsKey(enst)){
+		enst_to_ensg.put(enst,ensg);
+
+		if(ensg_to_enst.containsKey(ensg)){
 		
-			LinkedList<String> exist = map_pfam_human_gene.get(enst);
-			exist.add(pfam);
-			Collections.sort((List)exist);
-			map_pfam_human_gene.put(enst,exist);
+			LinkedList<String> exist = ensg_to_enst.get(ensg);
+			exist.add(enst);
+			ensg_to_enst.put(ensg,exist);
 			
 		}else{
 		
 			LinkedList<String> new_list = new LinkedList();
-			new_list.add(pfam);
-			map_pfam_human_gene.put(enst,new_list);
+			new_list.add(enst);
+			ensg_to_enst.put(ensg,new_list);
 		}
-				
 		
 	}
+		
 	
+	//System.out.println("enst_to_ensg.size():" + enst_to_ensg.size());
 	
-	List<String> keys_list = new LinkedList<String>(map_pfam_human_gene.keySet());
+}
+
+//map_pfam_human_gene
+
+static LinkedHashMap<String,String> uni_to_gene_name_human;
+static LinkedHashMap<String,String> gene_name_to_uni_human;
+ 
+void  map_uni_to_gene_name()  throws IOException{
+
+	Pattern space_pattern = Pattern.compile("\\s+");
+	Pattern colon_pattern = Pattern.compile(":");
 	
-	for(int i = 0; i < keys_list.size(); i++){
+	uni_to_gene_name_human= new LinkedHashMap();
+	gene_name_to_uni_human=new LinkedHashMap();
+ 
+ 	String path = "data/human/HUMAN_9606_idmapping.dat.gene_name";
+ 	//237839
+	List<String> lines  = FileUtils.readLines(new File(path));
+	//A5YRU3	MUC1
+	//F6K7K3	ABHD5
 	
-		pfam_human_gene_list.add(map_pfam_human_gene.get(keys_list.get(i)));
+					
+	for(int k = 0; k < lines.size(); k++){
+				
+		String one_line = lines.get(k).toUpperCase();
+		String[] space_split = space_pattern.split(one_line);
+		String uni = space_split[0].trim();
+		String gene = space_split[1].trim();
+		
+		uni_to_gene_name_human.put(uni,gene);
+		gene_name_to_uni_human.put(gene,uni);
+		
 	}
+	System.out.println("uni_to_gene_name_human:" + uni_to_gene_name_human.size());
 	
-	System.out.println("map_pfam_human_gene.size():" + map_pfam_human_gene.size());
-			
+	System.out.println("gene_name_to_uni_human:" +gene_name_to_uni_human.size());
+}
 
+static LinkedHashMap<String,LinkedHashMap<String,String>> ensg_ensp_enst;
+
+void map_ensg_enst_ensp() throws IOException{
+
+ 	ensg_ensp_enst = new LinkedHashMap();
+ 	
+  	Pattern space_pattern = Pattern.compile("\\s+");
+	Pattern tab_pattern = Pattern.compile("\\t+");
+	Pattern comma_pattern = Pattern.compile(",");
+	Pattern colon_pattern = Pattern.compile(":");
+	
+	String input="data/map_ensg_enst_ensp.sort.uniq";
+	//ENSG00000000003 ENST00000373020 ENSP00000362111
+	
+	List<String> lines  = FileUtils.readLines(new File(input));
+	
+	
+	for(int q= 0; q < lines.size(); q++){
+	
+		String one_line = lines.get(q).trim();
+		
+		LinkedHashMap<String,String> hash = new LinkedHashMap();
+		
+		String[] colon_split = colon_pattern.split(one_line);
+		String ensg = colon_split[1];
+		String enst = colon_split[0];
+		String ensp = colon_split[2];
+		////System.out.println("ensg:"+ensg+":enst:"+enst+":ensp:"+ensp);
+		hash.put(enst,ensg);
+		ensg_ensp_enst.put(ensp,hash);
+		
+
+	}//q
+
+	System.out.println("ensg_ensp_enst.size():"+ensg_ensp_enst.size());
 }//method
-
-/////////////////
 
 static String[][] tair_tf_family = {
 
@@ -9751,7 +10150,7 @@ System.out.println("map_tf_family()");
 	Pattern semicolon_pattern = Pattern.compile(";");
 	
 	
-	String input="/home/centos2/art_foundation_log_online/data/human/TF.TF.family.sort.uniq.two.cols";
+	String input="data/human/TF.TF.family.sort.uniq.two.cols";
 	
 	List<String> lines  = FileUtils.readLines(new File(input));
 	
@@ -9817,7 +10216,7 @@ void get_cis_bp_tf() throws IOException{
 
 	cis_bp = new LinkedList();
 	cis_bp_ensg= new LinkedList();
-	String input="/home/centos2/art_foundation_log_online/data/human/human_TF_list.sort.uniq.gene.only";
+	String input="data/human/human_TF_list.sort.uniq.gene.only";
 	
 	List<String> lines  = FileUtils.readLines(new File(input));
 	for(int q= 0; q < lines.size(); q++){
@@ -9840,7 +10239,7 @@ void make_tf_cofactor_list() throws IOException{
 	string_db_tf_co_human = new LinkedHashMap();
 
 	
-	String path = "/home/centos2/art_foundation_log_online/data/human/physical.protein.inter.cutoff.500.id.only";
+	String path = "data/human/physical.protein.inter.cutoff.500.id.only";
 	//String tf_path = "/media/centos2/7eb36bdc-3f99-4b9e-a42b-dea20251d497/abstract_submission_peach/TF_TFOFATOR_list/tf";
 	//List<String> tf_list  = FileUtils.readLines(new File(tf_path));
 
@@ -9984,9 +10383,9 @@ void make_tf_cofactor_list_tair() throws IOException{
 	string_db_tf_co_tair = new LinkedHashMap();
 
 	
-	String path = "/home/centos2/art_foundation_log_online/data/3702.protein.physical.links.detailed.v11.5.txt.no3702.cutoff.500.atxg.only";
+	String path = "data/3702.protein.physical.links.detailed.v11.5.txt.no3702.cutoff.500.atxg.only";
 
-    	List<String> tf_lines  = FileUtils.readLines(new File("/home/centos2/art_foundation_log_online/data/TF.atgx.sort.uniq"));
+    	List<String> tf_lines  = FileUtils.readLines(new File("data/TF.atgx.sort.uniq"));
     
     
   
@@ -10067,7 +10466,7 @@ void  map_lnc_tfco_human()  throws IOException{
 	
 	tfco_lncrna_human=new LinkedHashMap();
 	
-	String path = "/home/centos2/art_foundation_log_online/data/human/lncRNA_string_tfco_intersect.desc";
+	String path = "data/human/lncRNA_string_tfco_intersect.desc";
  	//237839
 	List<String> lines  = FileUtils.readLines(new File(path));
 	
@@ -10115,7 +10514,7 @@ void  map_lnc_tfco_tair()  throws IOException{
 	
 	tfco_lncrna_tair=new LinkedHashMap();
 	
-	String path = "/home/centos2/art_foundation_log_online/data/protein_result.txt.id";
+	String path = "data/protein_result.txt.id";
  	//NP_176747:15218779
 	List<String> lines  = FileUtils.readLines(new File(path));
 	LinkedHashMap<String,String> np_to_gi = new LinkedHashMap();
@@ -10126,7 +10525,7 @@ void  map_lnc_tfco_tair()  throws IOException{
 		np_to_gi.put(np,gi);
 	}
 
-	path = "/home/centos2/art_foundation_log_online/data/map_acc_gi";
+	path = "data/map_acc_gi";
  	//NP_176747:AT1G65700
 	lines  = FileUtils.readLines(new File(path));
 	LinkedHashMap<String,String> gi_to_atxg = new LinkedHashMap();
@@ -10139,7 +10538,7 @@ void  map_lnc_tfco_tair()  throws IOException{
 		}
 	}
 
-	path = "/home/centos2/art_foundation_log_online/data/athLPI2.csv";
+	path = "data/athLPI2.csv";
  	//30680456,AthlncRNA192,1
 	lines  = FileUtils.readLines(new File(path));
 	
@@ -10172,288 +10571,574 @@ void  map_lnc_tfco_tair()  throws IOException{
 	System.out.println("tfco_lncrna_tair:" + tfco_lncrna_tair.size());
 }
 
-static LinkedHashMap<String,String> ensg_to_gene_name;
- static  LinkedHashMap<String,String> gene_name_to_ensg;
+
+//AtRegNet
+ static LinkedHashMap<String,ArrayList<String>> at_reg_net_key;
  
-void  map_ensg_to_gene_name()  throws IOException{
-
-	//System.out.println("map_ensg_to_gene_name():" );
-
-	Pattern space_pattern = Pattern.compile("\\s+");
-	Pattern colon_pattern = Pattern.compile(":");
-	
-	ensg_to_gene_name= new LinkedHashMap();
-	gene_name_to_ensg=new LinkedHashMap();
+ public void AtRegNetInitMap() throws IOException{
  
- 	String path = "/home/centos2/art_foundation_log_online/data/human/homo.sapiens.38.ensg_gene_map";
- 	//237839
-	List<String> lines  = FileUtils.readLines(new File(path));
-	//ENSG00000222623:RNU6-1100P
-	//NSG00000279928:DDX11L17
-
-					
-	for(int k = 0; k < lines.size(); k++){
+ 	String at_reg_net_path = "data/AtRegNet.csv";
+ 	
+ 	at_reg_net_key = new LinkedHashMap();
+	LinkedHashMap<String,ArrayList<String>> at_reg_net_key_depth1 = new LinkedHashMap();
+ 	
+ 	List<String> reg_net_lines  = FileUtils.readLines(new File(at_reg_net_path));
+ 	
+ 	Pattern comma_pattern = Pattern.compile(",");
 				
-		String one_line = lines.get(k).toUpperCase();
-		String[] space_split = colon_pattern.split(one_line);
-		String ensg = space_split[0].trim();
-		String gene = space_split[1].trim();
+	for(int q= 1; q < reg_net_lines.size(); q++){
+			    
+		String temp = reg_net_lines.get(q).trim();
+		//System.out.println("line:" + temp);
+		String[] temp_split = comma_pattern.split(temp);
 		
-		ensg_to_gene_name.put(ensg,gene);
-		gene_name_to_ensg.put(gene,ensg);
+		if(temp_split.length > 4){
+		
+			String temp_key = temp_split[1].trim().toUpperCase();
+			String temp_val = temp_split[4].trim().toUpperCase();
+			
+			
+			if(at_reg_net_key.containsKey(temp_key)){
+			
+				ArrayList<String> exist_list = at_reg_net_key.get(temp_key);
+				exist_list.add(temp_val);
+				at_reg_net_key.put(temp_key,exist_list);
+				at_reg_net_key_depth1.put(temp_key,exist_list);
+				
+			}else{
+			
+				ArrayList<String> new_list = new ArrayList();
+				new_list.add(temp_val);
+				at_reg_net_key.put(temp_key,new_list);
+				at_reg_net_key_depth1.put(temp_key,new_list);
+			}
+			
+			
+		}
+	}//q
+	System.out.println("stand map size before:" + at_reg_net_key_depth1.size() + ":" + at_reg_net_key_depth1.get("AT5G10140"));
+
+	System.out.println("at_reg_net_key size before:" + at_reg_net_key.size() + ":" + at_reg_net_key.get("AT5G10140"));
+	
+	
+	Set<String> net_key_set = at_reg_net_key.keySet();
+	Set<String> depth1_key_set = at_reg_net_key_depth1.keySet();
+	
+	String[] net_key_array = net_key_set.toArray(new String[0]);
+	String[] depth1_key_array = depth1_key_set.toArray(new String[0]);
+	
+	for(int q = 0; q < depth1_key_array.length; q++){
+	
+		
+		if(!depth1_key_array[q].equals("")){
+	
+			System.out.println("depth1_key_array[q]:" + depth1_key_array[q]);
+			ArrayList<String> depth1_list = at_reg_net_key_depth1.get(depth1_key_array[q]);
+			
+			System.out.println("depth1_list bbbb:" + Arrays.toString(depth1_list.toArray()));
+			
+			for(int e = 0; e < depth1_list.size(); e++){
+			
+			
+				String depth1_val_temp = depth1_list.get(e);
+				
+				System.out.println("depth1_val_temp:" + depth1_val_temp);
+				
+				if(depth1_key_set.contains(depth1_val_temp)){
+				
+					List<String> new_val = at_reg_net_key_depth1.get(depth1_val_temp);
+					ArrayList<String> net_list = at_reg_net_key.get(depth1_key_array[q]);
+					net_list.addAll(new_val);
+					List<String> net_list2 = net_list.stream().distinct().collect(Collectors.toList());//remove duplicates
+					net_list.clear();
+					net_list.addAll(net_list2);
+					at_reg_net_key.put(depth1_key_array[q], net_list);
+					System.out.println("new net_list:" + Arrays.toString(net_list.toArray()));
+				
+				
+				}//
+			
+			
+			}//for e
+		}//not ""
+		
+		
+	}//q
+	
+	System.out.println("at_reg_net_key:" + at_reg_net_key.size());
+	System.out.println("at_reg_net_key_depth1:" + at_reg_net_key_depth1.size());
+
+
+	for(int q = 0; q < net_key_array.length; q++){
+	
+		String temp_key = net_key_array[q].trim();
+		
+		ArrayList<String> temp_val = at_reg_net_key.get(temp_key);
+		
+		System.out.println("write at_reg_net_key:" + temp_key + ":" + Arrays.toString(temp_val.toArray()));
+
 		
 	}
-	//System.out.println("ensg_to_gene_name.size():" + ensg_to_gene_name.size());
-	
-	//System.out.println("gene_name_to_ensg:" +gene_name_to_ensg.size());
+ 	
+}	
+
+//interactome
+ static LinkedHashMap<String,ArrayList<String>> interactome_map;
+ 
+ public void interactomeInitMap() throws IOException{
+ 
+ 	String path = "data/Quick_interactome2.0.txt";
+ 	
+ 	interactome_map = new LinkedHashMap();
+	List<String> interactome_lines  = FileUtils.readLines(new File(path));
+ 	
+ 	Pattern space_pattern = Pattern.compile("\\s+");
+				
+	for(int q= 1; q < interactome_lines.size(); q++){
+			    
+		String temp = interactome_lines.get(q).trim();
+		//System.out.println("line:" + temp);
+		String[] temp_split = space_pattern.split(temp);
+		
+		if(temp_split.length > 2){
+		
+			String temp_key = temp_split[0].trim().toUpperCase();
+			String temp_val = temp_split[1].trim().toUpperCase();
+			
+			
+			if(interactome_map.containsKey(temp_key)){
+			
+				ArrayList<String> exist_list = interactome_map.get(temp_key);
+				exist_list.add(temp_val);
+				interactome_map.put(temp_key,exist_list);
+				
+				
+			}else{
+			
+				ArrayList<String> new_list = new ArrayList();
+				new_list.add(temp_val);
+				interactome_map.put(temp_key,new_list);
+				
+			}
+			
+			
+		}
+	}//q
+	System.out.println("interactome_map size:" + interactome_map.size() + ":" + interactome_map.get("AT1G09700"));
 }
 
-static LinkedHashMap<String,String> uni_to_gene_name_human;
- static LinkedHashMap<String,String> gene_name_to_uni_human;
- 
-void  map_uni_to_gene_name()  throws IOException{
+//tfco_npinter
+ static String[] rna_type = {"circRNA","lncRNA","miRNA","mRNA","ncRNA","snoRNA","snRNA","uaRNA","vtRNAs"};
+ static LinkedHashMap<String,LinkedList<String>>[] npinter_rna;
+ static LinkedHashMap<String,LinkedList<String>>[] npinter_rna_intersect_tfco;
+ static LinkedHashMap<String,LinkedList<String>>[] npinter_rna_intersect_lnc;
 
-	//System.out.println("map_ensg_to_gene_name():" );
+public void  rna_type_npinter_tfco_intersect()  throws IOException{
+
+	System.out.println("rna_type_npinter_tfco_intersect:" );
 
 	Pattern space_pattern = Pattern.compile("\\s+");
+	Pattern tab_pattern = Pattern.compile("\\t");
 	Pattern colon_pattern = Pattern.compile(":");
 	
-	uni_to_gene_name_human= new LinkedHashMap();
-	gene_name_to_uni_human=new LinkedHashMap();
- 
- 	String path = "/home/centos2/art_foundation_log_online/data/human/HUMAN_9606_idmapping.dat.gene_name";
- 	//237839
-	List<String> lines  = FileUtils.readLines(new File(path));
-	//A5YRU3	MUC1
-	//F6K7K3	ABHD5
+	npinter_rna = new LinkedHashMap[rna_type.length];
+	npinter_rna_intersect_tfco = new LinkedHashMap[rna_type.length];
+	npinter_rna_intersect_lnc = new LinkedHashMap[rna_type.length];
 	
+	for(int i = 0; i < rna_type.length; i++){
+	
+		npinter_rna[i] = new LinkedHashMap();
+		npinter_rna_intersect_tfco[i] = new LinkedHashMap();
+		npinter_rna_intersect_lnc[i] = new LinkedHashMap();
+	}
+	
+
+ 
+ 	String path = "data/interaction_NPInterv4.txt.human.col14.binding.RNA-Protein.col4.RNA.id.only";
+ 	//392084
+	List<String> lines  = FileUtils.readLines(new File(path));
+	//7SK lncRNA HEXIM1 protein
+
 					
 	for(int k = 0; k < lines.size(); k++){
 				
+		//System.out.println(lines.get(k));
 		String one_line = lines.get(k).toUpperCase();
 		String[] space_split = space_pattern.split(one_line);
-		String uni = space_split[0].trim();
-		String gene = space_split[1].trim();
 		
-		uni_to_gene_name_human.put(uni,gene);
-		gene_name_to_uni_human.put(gene,uni);
+		if(space_split[space_split.length-1].equals("PROTEIN")){
 		
-	}
-	System.out.println("uni_to_gene_name_human:" + uni_to_gene_name_human.size());
+			//System.out.println("inside if");
+				int lnc_ind = -1;
+				int type_ind = -1;
+				for(int i = 0; i < space_split.length-1; i++){
+				
+					//System.out.println("i:" + i + ":" + space_split[i]);
+					String comp = space_split[i];
+					
+					for(int j = 0; j < rna_type.length; j++){
+					
+						if(comp.equals(rna_type[j].toUpperCase())){
+						
+							lnc_ind = i;
+							type_ind =j;
+							break;
+						}
+					}
+					
+					if(lnc_ind != -1){
+					
+						break;
+					}
+				
+				}//i
+				
+				
+			
+			
+			if(lnc_ind != -1){
+			
+				//System.out.println("rna type:" +lnc_ind + ":" + rna_type[type_ind] + ":" + one_line);
+			
+				String lnc_name = "";
+				for(int i = 0; i < lnc_ind; i++){
+				
+					lnc_name = lnc_name + space_split[i] + "_";
+				
+				}
+				
+				lnc_name = lnc_name.substring(0,lnc_name.length()-1);
+				
+				String tfco_name = "";
+				for(int i = lnc_ind+1; i < space_split.length-1; i++){
+				
+					tfco_name = tfco_name + space_split[i] + "_";
+				
+				}
+				
+				tfco_name = tfco_name.substring(0,tfco_name.length()-1);
+				
+				if(npinter_rna_intersect_tfco[type_ind].containsKey(tfco_name)){
+				
+					LinkedList<String> val = npinter_rna_intersect_tfco[type_ind].get(tfco_name);
+					val.add(lnc_name);
+					npinter_rna_intersect_tfco[type_ind].put(tfco_name,val);
+				}else{
+					
+					LinkedList<String> val = new LinkedList();
+					val.add(lnc_name);
+					npinter_rna_intersect_tfco[type_ind].put(tfco_name,val);
+				}
+				
+				
+				if(npinter_rna_intersect_lnc[type_ind].containsKey(lnc_name)){
+				
+					LinkedList<String> val = npinter_rna_intersect_lnc[type_ind].get(lnc_name);
+					val.add(tfco_name);
+					npinter_rna_intersect_lnc[type_ind].put(lnc_name,val);
+				}else{
+					
+					LinkedList<String> val = new LinkedList();
+					val.add(tfco_name);
+					npinter_rna_intersect_lnc[type_ind].put(lnc_name,val);
+				}
+				
+				
+				
+				if(npinter_rna[type_ind].containsKey(tfco_name)){
+				
+					LinkedList<String> val = npinter_rna[type_ind].get(tfco_name);
+					val.add(lnc_name);
+					npinter_rna[type_ind].put(tfco_name,val);
+				}else{
+				
+					LinkedList<String> val = new LinkedList();
+					val.add(lnc_name);
+					npinter_rna[type_ind].put(tfco_name,val);
+				}
+			}else{
+			
+				System.out.println("lnc id not found error:" +one_line);
+			}
+				
+			
+		}
+		
+	}//lines
 	
-	System.out.println("gene_name_to_uni_human:" +gene_name_to_uni_human.size());
+	for(int i = 0; i < npinter_rna.length; i++){
+	
+		//System.out.println("npinter_rna[i].size:" +rna_type[i] + ":" + npinter_rna[i].size());
+		List<String> keys_list = new LinkedList<String>(npinter_rna[i].keySet());
+	
+		for(int j = 0; j < keys_list.size(); j++){
+		
+			String key = keys_list.get(j);
+			LinkedList<String> val = npinter_rna[i].get(key);
+			
+			System.out.println("write npinter_rna:" + rna_type[i] + ":" + key + ":" + Arrays.toString(val.toArray()));
+		}
+	}
+	
+	for(int i = 0; i < npinter_rna_intersect_tfco.length; i++){
+	
+		//System.out.println("npinter_rna[i].size:" +rna_type[i] + ":" + npinter_rna[i].size());
+		
+		if(npinter_rna_intersect_tfco[i].size() != 0){
+			List<String> keys_list = new LinkedList<String>(npinter_rna_intersect_tfco[i].keySet());
+		
+			for(int j = 0; j < keys_list.size(); j++){
+			
+				String key = keys_list.get(j);
+				LinkedList<String> val = npinter_rna_intersect_tfco[i].get(key);
+				
+				System.out.println("write npinter_rna_intersect_tfco:" + rna_type[i] + ":" + key + ":" + Arrays.toString(val.toArray()));
+			}
+		}
+	}
+	
+	for(int i = 0; i < npinter_rna_intersect_lnc.length; i++){
+	
+		//System.out.println("npinter_rna[i].size:" +rna_type[i] + ":" + npinter_rna[i].size());
+		
+		if(npinter_rna_intersect_lnc[i].size() != 0){
+			List<String> keys_list = new LinkedList<String>(npinter_rna_intersect_lnc[i].keySet());
+		
+			for(int j = 0; j < keys_list.size(); j++){
+			
+				String key = keys_list.get(j);
+				LinkedList<String> val = npinter_rna_intersect_lnc[i].get(key);
+				
+				System.out.println("write npinter_rna_intersect_lnc:" + rna_type[i] + ":" + key + ":" + Arrays.toString(val.toArray()));
+			}
+		}
+	}
+	
+	
+	//
 }
 
-static LinkedHashMap<String,LinkedHashMap<String,String>> ensg_ensp_enst;
-
-void map_ensg_enst_ensp() throws IOException{
-
- 	ensg_ensp_enst = new LinkedHashMap();
+//lpinsider
+ static LinkedHashMap<String,ArrayList<String>> lpinsider_map;
+ 
+ public void lpinsiderInitMap() throws IOException{
+ 
+ 	String path = "data/LncRInter.txt.human";
  	
-  	Pattern space_pattern = Pattern.compile("\\s+");
-	Pattern tab_pattern = Pattern.compile("\\t+");
-	Pattern comma_pattern = Pattern.compile(",");
-	Pattern colon_pattern = Pattern.compile(":");
-	
-	String input="/home/centos2/art_foundation_log_online/data/map_ensg_enst_ensp.sort.uniq";
-	//ENSG00000000003 ENST00000373020 ENSP00000362111
-	
-	List<String> lines  = FileUtils.readLines(new File(input));
-	
-	
-	for(int q= 0; q < lines.size(); q++){
-	
-		String one_line = lines.get(q).trim();
+ 	lpinsider_map = new LinkedHashMap();
+	List<String> lpinsider_lines  = FileUtils.readLines(new File(path));
+ 	
+ 	Pattern space_pattern = Pattern.compile("\\s+");
+				
+	for(int q= 0; q < lpinsider_lines.size(); q++){
+			    
+		String temp = lpinsider_lines.get(q).trim();
+		//System.out.println("line:" + temp);
+		String[] temp_split = space_pattern.split(temp);
 		
-		LinkedHashMap<String,String> hash = new LinkedHashMap();
+		if(temp_split.length > 2){
 		
-		String[] colon_split = colon_pattern.split(one_line);
-		String ensg = colon_split[1];
-		String enst = colon_split[0];
-		String ensp = colon_split[2];
-		////System.out.println("ensg:"+ensg+":enst:"+enst+":ensp:"+ensp);
-		hash.put(enst,ensg);
-		ensg_ensp_enst.put(ensp,hash);
-		
-
+			String temp_key = temp_split[0].trim().toUpperCase();
+			String temp_val = temp_split[1].trim().toUpperCase();
+			
+			
+			if(lpinsider_map.containsKey(temp_key)){
+			
+				ArrayList<String> exist_list = lpinsider_map.get(temp_key);
+				exist_list.add(temp_val);
+				lpinsider_map.put(temp_key,exist_list);
+				
+				
+			}else{
+			
+				ArrayList<String> new_list = new ArrayList();
+				new_list.add(temp_val);
+				lpinsider_map.put(temp_key,new_list);
+				
+			}
+			
+			
+		}
 	}//q
+	System.out.println("lpinsider_map size:" + lpinsider_map.size() + ":" + lpinsider_map.get("AOC4P"));
+}
 
-	System.out.println("ensg_ensp_enst.size():"+ensg_ensp_enst.size());
+ public void tf2dna_tf() throws IOException{
+ 
+ 		String[] type = {"CDS","END","UP","EXON","UTR","intron"};
+ 		
+		//human
+		String path = "/home/centos/src/Homo-sapiens_experimental_Jolma-2013.sort.ann.head100.bed";
+		
+		Pattern space_pattern = Pattern.compile("\\s+");
+		Pattern colon_pattern = Pattern.compile(":");
+		Pattern tab_pattern = Pattern.compile("\\t+");
+		Pattern bracket_pattern= Pattern.compile("><");
+		Pattern at_pattern = Pattern.compile("@");
+		Pattern underbar_pattern = Pattern.compile("_");
+		Pattern comma_pattern = Pattern.compile(",");
+		Pattern semi_colon_pattern = Pattern.compile(";");
+		
+		List<String> lines  = FileUtils.readLines(new File(path));
+			//1	947346	949346	ISG15	POU2F1	+	1	944202	959256	ENST00000327044.7	0	-	944693	959240	0,0,0	19	598,90,136,114,144,102,114,112,140,189,114,111,79,91,121,132,175,153,42,	0,854,1315,1970,2199,3928,4287,6924,7797,8209,8972,9579,9801,11720,11892,12691,12896,14726,15012,;1	944204	958458	ENST00000477976.5	0	-	944204	944204	0,0,0	17	596,105,136,114,144,102,114,112,140,189,114,111,520,91,121,132,1360,	0,837,1313,1968,2197,3926,4285,6922,7795,8207,8970,9577,9799,11718,11890,12689,12894,;1	946545	948130	ENST00000327044.7_intron_4_0_chr1_946546_r	0-;1	946545	948130	ENST00000477976.5_intron_4_0_chr1_946546_r	0	-;1	947060	948060	ENST00000483767.5_up_1000_chr1_947061_r	0	-;1	948130	948232	ENST00000327044.7_cds_5_0_chr1_948131_r	0	-;1	948130	948232	ENST00000327044.7_exon_5_0_chr1_948131_r	0	-;1	948130	948232	ENST00000477976.5_exon_5_0_chr1_948131_r	0	-;1	948130	948232	ENST00000477976.5_utr5_5_0_chr1_948131_r	0	-;1	948232	948489	ENST00000327044.7_intron_5_0_chr1_948233_r	0	-;1	948232	948489	ENST00000477976.5_intron_5_0_chr1_948233_r	0	-;1	948489	948603	ENST00000327044.7_cds_6_0_chr1_948490_r	0	-;1	948489	948603	ENST00000327044.7_exon_6_0_chr1_948490_r	0	-;1	948489	948603	ENST00000477976.5_exon_6_0_chr1_948490_r	0	-;1	948489	948603	ENST00000477976.5_utr5_6_0_chr1_948490_r	0	-;1	948603	951126	ENST00000327044.7_intron_6_0_chr1_948604_r	0	-;1	948603	951126	ENST00000477976.5_intron_6_0_chr1_948604_r	0	-
+		//File f = new File(path);
+			 
+		//File[] files = f.listFiles();
+			 
+		for(int q= 0; q < lines.size(); q++){
+								    
+						  
+			String one_line = lines.get(q).trim().toUpperCase();
+			//System.out.println("oneline:" + one_line);
+
+							
+			LinkedList<String> line_to_process = new LinkedList();
+			if(one_line.contains(";")){
+				String[] anno = semi_colon_pattern.split(one_line); //0,2,5,12,13,14
+				//System.out.println("anno.length:"+ anno.length);		
+				for(int i = 0; i < anno.length; i++){
+								
+					String temp = anno[i].trim();
+					for(int j =0; j< type.length; j++){
+									
+						if(temp.contains("_"+type[j] + "_")){
+										
+							line_to_process.add(temp );
+							break;
+						}
+					}
+									
+									
+									
+				}
+							
+			}else{
+							
+				//line_to_process.add(one_line );
+				//System.out.println("oe line:"+ one_line);
+			}
+							
+			String[] one_line_tab = tab_pattern.split(one_line);
+									       
+			for(int i = 0; i < line_to_process.size(); i++){
+										       
+				String temp = line_to_process.get(i).trim();
+										       
+				if(temp.contains("ENST") ){
+					//System.out.println("temp:"+temp);       
+					//target       	
+					String[] tab_bed = tab_pattern.split(temp);
+					String info = tab_bed[3].trim();
+									
+					if(!info.contains("ENST")){
+									
+						for(int j = 0; j < tab_bed.length; j++){
+										
+							if(tab_bed[j].contains("ENST")){
+											
+								info = tab_bed[j];
+								break;
+							}
+						}
+									
+					}
+					//ENST00000327044.7_exon_5_0_chr1_948131_r
+					String[] underbar_bed = underbar_pattern.split(info);
+					String target_enst = underbar_bed[0];
+					//System.out.println("enst:"+target_enst);
+					target_enst = target_enst.substring(0,target_enst.indexOf("."));
+					//System.out.println("target_type:"+info);
+					String target_type = underbar_bed[1]+"_"+underbar_bed[2];
+									
+					String target_ensg = "";
+					if(enst_to_ensg.get(target_enst) == null){
+									
+						target_ensg = "NA";
+										
+					}else{
+						target_ensg = enst_to_ensg.get(target_enst);
+									
+					}
+									
+					String target_gene = "";
+					if(ensg_to_gene_name.get(target_ensg) == null){
+									
+						target_gene = "NA";
+										
+					}else{
+						target_gene = ensg_to_gene_name.get(target_ensg);
+									
+					} 
+									
+					//TF
+					String tf = one_line_tab[4];
+					String tf_ensg = "";
+					if(gene_name_to_ensg.get(tf) == null){
+									
+						tf_ensg ="NA";
+					}else{
+									
+						tf_ensg =gene_name_to_ensg.get(tf);
+					}
+									
+							
+											      
+				}//if ENST
+
+			}//i anno.length
+						  
+		}//lines
+				
+
 }//method
 
-static LinkedHashMap<String, String> pfam_clan_map_only;
-static  LinkedHashMap<String, String> pfam_domain;
-static LinkedHashMap<String, String> domain_pfam;
-static LinkedHashMap<String, LinkedList<String>> clan_to_pfam;
-
-
-
-
-void map_pfam_clans_only() throws IOException{
-
-	System.out.println("map_pfam_clans_only():" );
-
-	pfam_clan_map_only = new LinkedHashMap();
- 	clan_to_pfam = new LinkedHashMap();
- 	pfam_domain = new LinkedHashMap();
- 	domain_pfam = new LinkedHashMap();
-
- 	
-  	Pattern space_pattern = Pattern.compile("\\s+");
-	Pattern tab_pattern = Pattern.compile("\\t+");
-	Pattern comma_pattern = Pattern.compile(",");
-	Pattern colon_pattern = Pattern.compile(":");
+ static LinkedHashMap<String,ArrayList<String>> tair_tf_target_map;
+ public void map_tair_tf_target() throws IOException{
+ 
+ 	tair_tf_target_map = new LinkedHashMap();
+	Pattern space_pattern = Pattern.compile("\\s+");
 	
-	String input="/home/centos2/art_foundation_log_online/data/Pfam-A.clans.tsv";
+	String path = "/home/centos/src/nature_positional_tf_binding/binding.cis.promoter.Positional.Distr";
 	
-	List<String> lines  = FileUtils.readLines(new File(input));
+	//AT1G01010 -20 0 M2217_1.01 CIS-BP + AT2G45660 MIKC
+	//AT1G01010 -33 -26 M0523_1.01 CIS-BP + AT2G20110 CPP
+	//AT1G01010 -76 -67 AHL25_ATTTAATT Franco-Zorrilla + et al
 	
+	List<String> lines  = FileUtils.readLines(new File(path));
+			
+
 	for(int q= 0; q < lines.size(); q++){
+			    
+		String one_line = lines.get(q).trim();
+		System.out.println(one_line);
+
+		String[] anno = space_pattern.split(one_line); //0,2,5,12,13,14
 	
-		String one_line = lines.get(q).trim().toUpperCase();
+		String tf_id = anno[6].trim();
+		String target = anno[0].trim();
 		
-		if(!one_line.equals("")){
+		if(tair_tf_target_map.containsKey(target)){
+			
+			ArrayList<String> exist_list = tair_tf_target_map.get(target);
+
+			if(!exist_list.contains(tf_id)){
+				exist_list.add(tf_id);
+			}
+			tair_tf_target_map.put(target,exist_list);
+				
+				
+		}else{
+			
+			ArrayList<String> new_list = new ArrayList();
+			new_list.add(tf_id);
+			tair_tf_target_map.put(target,new_list);
+				
+		}	
+	}//lines
 		
-			String[] one_line_tab = tab_pattern.split(one_line);
-			
-			if(one_line_tab.length != 5){
-			
-				//System.out.println("tab error:"+one_line_tab.length + ":" +q + ":"+one_line);
-			}
-			String pre_clan_id = "";
-			String clan ="";
-			if(one_line_tab[1].trim().equals("NA")){
-			
-				
-				one_line_tab[1]=one_line_tab[0].toUpperCase();
-				clan = one_line_tab[0].toUpperCase();
-			
-			}else{
-			
-				clan = one_line_tab[1].toUpperCase();
-				
-			
-			}
-			String pfamid = one_line_tab[0].toUpperCase();
-			String domain = one_line_tab[3].toUpperCase();
-			
-			////////////System.out.println("pfamid:" + pfamid + ":"+ name);
-			
-			if(!pfam_clan_map_only.containsKey(pfamid)){
-				
-				//pfam_clan_map_only.put(pfamid, one_line_tab[1]+":"+one_line_tab[2]+":"+one_line_tab[3]+":"+one_line_tab[4]);
-				pfam_clan_map_only.put(pfamid, clan);	
-				
-						
-			}else{
-				//System.out.println(q + ":double key error:" + pfamid+":"+one_line);
-			}
-			
-			
-			
-			pfam_domain.put(pfamid,domain);
-			domain_pfam.put(domain,pfamid);
-			
-			if(clan_to_pfam.containsKey(clan)){
-			
-				LinkedList<String> exist = clan_to_pfam.get(clan);
-				exist.add(pfamid);
-				Collections.sort((List)exist);
-				clan_to_pfam.put(clan,exist);
-			}else{
-			
-				LinkedList<String> new_list = new LinkedList();
-				new_list.add(pfamid);
-				clan_to_pfam.put(clan,new_list);
-			
-			}	
-					
-				
-			
-		}//if
-			
+}//method
 
-}//q
-System.out.println("clan_to_pfam:" + clan_to_pfam.size());
-}
-
-
-
-
-static LinkedHashMap<String,LinkedList<String>> tair_gene_uniprot;
-static LinkedHashMap<String,LinkedList<String>> uniprot_tair_gene;
-	
-
-void map_atxg_to_uniprot() throws IOException{
-
-	System.out.println("map_atxg_to_uniprot():" );
-
-	tair_gene_uniprot = new LinkedHashMap();
-	uniprot_tair_gene = new LinkedHashMap();
-
-  	Pattern space_pattern = Pattern.compile("\\s+");
-	Pattern tab_pattern = Pattern.compile("	");
-	Pattern comma_pattern = Pattern.compile(",");
-	Pattern colon_pattern = Pattern.compile(":");
-	
-
-	String input="/home/centos2/art_foundation_log_online/data/TAIR2UniprotMapping-JAN2023.txt.col1.2";
-	
-	List<String> lines  = FileUtils.readLines(new File(input));
 
 	
-	for(int q= 0; q < lines.size(); q++){
-	
-		String one_line = lines.get(q).trim().toUpperCase();
-		
-		if(!one_line.equals("")){
-
-			
-
-			String[] tab_split = space_pattern.split(one_line);
-			String uniprot = tab_split[0].trim();
-	
-			String tairid = tab_split[1].trim();
-
-			if(tair_gene_uniprot.containsKey(tairid)){
-				LinkedList<String> exist = tair_gene_uniprot.get(tairid);
-				exist.add(uniprot);
-				tair_gene_uniprot.put(tairid,exist);
-
-			}else{
-				LinkedList<String> exist = new LinkedList();
-				exist.add(uniprot);
-				tair_gene_uniprot.put(tairid,exist);
-
-			}
-
-			if(uniprot_tair_gene.containsKey(uniprot)){
-				LinkedList<String> exist = uniprot_tair_gene.get(uniprot);
-				exist.add(tairid);
-				uniprot_tair_gene.put(uniprot,exist);
-
-			}else{
-				LinkedList<String> exist = new LinkedList();
-				exist.add(tairid);
-				uniprot_tair_gene.put(uniprot,exist);
-
-			}
-			
-	
-			LinkedList<String> array = new LinkedList();
-			array.add(uniprot);
-			tair_gene_uniprot.put(tairid,array);
-
-
-		}
-	
-	}//q
-	System.out.println("tair_gene_uniprot:" + tair_gene_uniprot.size());
-	
-}
-
-
 }//inner class
-
-
 }//main class
