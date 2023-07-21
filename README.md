@@ -33,10 +33,11 @@ javac -nowarn -cp .:lib/commons-io-2.11.0.jar:lib/commons-math3-3.6.1.jar:lib/co
 
 Once it is successfully compiled, copy and paste the following line.
 3.4. java -cp .:lib/commons-io-2.11.0.jar:lib/commons-math3-3.6.1.jar:lib/commons-lang3-3.12.0.jar:lib/commons-collections4-4.4.jar:lib/commons-lang3-3.12.0.jar art_foundation_log_online_eukary >out_art_foundation_log_online_eukary_date_time
-
 You will find your output files in output file folder. Output files are saved with time-stamp in addition to time-stamped input_list file.
 
+NOTE In case of that you want to query hetero-oligomer protein assembly, you need to use the program- artfoundation_log_arabido and provide two files: a file that maps hetero-oligomer protein assembly with Pfam assignment (out_mix_interpro_genbank.final) and list of queries (input_list) in the "data" folder. In "out_mix_interpro_genbank.final" file, you may want to rename hetero-oligomer name with temporary id (e.g. HetOli1) that does not contain space. An example line of the file will be "HetOli1:[PF00319, PF00319, PF01486, PF01486]" or "AT5G52170ANDAT5G19790:[PF00046, PF00046, PF01852, PF01852, PF00847]". In "input_list" file, you should have a hetero-oligomer name per line. An example will be "HetOli1" or "AT5G52170ANDAT5G19790". Once you completed creating two files, copy and paste the following command at terminal. java -cp .:lib/commons-io-2.11.0.jar:lib/commons-math3-3.6.1.jar:lib/commons-lang3-3.12.0.jar:lib/commons-collections4-4.4.jar:lib/commons-lang3-3.12.0.jar art_foundation_log_online_arabido >out_art_foundation_log_online_arabido_hetero_oli_0721
 
-Last modified on July 5, 2023 
+
+Last modified on July 21,2023 
 
 
