@@ -2,6 +2,7 @@
 ARabidopsis Transcription regulatory Factor Domain-domain interaction based Analysis Tool- LLPS, Oligomerization, GO analysis
 
 If you use ARTFOUNDATION-LOG, please cite the article below in your publication.
+Kang, J.E.; Jun, J.H.; Kwon, J.H.; Lee, J.-H.; Hwang, K.; Kim, S.; Jeong, N. Arabidopsis Transcription Regulatory Factor Domain/Domain Interaction Analysis Tool—Liquid/Liquid Phase Separation, Oligomerization, GO Analysis: A Toolkit for Interaction Data-Based Domain Analysis. Genes 2023, 14, 1476. https://doi.org/10.3390/genes14071476
 The article has been accepted for publication by the journal, "genes". To view the article, please go to MDPI website; please copy and paste the link "https://www.mdpi.com/2073-4425/14/7/1476/pdf" in web address area.
 
 If download is not automatically started, please go to the website by copy and paste the link  
