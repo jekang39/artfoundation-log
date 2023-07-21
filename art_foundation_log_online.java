@@ -5762,7 +5762,7 @@ public void  map_enst_to_ensg()  throws IOException{
 	enst_to_ensg = new LinkedHashMap();
 	ensg_to_enst = new LinkedHashMap();
 	
-	String path = "/home/centos/src/human.ensg.enst.map";
+	String path = "data/human.ensg.enst.map";
  	
 	List<String> lines  = FileUtils.readLines(new File(path));
 					
@@ -10012,7 +10012,7 @@ public void  map_enst_to_ensg()  throws IOException{
 	enst_to_ensg = new LinkedHashMap();
 	ensg_to_enst = new LinkedHashMap();
 	
-	String path = "/home/centos/src/human.ensg.enst.map";
+	String path = "data/human.ensg.enst.map";
  	
 	List<String> lines  = FileUtils.readLines(new File(path));
 					
@@ -10968,7 +10968,7 @@ public void  rna_type_npinter_tfco_intersect()  throws IOException{
  		String[] type = {"CDS","END","UP","EXON","UTR","intron"};
  		
 		//human
-		String path = "/home/centos/src/Homo-sapiens_experimental_Jolma-2013.sort.ann.head100.bed";
+		String path = "data/Homo-sapiens_experimental_Jolma-2013.sort.ann.head100.bed";
 		
 		Pattern space_pattern = Pattern.compile("\\s+");
 		Pattern colon_pattern = Pattern.compile(":");
@@ -11098,7 +11098,7 @@ public void  rna_type_npinter_tfco_intersect()  throws IOException{
  	tair_tf_target_map = new LinkedHashMap();
 	Pattern space_pattern = Pattern.compile("\\s+");
 	
-	String path = "/home/centos/src/nature_positional_tf_binding/binding.cis.promoter.Positional.Distr";
+	String path = "data/binding.cis.promoter.Positional.Distr";
 	
 	//AT1G01010 -20 0 M2217_1.01 CIS-BP + AT2G45660 MIKC
 	//AT1G01010 -33 -26 M0523_1.01 CIS-BP + AT2G20110 CPP
