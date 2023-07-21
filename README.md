@@ -2,10 +2,10 @@
 ARabidopsis Transcription regulatory Factor Domain-domain interaction based Analysis Tool- LLPS, Oligomerization, GO analysis
 
 If you use ARTFOUNDATION-LOG, please cite the article below in your publication.
-The article has been accepted for publication by the journal- "genes".
-The final version will be updated soon in the prearchive server.
+The article has been accepted for publication by the journal, "genes". To view the article, please go to MDPI website; please copy and paste the link "https://www.mdpi.com/2073-4425/14/7/1476/pdf" in web address area.
 
-Kang, J.E.; Jun, J.H.; Kwon, J.H.; Lee, J.; Hwang, K.; Kim, S.; Jeong, N. ART FounDATion-LOG (ARabidopsis Transcription regulatory Factor Domain-domain interaction Analysis Tool-Liquid liquid phase separation, Oligomerization, Go analysis), a toolkit for interaction data based domain analysis. Preprints.org 2023, 2023060366. https://doi.org/10.20944/preprints202306.0366.v1
+If download is not automatically started, please go to the website by copy and paste the link  
+"https://www.preprints.org/manuscript/202306.0366/v1". And click "peer-reviewed article".
 
 The program is for Linux/ Unix OS only. If you want to use in Windows, please change the codes accordingly. Sources are available in each program folder.
 
